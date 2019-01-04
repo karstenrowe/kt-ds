@@ -1,96 +1,443 @@
- body {
-  font-family: "HelveticaNeue", "Helvetica", Arial, sans-serif;
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-img, svg, video, audio {
-  max-width: 100%;
+body {
+  margin: 0;
 }
 
-
-/* -------------------------------------------------------------------------
- Alerts
----------------------------------------------------------------------------- */
-/**
- * Alert styles. Your patterns/styles will vary.
- * You should link your main stylesheet up with Style Guide Boilerplate for
- * best results. When you update your site's styles, your style guide will
- * update as well.
- */
-.alert {
-  border: 1px solid #fbeed5;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-  margin-bottom: 20px;
-  padding: 8px 35px 8px 14px;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+.sg-wrapper {
+  position: relative;
 }
 
-.alert-warning {
-  background-color: #fcf8e3;
-  border-color: #fbeed5;
-  color: #8b6d3a;
+.sg-main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-.alert-error {
-  background-color: #f2dede;
-  border-color: #eed3d7;
-  color: #aa4342;
+.sg-container {
+  padding: 0 32px;
 }
 
-.alert-success {
-  background-color: #dff0d8;
-  border-color: #d6e9c6;
-  color: #3c773d;
+.js .sg-sidebar {
+  opacity: 0;
+  position: absolute;
+  top: -100%;
+  -webkit-transition: opacity 0.6s ease-out;
+  -moz-transition: opacity 0.6s ease-out;
+  -ms-transition: opacity 0.6s ease-out;
+  -o-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
 }
 
-.alert-info {
-  background-color: #d9edf7;
-  border-color: #bce8f1;
-  color: #2f7090;
+.js.nav-is-active .sg-sidebar {
+  opacity: 1;
+  position: static;
 }
 
+@media screen and (min-width: 1025px) {
+  .sg-sidebar,
+  .js .sg-sidebar,
+  .js.nav-is-active .sg-sidebar {
+    bottom: 0;
+    float: left;
+    font-size: 100%;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    width: 25%;
+  }
+  .sg-main {
+    float: right;
+    width: 75%;
+  }
+}
 
+body {
+  color: #4D5E6C;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
 
-/* -------------------------------------------------------------------------
- Breadcrumbs
----------------------------------------------------------------------------- */
-/**
- * Breadcrumb styles for first pattern. Your patterns/styles will vary.
- * You should link your main stylesheet up with Style Guide Boilerplate for
- * best results. When you update your site's styles, your style guide will
- * update as well.
- */
-.breadcrumb {
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+@media (min-width: 1200px) {
+  body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1600px) {
+  body {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3A4651;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  text-transform: capitalize;
+}
+
+h1 {
+  border-bottom: 2px solid #EFF1F3;
+  color: #262F36;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-top: 8rem;
+  padding-bottom: 0.8rem;
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+}
+
+@media (min-width: 1600px) {
+  h1 {
+    font-size: 46px;
+    line-height: 54px;
+  }
+}
+
+h2 {
+  font-size: 26px;
+  line-height: 34px;
+}
+
+@media (min-width: 1200px) {
+  h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+
+@media (min-width: 1600px) {
+  h2 {
+    font-size: 38px;
+    line-height: 46px;
+  }
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+@media (min-width: 1200px) {
+  h3 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+}
+
+@media (min-width: 1600px) {
+  h3 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+
+p {
+  margin-bottom: 0.8rem;
+  margin-top: 1.6rem;
+}
+
+.sg-header {
+  background: #FCFCFD;
+  position: fixed;
+  z-index: 1;
+}
+
+.sg-nav-toggle {
+  background-color: #000;
+  border-radius: 5px;
+  border: 1px solid #7C7C7C;
+  color: #fff;
+  float: right;
+  font-size: 16px;
+  font-size: 1rem;
+  padding: 5px 8px;
+  /* For older browsers */
+  padding: 0.3125rem 0.5rem;
+  text-decoration: none;
+  -webkit-transition: all .15s ease-in;
+  -moz-transition: all .15s ease-in;
+  -ms-transition: all .15s ease-in;
+  -o-transition: all .15s ease-in;
+  transition: all .15s ease-in;
+}
+
+@media screen and (min-width: 1025px) {
+  .sg-nav-toggle {
+    display: none;
+  }
+}
+
+.sg-source {
+  display: none;
+  position: relative;
+}
+
+.sg-source.sg-source-active {
+  display: block;
+}
+
+.sg-source pre {
+  background: #262F36 !important;
+  border-radius: 0 !important;
+  color: #fff;
+  overflow-x: scroll;
+  padding: .8em !important;
+}
+
+.sg-source .sg-btn--select {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  z-index: 1;
+}
+
+.sg-wrapper a {
+  color: #207CBA;
+}
+
+.sg-wrapper a:visited {
+  color: #207CBA;
+}
+
+.sg-wrapper a:hover {
+  color: #1A6395;
+}
+
+.sg-wrapper a:active, .sg-wrapper a:focus {
+  color: #134A70;
+}
+
+.sg-wrapper .sg-btn--top {
+  bottom: 16px;
+  position: fixed;
+  right: 16px;
+}
+
+@media screen and (min-width: 1200px) {
+  .sg-wrapper .sg-sidebar {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sg-wrapper .sg-main {
+    width: 80%;
+  }
+}
+
+.sg-wrapper .sg-sidebar {
+  background: #F5F7F8;
+  color: #4D5E6C;
+  font-size: 14px;
+  line-height: 22px;
+  overflow-y: auto;
+  padding: 2rem;
+  position: fixed;
+}
+
+.sg-wrapper .sg-sidebar .logo-kt-logotype {
+  background-image: url("../images/logo-type-kt.svg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 36px;
+}
+
+.sg-wrapper .sg-sidebar .sg-h2 {
+  font-size: 14px;
+  line-height: 22px;
+  border-bottom: 2px solid #EFF1F3;
+  margin-bottom: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.sg-wrapper .sg-sidebar .sg-nav-group {
   list-style: none;
-  margin: 0 0 20px;
-  padding: 8px 15px;
+  padding: 0;
+  text-transform: capitalize;
 }
 
-.breadcrumb li {
-  display: inline-block;
-  *display: inline;
-  text-shadow: 0 1px 0 #fff;
-  *zoom: 1;
+.sg-wrapper .sg-sidebar .sg-nav-group li {
+  margin-bottom: 0;
 }
 
-.breadcrumb li a {
-  color: #007f96;
+.sg-wrapper .sg-sidebar .sg-nav-group a {
+  display: block;
+  padding: 4px 0;
   text-decoration: none;
 }
 
-.breadcrumb li a:hover {
-  color: #004068;
+.sg-wrapper .sg-sidebar .sg-nav-group a:hover {
+  text-decoration: underline;
 }
 
-.breadcrumb li .divider {
-  color: #767676;
-  padding: 0 5px;
+.sg-main .section-intro {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  font-size: 14px;
+  line-height: 22px;
 }
 
-.breadcrumb .active {
-  color: #555;
+.sg-main .section-intro h2 {
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 0.4rem;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .sg-main .section-intro {
+    grid-gap: 4rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .sg-main .section-intro {
+    grid-gap: 8rem;
+  }
+}
+
+.sg-section {
+  padding: 4rem 0;
+}
+
+.sg-section h2 {
+  margin: 0;
+}
+
+.sg-section .sg-example {
+  padding: 1.6rem 0;
+}
+
+.sg-section p {
+  color: #607587;
+}
+
+.sg-markup-base-color-html {
+  display: grid;
+  grid-gap: 0.8rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.sg-markup-base-color-html .sg-color-name {
+  font-weight: 600;
+  margin-top: 0.4rem;
+}
+
+.sg-markup-base-color-html .sg-color-swatch {
+  height: 80px;
+  margin-top: 0.8rem;
+}
+
+.sg-markup-base-color-html .sg-color-swatch.grey-80 {
+  background: #262F36;
+}
+
+.sg-markup-base-color-html .sg-color-swatch.grey-70 {
+  background: #3A4651;
+}
+
+.sg-markup-base-color-html .sg-color-swatch.grey-60 {
+  background: #4D5E6C;
+}
+
+.sg-markup-base-color-html .sg-color-swatch.grey-50 {
+  background: #607587;
+}
+
+.sg-markup-base-color-html .sg-color-swatch.grey-40 {
+  background: #7D91A2;
+}
+
+.sg-markup-base-color-html .sg-color-swatch.grey-30 {
+  background: #9DACB9;
+}
+
+.sg-markup-base-color-html .sg-color-swatch.grey-20 {
+  background: #BEC8D1;
+}
+
+.sg-markup-base-color-html .sg-color-swatch.grey-10 {
+  background: #EFF1F3;
+}
+
+.sg-markup-base-color-html .sg-color-swatch.blue-80 {
+  background: #0D324A;
+}
+
+.sg-markup-base-color-html .sg-color-swatch.blue-70 {
+  background: #134A70;
+}
+
+.sg-markup-base-color-html .sg-color-swatch.blue-60 {
+  background: #1A6395;
+}
+
+.sg-markup-base-color-html .sg-color-swatch.blue-50 {
+  background: #207CBA;
+}
+
+.sg-markup-base-color-html .sg-color-swatch.blue-40 {
+  background: #389ADD;
+}
+
+.sg-markup-base-color-html .sg-color-swatch.blue-30 {
+  background: #6AB3E5;
+}
+
+.sg-markup-base-color-html .sg-color-swatch.blue-20 {
+  background: #9BCDEE;
+}
+
+.sg-markup-base-color-html .sg-color-swatch.blue-10 {
+  background: #E6F3FB;
+}
+
+.sg-markup-base-logo-html .logo-type-kt {
+  background-image: url("../images/logo-type-kt.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 40px;
+}
+
+.sg-markup-base-logo-html .logo-symbol-kt {
+  background-image: url("../images/logo-symbol-kt.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 40px;
+}
+
+.sg-markup-base-logo-html .app-icon-kt {
+  background-image: url("../images/app-icon-kt.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 40px;
 }
