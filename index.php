@@ -9,6 +9,9 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i" rel="stylesheet">
 
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
   <!-- Theme and Custom styles -->
   <link rel="stylesheet" href="css/style.css">
 
@@ -38,12 +41,15 @@
         <div class="section section-intro">
           <div>
             <h2>What is a Design System?</h2>
-            A tool to promote visual consistency across our products, unify designers and front-end engineers, as well as speed up workflow. A source of truth/reference and a modular, systematic approach to building software.
-            <a href="https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969" target="_blank">[External Window Icon] What is a Design System?</a>
+            A source of truth and reference—a modular, systematic approach to designing and building software.
+          </div>
+          <div>
+            <h2>Why we built one…</h2>
+            A tool to promote visual consistency across our products, unify designers and front-end engineers, as well as speed up workflow.
           </div>
           <div>
             <h2>How to use</h2>
-            <a href="https://docs.google.com/document/d/1u8VTsBls06bXzYfSzGh7mYYBWnz906uxGTy-3UUb_Nw/edit?usp=sharing" target="_blank">[External Window Icon] How To Use</a>
+            <a href="https://docs.google.com/document/d/1u8VTsBls06bXzYfSzGh7mYYBWnz906uxGTy-3UUb_Nw/edit?usp=sharing" target="_blank"><i class="fas fa-external-link-alt"></i> How To Use</a>
           </div>
         </div>
         <?php renderFilesInFolder('markup'); ?>

@@ -54,8 +54,10 @@
   }
 
   function renderFile($path) {
+    $unwantedChars = array("/", "-", "_", ".");
+    $id = str_replace($unwantedChars, "-", $path);
     $content = file_get_contents($path);
-    echo '<div class="sg-section">';
+    echo '<div class="sg-'.$id.' sg-section">';
     renderTitleFromPath($path, 'h2');
     renderFileDoc($path);
     renderFileExample($content);

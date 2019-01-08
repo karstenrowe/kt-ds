@@ -179,33 +179,6 @@ p {
   }
 }
 
-
-
-
-// Source Code Blocks
-.sg-source {
-  // Hide/Show Source Code Blocks
-  display: none;
-  position: relative;
-  &.sg-source-active {
-    display: block;
-  }
-  pre {
-    background: $grey-80 !important;
-    border-radius: 0 !important;
-    color: #fff;
-    overflow-x: scroll;
-    padding: .8em !important;
-  }
-  // Copy Source Code Button
-  .sg-btn--select {
-    position: absolute;
-    right: 8px;
-    top: 8px;
-    z-index: 1;
-  }
-}
-
 // Links
 .sg-wrapper {
   a {
@@ -263,7 +236,7 @@ p {
         repeat: no-repeat;
         size: contain;
       };
-      min-height: 36px;
+      min-height: 32px;
     }
     .sg-h2 {
       font-size: 14px;
@@ -296,14 +269,16 @@ p {
   .section-intro {
     display: grid;
     grid-gap: 2rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     font-size: 14px;
     line-height: 22px;
     h2 {
-      font-size: 14px;
-      line-height: 22px;
+      border-bottom: 2px solid $grey-10;
+      font-size: 16px;
+      line-height: 24px;
       margin-bottom: 0.4rem;
       margin-top: 0;
+      padding-bottom: 0.2rem;
     }
     @media screen and (min-width: 1200px) {
       grid-gap: 4rem;
@@ -326,10 +301,42 @@ p {
   p {
     color: $grey-50;
   }
+  // Source Code Blocks
+  .sg-source {
+    // Hide/Show Source Code Blocks
+    display: none;
+    position: relative;
+    &.sg-source-active {
+      display: block;
+    }
+    pre {
+      background: $grey-80 !important;
+      border-radius: 0 !important;
+      color: #fff;
+      overflow-x: scroll;
+      padding: .8em !important;
+    }
+    // Copy Source Code Button
+    .sg-btn--select {
+      position: absolute;
+      right: 8px;
+      top: 8px;
+      z-index: 1;
+    }
+  }
+}
+
+// Hide Source Code Blocks for some sections when it's not relevant
+.sg-markup-brand-color-html,
+.sg-markup-brand-font-html,
+.sg-markup-brand-logo-html {
+  .sg-markup-controls {
+    display: none;
+  }
 }
 
 // Color
-.sg-markup-base-color-html {
+.sg-markup-brand-color-html .sg-example {
   display: grid;
   grid-gap: 0.8rem;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -394,9 +401,12 @@ p {
 }
 
 // Font
+.sg-markup-brand-font-html {
+
+}
 
 // Logo
-.sg-markup-base-logo-html {
+.sg-markup-brand-logo-html .sg-example {
   .logo-type-kt {
     background: {
       image: url("../images/logo-type-kt.svg");
@@ -423,5 +433,21 @@ p {
       size: contain;
     };
     min-height: 40px;
+  }
+}
+
+// breadcrumb
+.sg-markup-component-breadcrumb-html .sg-example {
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      margin: 0 0.4rem;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
   }
 }
