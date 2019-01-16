@@ -715,6 +715,12 @@ p {
         background-image: url("../images/icon/icon-scorecard-20-fill.svg");
       }
     }
+    &.icon-location {
+      background-image: url("../images/icon/icon-location-20.svg");
+      &.icon-fill {
+        //background-image: url("../images/icon/icon-scorecard-20-fill.svg");
+      }
+    }
   }
 }
 

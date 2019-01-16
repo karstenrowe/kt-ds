@@ -786,6 +786,10 @@ p {
   background-image: url("../images/icon/icon-scorecard-20-fill.svg");
 }
 
+.sg-markup-base-icon-html .sg-example .icon.icon-location {
+  background-image: url("../images/icon/icon-location-20.svg");
+}
+
 .sg-markup-base-link-html .sg-example .link.link-disabled {
   color: #9BCDEE;
 }
