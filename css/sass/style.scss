@@ -678,19 +678,47 @@ p {
   }
 }
 
-// Icon — Haseeb will be working on this
+// Icon — Haseeb taking this up
 .sg-markup-base-icon-html .sg-example {
   p {
     font-size: 14px;
     line-height: 22px;
   }
   .icon {
-    background: {
-      repeat: no-repeat;
-    };
+    background: { repeat: no-repeat; };
+
     display: inline-block;
     height: 20px;
     width: 20px;
+
+
+// 16px icons
+&.icon-chevron-down {  background-image: url("../images/icon/16/icon-chevron-down-16.svg"); }
+&.icon-chevron-up {  background-image: url("../images/icon/16/icon-chevron-up-16.svg"); }
+&.icon-chevron-left {  background-image: url("../images/icon/16/icon-chevron-left-16.svg"); }
+&.icon-chevron-right {  background-image: url("../images/icon/16/icon-chevron-right-16.svg"); }
+
+&.icon-pop-up-list {  background-image: url("../images/icon/16/icon-pop-up-list-16.svg"); }
+&.icon-cross {  background-image: url("../images/icon/16/icon-cross-16.svg"); }
+&.icon-lock {  background-image: url("../images/icon/16/icon-lock-16.svg"); }
+
+
+
+
+&.icon-chevron-tiny-right {  background-image: url("../images/icon/16/icon-chevron-tiny-right-16.svg"); }
+&.icon-bullet {  background-image: url("../images/icon/16/icon-bullet-16.svg"); }
+&.icon-i {  background-image: url("../images/icon/16/icon-i-16.svg"); }
+
+&.icon-minimize {  background-image: url("../images/icon/16/icon-minimize-16.svg"); }
+&.icon-maximize {  background-image: url("../images/icon/16/icon-maximize-16.svg"); }
+&.icon-link {  background-image: url("../images/icon/16/icon-link-16.svg"); }
+
+&.icon-0-placeholder {  background-image: url("../images/icon/16/icon-0-placeholder-16.svg"); }
+&.icon-switch-off {  background-image: url("../images/icon/16/icon-switch-off-16.svg"); }
+&.icon-switch-on {  background-image: url("../images/icon/16/icon-switch-on-16.svg"); }
+
+
+//20px icons
     &.icon-overview {
       background-image: url("../images/icon/icon-overview-20.svg");
       &.icon-fill {
@@ -718,7 +746,7 @@ p {
     &.icon-location {
       background-image: url("../images/icon/icon-location-20.svg");
       &.icon-fill {
-        //background-image: url("../images/icon/icon-scorecard-20-fill.svg");
+        background-image: url("../images/icon/icon-scorecard-20-fill.svg");
       }
     }
   }
@@ -1057,12 +1085,22 @@ p {
       margin-bottom: 0.8rem;
     }
     .container-card-body {
+
+      // background: #FFFFFF;
+      // border: 1px solid rgba(138,156,167,0.40);
+      box-shadow: 0 1px 1px 0 rgba(138,156,167,0.15);
+
+
       .container-card-sub-header {
         background: #fff;
         border: 1px solid $grey-20;
         border-radius: 4px 4px 0 0;
         color: $grey-40;
         font-size: 14px;
+
+        font-weight: 600;
+
+        
         letter-spacing: 0.4px;
         line-height: 22px;
         padding: 0.6rem 0.8rem;
