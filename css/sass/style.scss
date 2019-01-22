@@ -489,7 +489,7 @@ p {
   }
 }
 
-// ———————————————————————————————————————————————————————————————— 
+// ————————————————————————————————————————————————————————————————
 //  Color
 // ————————————————————————————————————————————————————————————————
 
@@ -664,9 +664,8 @@ p {
     }
   }
 }
-// ————————————————————————————————————————————————————————————————
+
 // Breadcrumb
-// ————————————————————————————————————————————————————————————————
 .sg-markup-component-breadcrumb-html .sg-example {
   ul {
     display: flex;
@@ -682,9 +681,7 @@ p {
   }
 }
 
-// ————————————————————————————————————————————————————————————————
 // Icon
-// ————————————————————————————————————————————————————————————————
 .sg-markup-base-icon-html .sg-example {
   p {
     font-size: 14px;
@@ -693,122 +690,177 @@ p {
   .icon {
     background: { repeat: no-repeat; };
     display: inline-block;
-    height: 20px;
-    width: 20px;
 
-    &.icon-24{
+    // Size
+    &.icon-size-16 {
+      height: 16px;
+      width: 16px;
+    }
+
+    &.icon-size-20 {
+      height: 20px;
+      width: 20px;
+    }
+
+    &.icon-size-24 {
       height: 24px;
       width: 24px;
     }
 
-    &.icon-120{
+    &.icon-size-120 {
       height: 120px;
       width: 120px;
     }
+  }
 
-
-// 16px icons
-&.icon-chevron-down {  background-image: url("../images/icon/16/icon-chevron-down-16.svg"); }
-&.icon-chevron-up {  background-image: url("../images/icon/16/icon-chevron-up-16.svg"); }
-&.icon-chevron-left {  background-image: url("../images/icon/16/icon-chevron-left-16.svg"); }
-&.icon-chevron-right {  background-image: url("../images/icon/16/icon-chevron-right-16.svg"); }
-
-&.icon-pop-up-list {  background-image: url("../images/icon/16/icon-pop-up-list-16.svg"); }
-&.icon-cross {  background-image: url("../images/icon/16/icon-cross-16.svg"); }
-&.icon-lock {  background-image: url("../images/icon/16/icon-lock-16.svg"); }
-
-&.icon-chevron-tiny-right {  background-image: url("../images/icon/16/icon-chevron-tiny-right-16.svg"); }
-&.icon-bullet {  background-image: url("../images/icon/16/icon-bullet-16.svg"); }
-&.icon-i {  background-image: url("../images/icon/16/icon-i-16.svg"); }
-
-&.icon-minimize {  background-image: url("../images/icon/16/icon-minimize-16.svg"); }
-&.icon-maximize {  background-image: url("../images/icon/16/icon-maximize-16.svg"); }
-&.icon-link {  background-image: url("../images/icon/16/icon-link-16.svg"); }
-
-&.icon-0-placeholder {  background-image: url("../images/icon/16/icon-0-placeholder-16.svg"); }
-&.icon-switch-off {  background-image: url("../images/icon/16/icon-switch-off-16.svg"); }
-&.icon-switch-on {  background-image: url("../images/icon/16/icon-switch-on-16.svg"); }
-
-
-//20px icons
-    &.icon-overview {
-      background-image: url("../images/icon/icon-overview-20.svg");
-      &.icon-fill {
-        background-image: url("../images/icon/icon-overview-20-fill.svg");
-      }
+  // 16px
+  .icon-chevron-down {
+    background-image: url("../images/icon/16/icon-chevron-down-16.svg");
+  }
+  .icon-chevron-up {
+    background-image: url("../images/icon/16/icon-chevron-up-16.svg");
+  }
+  .icon-chevron-left {
+    background-image: url("../images/icon/16/icon-chevron-left-16.svg");
+  }
+  .icon-chevron-right {
+    background-image: url("../images/icon/16/icon-chevron-right-16.svg");
+  }
+  .icon-pop-up-list {
+    background-image: url("../images/icon/16/icon-pop-up-list-16.svg");
+  }
+  .icon-cross {
+    background-image: url("../images/icon/16/icon-cross-16.svg");
+  }
+  .icon-lock {
+    background-image: url("../images/icon/16/icon-lock-16.svg");
+  }
+  .icon-chevron-tiny-right {
+    background-image: url("../images/icon/16/icon-chevron-tiny-right-16.svg");
+  }
+  .icon-bullet {
+    background-image: url("../images/icon/16/icon-bullet-16.svg");
+  }
+  .icon-i {
+    background-image: url("../images/icon/16/icon-i-16.svg");
+  }
+  .icon-minimize {
+    background-image: url("../images/icon/16/icon-minimize-16.svg");
+  }
+  .icon-maximize {
+    background-image: url("../images/icon/16/icon-maximize-16.svg");
+  }
+  .icon-link {
+    background-image: url("../images/icon/16/icon-link-16.svg");
+  }
+  .icon-0-placeholder {
+    background-image: url("../images/icon/16/icon-0-placeholder-16.svg");
+  }
+  .icon-switch-off {
+    background-image: url("../images/icon/16/icon-switch-off-16.svg");
+  }
+  .icon-switch-on {
+    background-image: url("../images/icon/16/icon-switch-on-16.svg");
+  }
+  // 20px
+  .icon-overview {
+    background-image: url("../images/icon/icon-overview-20.svg");
+    &.icon-fill {
+      background-image: url("../images/icon/icon-overview-20-fill.svg");
     }
-    &.icon-driver {
-      background-image: url("../images/icon/icon-driver-20.svg");
-      &.icon-fill {
-        background-image: url("../images/icon/icon-driver-20-fill.svg");
-      }
+  }
+  .icon-driver {
+    background-image: url("../images/icon/icon-driver-20.svg");
+    &.icon-fill {
+      background-image: url("../images/icon/icon-driver-20-fill.svg");
     }
-    &.icon-log {
-      background-image: url("../images/icon/icon-log-20.svg");
-      &.icon-fill {
-        background-image: url("../images/icon/icon-log-20-fill.svg");
-      }
+  }
+  .icon-log {
+    background-image: url("../images/icon/icon-log-20.svg");
+    &.icon-fill {
+      background-image: url("../images/icon/icon-log-20-fill.svg");
     }
-    &.icon-scorecard {
-      background-image: url("../images/icon/icon-scorecard-20.svg");
-      &.icon-fill {
-        background-image: url("../images/icon/icon-scorecard-20-fill.svg");
-      }
+  }
+  .icon-scorecard {
+    background-image: url("../images/icon/icon-scorecard-20.svg");
+    &.icon-fill {
+      background-image: url("../images/icon/icon-scorecard-20-fill.svg");
     }
-    &.icon-location {
-      background-image: url("../images/icon/icon-location-20.svg");
-      &.icon-fill {
-        background-image: url("../images/icon/icon-scorecard-20-fill.svg");
-      }
+  }
+  .icon-location {
+    background-image: url("../images/icon/icon-location-20.svg");
+    &.icon-fill {
+      background-image: url("../images/icon/icon-scorecard-20-fill.svg");
     }
-
-    //24px Icons—————————— 
-    &.icon-avatar {  background-image: url("../images/icon/24/icon-avatar-24.svg"); 
-      &.icon-fill {  background-image: url("../images/icon/24/icon-avatar-filled-24.svg"); }
+  }
+  // 24px
+  .icon-avatar {
+    background-image: url("../images/icon/24/icon-avatar-24.svg");
+    &.icon-fill {
+       background-image: url("../images/icon/24/icon-avatar-filled-24.svg");
+     }
+  }
+  .icon-cross {
+    background-image: url("../images/icon/24/icon-cross-24.svg");
+    &.icon-fill {
+      background-image: url("../images/icon/24/icon-cross-filled-24.svg");
     }
-
-
-    &.icon-cross {  background-image: url("../images/icon/24/icon-cross-24.svg"); 
-      &.icon-fill {  background-image: url("../images/icon/24/icon-cross-filled-24.svg"); }
+  }
+  .icon-minus {
+    background-image: url("../images/icon/24/icon-minus-24.svg");
+    &.icon-fill {
+      background-image: url("../images/icon/24/icon-avatar-minus-24.svg");
     }
-
-    &.icon-minus {  background-image: url("../images/icon/24/icon-minus-24.svg"); 
-      &.icon-fill {  background-image: url("../images/icon/24/icon-avatar-minus-24.svg"); }
+  }
+  .icon-plus {
+    background-image: url("../images/icon/24/icon-plus-24.svg");
+    &.icon-fill {
+      background-image: url("../images/icon/24/icon-plus-filled-24.svg");
     }
-
-    &.icon-plus {  background-image: url("../images/icon/24/icon-plus-24.svg"); 
-      &.icon-fill {  background-image: url("../images/icon/24/icon-plus-filled-24.svg"); }
-    }
-    &.icon-clock {  background-image: url("../images/icon/24/icon-clock-24.svg"); }
-    &.icon-close {  background-image: url("../images/icon/24/icon-close-24.svg"); }
-    &.icon-exchange {  background-image: url("../images/icon/24/icon-exchange-24.svg"); }
-    &.icon-redo {  background-image: url("../images/icon/24/icon-redo-24.svg"); }
-    &.icon-referral {  background-image: url("../images/icon/24/icon-referral-24.svg"); }
-    &.icon-undo {  background-image: url("../images/icon/24/icon-undo-24.svg"); }
-
-
-
-    //120px Icons—————————— 
-    &.icon-error {  background-image: url("../images/icon/120/icon-error-120.svg");  }
-    &.icon-success {  background-image: url("../images/icon/120/icon-success-120.svg"); }
-    &.icon-group {  background-image: url("../images/icon/120/icon-group-120.svg");  }
-    
-    &.icon-location-no {  background-image: url("../images/icon/120/icon-location-no-120.svg"); }
-    &.icon-reports-locked {  background-image: url("../images/icon/120/icon-reports-locked-120.svg"); }
-    
-    &.icon-scorecards-new {  background-image: url("../images/icon/120/icon-scorecards-new-120.svg");  }
-    &.icon-vehicle {  background-image: url("../images/icon/120/icon-vehicle-120.svg"); }
-
-
+  }
+  .icon-clock {
+    background-image: url("../images/icon/24/icon-clock-24.svg");
+  }
+  .icon-close {
+    background-image: url("../images/icon/24/icon-close-24.svg");
+  }
+  .icon-exchange {
+    background-image: url("../images/icon/24/icon-exchange-24.svg");
+  }
+  .icon-redo {
+    background-image: url("../images/icon/24/icon-redo-24.svg");
+  }
+  .icon-referral {
+    background-image: url("../images/icon/24/icon-referral-24.svg");
+  }
+  .icon-undo {
+    background-image: url("../images/icon/24/icon-undo-24.svg");
+  }
+  // 120px
+  .icon-error {
+    background-image: url("../images/icon/120/icon-error-120.svg");
+  }
+  .icon-success {
+    background-image: url("../images/icon/120/icon-success-120.svg");
+  }
+  .icon-group {
+    background-image: url("../images/icon/120/icon-group-120.svg");
+  }
+  .icon-location-no {
+    background-image: url("../images/icon/120/icon-location-no-120.svg");
+  }
+  .icon-reports-locked {
+    background-image: url("../images/icon/120/icon-reports-locked-120.svg");
+  }
+  .icon-scorecards-new {
+    background-image: url("../images/icon/120/icon-scorecards-new-120.svg");
+  }
+  .icon-vehicle {
+    background-image: url("../images/icon/120/icon-vehicle-120.svg");
   }
 }
 
-
-
-
-
-
-// ———————————————— Link ————————————————
+// Link
 .sg-markup-base-link-html .sg-example {
   .link {
     &.link-disabled {
@@ -843,7 +895,7 @@ p {
   }
 }
 
-//  ———————————————— Type  ———————————————— 
+// Type
 .sg-markup-base-type-html .sg-example {
   h1 {
     margin: 0 0 2.4rem 0;
@@ -1141,22 +1193,16 @@ p {
       margin-bottom: 0.8rem;
     }
     .container-card-body {
-
-      // background: #FFFFFF;
-      // border: 1px solid rgba(138,156,167,0.40);
+      border: 1px solid $grey-20;
       box-shadow: 0 1px 1px 0 rgba(138,156,167,0.15);
-
 
       .container-card-sub-header {
         background: #fff;
-        border: 1px solid $grey-20;
+        border-bottom: 1px solid $grey-20;
         border-radius: 4px 4px 0 0;
         color: $grey-40;
         font-size: 14px;
-
         font-weight: 600;
-
-        
         letter-spacing: 0.4px;
         line-height: 22px;
         padding: 0.6rem 0.8rem;
@@ -1165,8 +1211,6 @@ p {
       }
       .container-card-main-content {
         background: #fff;
-        border: 1px solid $grey-20;
-        border-top: none;
         border-radius: 0 0 4px 4px;
         padding: 0.6rem 0.8rem;
         p {
@@ -1178,8 +1222,7 @@ p {
 }
 
 
-// ——————— Filter
-//———————————————————————
+// Filter
 .sg-markup-component-filter-html .sg-example {
   .filter {
 
