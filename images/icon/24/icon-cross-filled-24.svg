@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-cross-filled-24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-200.000000, -1360.000000)" fill="#262F36">
+            <path d="M210.792893,1371.5 L207.257359,1367.96447 L207.964466,1367.25736 L211.5,1370.79289 L215.035534,1367.25736 L215.742641,1367.96447 L212.207107,1371.5 L215.742641,1375.03553 L215.035534,1375.74264 L211.5,1372.20711 L207.964466,1375.74264 L207.257359,1375.03553 L210.792893,1371.5 Z M211.49999,1362 C216.746678,1362 220.999979,1366.2533 220.999979,1371.50001 C220.999979,1376.7467 216.746678,1381 211.49999,1381 C206.253302,1381 202.000001,1376.7467 202.000001,1371.50001 C202.000001,1366.2533 206.253302,1362 211.49999,1362 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

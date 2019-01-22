@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-undo-24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-360.000000, -440.000000)" fill="#262F36">
+            <path d="M375.5,447 C378.537566,447 381,449.462434 381,452.5 C381,455.537566 378.537566,458 375.5,458 L364,458 L364,457 L375.5,457 C377.985281,457 380,454.985281 380,452.5 C380,450.014719 377.985281,448 375.5,448 L364.91929,448 L367.242641,450.3 L366.535534,451 L363,447.5 L366.535534,444 L367.242641,444.7 L364.91929,447 L375.5,447 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

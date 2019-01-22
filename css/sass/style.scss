@@ -489,7 +489,10 @@ p {
   }
 }
 
-// Color
+// ———————————————————————————————————————————————————————————————— 
+//  Color
+// ————————————————————————————————————————————————————————————————
+
 .sg-markup-Brand-color-html .sg-example {
   font-size: 14px;
   line-height: 22px;
@@ -661,8 +664,9 @@ p {
     }
   }
 }
-
+// ————————————————————————————————————————————————————————————————
 // Breadcrumb
+// ————————————————————————————————————————————————————————————————
 .sg-markup-component-breadcrumb-html .sg-example {
   ul {
     display: flex;
@@ -678,7 +682,9 @@ p {
   }
 }
 
-// Icon — Haseeb taking this up
+// ————————————————————————————————————————————————————————————————
+// Icon
+// ————————————————————————————————————————————————————————————————
 .sg-markup-base-icon-html .sg-example {
   p {
     font-size: 14px;
@@ -686,10 +692,19 @@ p {
   }
   .icon {
     background: { repeat: no-repeat; };
-
     display: inline-block;
     height: 20px;
     width: 20px;
+
+    &.icon-24{
+      height: 24px;
+      width: 24px;
+    }
+
+    &.icon-120{
+      height: 120px;
+      width: 120px;
+    }
 
 
 // 16px icons
@@ -701,9 +716,6 @@ p {
 &.icon-pop-up-list {  background-image: url("../images/icon/16/icon-pop-up-list-16.svg"); }
 &.icon-cross {  background-image: url("../images/icon/16/icon-cross-16.svg"); }
 &.icon-lock {  background-image: url("../images/icon/16/icon-lock-16.svg"); }
-
-
-
 
 &.icon-chevron-tiny-right {  background-image: url("../images/icon/16/icon-chevron-tiny-right-16.svg"); }
 &.icon-bullet {  background-image: url("../images/icon/16/icon-bullet-16.svg"); }
@@ -749,10 +761,54 @@ p {
         background-image: url("../images/icon/icon-scorecard-20-fill.svg");
       }
     }
+
+    //24px Icons—————————— 
+    &.icon-avatar {  background-image: url("../images/icon/24/icon-avatar-24.svg"); 
+      &.icon-fill {  background-image: url("../images/icon/24/icon-avatar-filled-24.svg"); }
+    }
+
+
+    &.icon-cross {  background-image: url("../images/icon/24/icon-cross-24.svg"); 
+      &.icon-fill {  background-image: url("../images/icon/24/icon-cross-filled-24.svg"); }
+    }
+
+    &.icon-minus {  background-image: url("../images/icon/24/icon-minus-24.svg"); 
+      &.icon-fill {  background-image: url("../images/icon/24/icon-avatar-minus-24.svg"); }
+    }
+
+    &.icon-plus {  background-image: url("../images/icon/24/icon-plus-24.svg"); 
+      &.icon-fill {  background-image: url("../images/icon/24/icon-plus-filled-24.svg"); }
+    }
+    &.icon-clock {  background-image: url("../images/icon/24/icon-clock-24.svg"); }
+    &.icon-close {  background-image: url("../images/icon/24/icon-close-24.svg"); }
+    &.icon-exchange {  background-image: url("../images/icon/24/icon-exchange-24.svg"); }
+    &.icon-redo {  background-image: url("../images/icon/24/icon-redo-24.svg"); }
+    &.icon-referral {  background-image: url("../images/icon/24/icon-referral-24.svg"); }
+    &.icon-undo {  background-image: url("../images/icon/24/icon-undo-24.svg"); }
+
+
+
+    //120px Icons—————————— 
+    &.icon-error {  background-image: url("../images/icon/120/icon-error-120.svg");  }
+    &.icon-success {  background-image: url("../images/icon/120/icon-success-120.svg"); }
+    &.icon-group {  background-image: url("../images/icon/120/icon-group-120.svg");  }
+    
+    &.icon-location-no {  background-image: url("../images/icon/120/icon-location-no-120.svg"); }
+    &.icon-reports-locked {  background-image: url("../images/icon/120/icon-reports-locked-120.svg"); }
+    
+    &.icon-scorecards-new {  background-image: url("../images/icon/120/icon-scorecards-new-120.svg");  }
+    &.icon-vehicle {  background-image: url("../images/icon/120/icon-vehicle-120.svg"); }
+
+
   }
 }
 
-// Link
+
+
+
+
+
+// ———————————————— Link ————————————————
 .sg-markup-base-link-html .sg-example {
   .link {
     &.link-disabled {
@@ -787,7 +843,7 @@ p {
   }
 }
 
-// Type
+//  ———————————————— Type  ———————————————— 
 .sg-markup-base-type-html .sg-example {
   h1 {
     margin: 0 0 2.4rem 0;

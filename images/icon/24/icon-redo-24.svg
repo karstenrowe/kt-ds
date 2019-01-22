@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-redo-24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-400.000000, -440.000000)" fill="#262F36">
+            <path d="M408.5,447 L419.08071,447 L416.757359,444.7 L417.464466,444 L421,447.5 L417.464466,451 L416.757359,450.3 L419.08071,448 L408.5,448 C406.014719,448 404,450.014719 404,452.5 C404,454.985281 406.014719,457 408.5,457 L420,457 L420,458 L408.5,458 C405.462434,458 403,455.537566 403,452.5 C403,449.462434 405.462434,447 408.5,447 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

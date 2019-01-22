@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-success-120</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbol" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/120/success" fill="#262F36">
+            <g id="shape">
+                <path d="M60,103 C83.7482442,103 103,83.7482442 103,60 C103,36.2517558 83.7482442,17 60,17 C36.2517558,17 17,36.2517558 17,60 C17,83.7482442 36.2517558,103 60,103 Z M60,105 C35.1471863,105 15,84.8528137 15,60 C15,35.1471863 35.1471863,15 60,15 C84.8528137,15 105,35.1471863 105,60 C105,84.8528137 84.8528137,105 60,105 Z M52.2218254,74.5060967 L81.9203102,44.8076118 L83.3345238,46.2218254 L53.636039,75.9203102 C52.8549904,76.7013588 51.5886604,76.7013588 50.8076118,75.9203102 L36.6654762,61.7781746 L38.0796898,60.363961 L52.2218254,74.5060967 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
