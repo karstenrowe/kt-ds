@@ -1176,3 +1176,39 @@ p {
     }
   }
 }
+
+
+// ——————— Filter
+//———————————————————————
+.sg-markup-component-filter-html .sg-example {
+  .filter {
+
+    // background: $grey-50;
+    border-radius: 4px;
+
+    height: 40px;
+    min-width: 300px;
+    // color: #fff;
+    // letter-spacing: 0.4px;
+    font-size: 14px;
+    border: 1px $grey-40 solid;
+    text-align: left;
+    line-height: 20px;
+    // font-weight: 600;
+    margin-bottom: 4px;
+    padding: 4px 12px;
+
+    // &.badge-word {
+    //   width: 80px;
+    // }
+    // &.badge-driving {
+    //   background: $green-50;
+    // }
+    // &.badge-on-duty {
+    //   background: $blue-50;
+    // }
+    // &.badge-major {
+    //   background: $red-50;
+    // }
+  }
+}
