@@ -391,6 +391,15 @@ p {
         }
       }
 
+      &.col-12 {
+        grid-gap: 0;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        @media screen and (min-width: 1200px) {
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        }
+      }
+
       &.col-16 {
         grid-gap: 0;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1028,33 +1037,68 @@ p {
       width: 120px;
 
       // 120px
+
+      &.icon-alerts {background-image: url("../images/icon/icon-alerts-120.svg"); }
+      &.icon-archive {background-image: url("../images/icon/icon-archive-120.svg"); }
+      &.icon-dashcam {background-image: url("../images/icon/icon-dashcam-120.svg"); }
+      &.icon-dashcam-recall {background-image: url("../images/icon/icon-dashcam-recall-120.svg"); }
+      &.icon-developers {background-image: url("../images/icon/icon-developers-120.svg"); }
+      &.icon-driver {background-image: url("../images/icon/icon-driver-120.svg"); }
+      &.icon-driver-add {background-image: url("../images/icon/icon-driver-add-120.svg"); }
+      &.icon-driver-invite {background-image: url("../images/icon/icon-driver-invite-120.svg"); }
       &.icon-error {
         background-image: url("../images/icon/icon-error-120.svg");
       }
 
-      &.icon-success {
-        background-image: url("../images/icon/icon-success-120.svg");
-      }
-
+      &.icon-file {background-image: url("../images/icon/icon-file-120.svg"); }
+      &.icon-file-import {background-image: url("../images/icon/icon-file-import-120.svg"); }
+      &.icon-file-upload {background-image: url("../images/icon/icon-file-upload-120.svg"); }
+      
+      &.icon-geofencing {background-image: url("../images/icon/icon-geofencing-120.svg"); }
       &.icon-group {
         background-image: url("../images/icon/icon-group-120.svg");
       }
 
+      &.icon-ifta {background-image: url("../images/icon/icon-ifta-120.svg"); }
+      &.icon-location {background-image: url("../images/icon/icon-location-120.svg"); }
+      
       &.icon-location-no {
         background-image: url("../images/icon/icon-location-no-120.svg");
       }
-
+      &.icon-log-suggestion-pending {background-image: url("../images/icon/icon-log-suggestion-pending-120.svg"); }
+      &.icon-messages {background-image: url("../images/icon/icon-messages-120.svg"); }
+      &.icon-overview {background-image: url("../images/icon/icon-overview-120.svg"); }
+      &.icon-phone {background-image: url("../images/icon/icon-phone-120.svg"); }
+      &.icon-record {background-image: url("../images/icon/icon-record-120.svg"); }
+      &.icon-reports {background-image: url("../images/icon/icon-reports-120.svg"); }
       &.icon-reports-locked {
         background-image: url("../images/icon/icon-reports-locked-120.svg");
       }
 
+      &.icon-request-pending {background-image: url("../images/icon/icon-request-pending-120.svg"); }
+      &.icon-scorecards {background-image: url("../images/icon/icon-scorecards-120.svg"); }
+      
       &.icon-scorecards-new {
         background-image: url("../images/icon/icon-scorecards-new-120.svg");
       }
 
+      &.icon-search {background-image: url("../images/icon/icon-search-120.svg"); }
+      &.icon-signature {background-image: url("../images/icon/icon-signature-120.svg"); }
+      &.icon-stopwatch {background-image: url("../images/icon/icon-stopwatch-120.svg"); }      
+      
+      &.icon-success {
+        background-image: url("../images/icon/icon-success-120.svg");
+      }
+      &.icon-sucess-wait {background-image: url("../images/icon/icon-success-wait-120.svg"); }
+      &.icon-unknown {background-image: url("../images/icon/icon-unknown-120.svg"); }
       &.icon-vehicle {
         background-image: url("../images/icon/icon-vehicle-120.svg");
       }
+
+      &.icon-video-pending {background-image: url("../images/icon/icon-video-pending-120.svg"); }   
+      &.icon-warning {background-image: url("../images/icon/icon-warning-120.svg"); }
+      &.icon-wrench {background-image: url("../images/icon/icon-wrench-120.svg"); }
+
 
     }
   }
