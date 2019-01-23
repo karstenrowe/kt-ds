@@ -585,10 +585,7 @@ p {
   }
 }
 
-// ————————————————————————————————————————————————————————————————
-//  Color
-// ————————————————————————————————————————————————————————————————
-
+// Color
 .sg-markup-Brand-color-html .sg-example {
   font-size: 14px;
   line-height: 22px;
@@ -841,18 +838,14 @@ p {
   .icon {
     background: {
       repeat: no-repeat;
-    }
-
-    ;
+    };
     display: inline-block;
 
-    // Size
-
+    // 16px
     &.icon-size-16 {
       height: 16px;
       width: 16px;
 
-      // 16px icons
       &.icon-chevron-down {
         background-image: url("../images/icon/icon-chevron-down-16.svg");
       }
@@ -916,15 +909,13 @@ p {
       &.icon-switch-on {
         background-image: url("../images/icon/icon-switch-on-16.svg");
       }
-
-
     }
 
+    // 20px
     &.icon-size-20 {
       height: 20px;
       width: 20px;
 
-      // 20px
       &.icon-overview {
         background-image: url("../images/icon/icon-overview-20.svg");
 
@@ -968,11 +959,11 @@ p {
 
     }
 
+    // 24px
     &.icon-size-24 {
       height: 24px;
       width: 24px;
 
-      // 24px
       &.icon-avatar {
         background-image: url("../images/icon/icon-avatar-24.svg");
 
@@ -1032,11 +1023,10 @@ p {
 
     }
 
+    // 120px
     &.icon-size-120 {
       height: 120px;
       width: 120px;
-
-      // 120px
 
       &.icon-alerts {background-image: url("../images/icon/icon-alerts-120.svg"); }
       &.icon-archive {background-image: url("../images/icon/icon-archive-120.svg"); }
@@ -1053,7 +1043,7 @@ p {
       &.icon-file {background-image: url("../images/icon/icon-file-120.svg"); }
       &.icon-file-import {background-image: url("../images/icon/icon-file-import-120.svg"); }
       &.icon-file-upload {background-image: url("../images/icon/icon-file-upload-120.svg"); }
-      
+
       &.icon-geofencing {background-image: url("../images/icon/icon-geofencing-120.svg"); }
       &.icon-group {
         background-image: url("../images/icon/icon-group-120.svg");
@@ -1061,7 +1051,7 @@ p {
 
       &.icon-ifta {background-image: url("../images/icon/icon-ifta-120.svg"); }
       &.icon-location {background-image: url("../images/icon/icon-location-120.svg"); }
-      
+
       &.icon-location-no {
         background-image: url("../images/icon/icon-location-no-120.svg");
       }
@@ -1077,15 +1067,15 @@ p {
 
       &.icon-request-pending {background-image: url("../images/icon/icon-request-pending-120.svg"); }
       &.icon-scorecards {background-image: url("../images/icon/icon-scorecards-120.svg"); }
-      
+
       &.icon-scorecards-new {
         background-image: url("../images/icon/icon-scorecards-new-120.svg");
       }
 
       &.icon-search {background-image: url("../images/icon/icon-search-120.svg"); }
       &.icon-signature {background-image: url("../images/icon/icon-signature-120.svg"); }
-      &.icon-stopwatch {background-image: url("../images/icon/icon-stopwatch-120.svg"); }      
-      
+      &.icon-stopwatch {background-image: url("../images/icon/icon-stopwatch-120.svg"); }
+
       &.icon-success {
         background-image: url("../images/icon/icon-success-120.svg");
       }
@@ -1095,14 +1085,11 @@ p {
         background-image: url("../images/icon/icon-vehicle-120.svg");
       }
 
-      &.icon-video-pending {background-image: url("../images/icon/icon-video-pending-120.svg"); }   
+      &.icon-video-pending {background-image: url("../images/icon/icon-video-pending-120.svg"); }
       &.icon-warning {background-image: url("../images/icon/icon-warning-120.svg"); }
       &.icon-wrench {background-image: url("../images/icon/icon-wrench-120.svg"); }
-
-
     }
   }
-
 }
 
 // Link
@@ -1509,13 +1496,13 @@ p {
     }
 
     .container-card-body {
+      background: #fff;
       border: 1px solid $grey-20;
+      border-radius: 4px;
       box-shadow: 0 1px 1px 0 rgba(138, 156, 167, 0.15);
 
       .container-card-sub-header {
-        background: #fff;
         border-bottom: 1px solid $grey-20;
-        border-radius: 4px 4px 0 0;
         color: $grey-40;
         font-size: 14px;
         font-weight: 600;
@@ -1527,7 +1514,6 @@ p {
       }
 
       .container-card-main-content {
-        background: #fff;
         border-radius: 0 0 4px 4px;
         padding: 0.6rem 0.8rem;
 
