@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-phone-20@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-760.000000, -280.000000)" fill="#262F36">
+            <path d="M765,284 L765,295 C765,295.552285 765.366312,296 765.818182,296 L773.181818,296 C773.633688,296 774,295.552285 774,295 L774,284 C774,283.447715 773.633688,283 773.181818,283 L765.818182,283 C765.366312,283 765,283.447715 765,284 Z M764,284 C764,282.895431 764.757672,282 765.692308,282 L773.307692,282 C774.242328,282 775,282.895431 775,284 L775,295 C775,296.104569 774.242328,297 773.307692,297 L765.692308,297 C764.757672,297 764,296.104569 764,295 L764,284 Z M769,285 L768,285 L768,284 L769,284 L769,285 Z M771,285 L770,285 L770,284 L771,284 L771,285 Z M768,294 L771,294 L771,295 L768,295 L768,294 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

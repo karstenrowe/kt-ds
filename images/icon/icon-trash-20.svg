@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-trash-20@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-160.000000, -320.000000)" fill="#262F36">
+            <path d="M176,324 L176,335 C176,336.104569 175.104569,337 174,337 L165,337 C163.895431,337 163,336.104569 163,335 L163,324 L162,324 L162,323 L167,323 L167,322.5 C167,321.671573 167.671573,321 168.5,321 L170.5,321 C171.328427,321 172,321.671573 172,322.5 L172,323 L177,323 L177,324 L176,324 Z M175,324 L164,324 L164,335 C164,335.552285 164.447715,336 165,336 L174,336 C174.552285,336 175,335.552285 175,335 L175,324 Z M171,323 L171,322.5 C171,322.223858 170.776142,322 170.5,322 L168.5,322 C168.223858,322 168,322.223858 168,322.5 L168,323 L171,323 Z M167,326 L168,326 L168,334 L167,334 L167,326 Z M171,326 L172,326 L172,334 L171,334 L171,326 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

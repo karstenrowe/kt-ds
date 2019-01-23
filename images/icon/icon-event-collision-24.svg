@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-event-collision-24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-240.000000, -1360.000000)" fill-rule="nonzero">
+            <circle id="backshape" fill="#202020" cx="251.5" cy="1371.5" r="9.5"></circle>
+            <path d="M247,1368 L252,1371.5 L247,1375 L247,1368 Z M256,1368 L256,1375 L251,1371.5 L256,1368 Z" id="foreshape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

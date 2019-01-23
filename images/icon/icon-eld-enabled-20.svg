@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-eld-enabled-20@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-960.000000, -280.000000)" fill="#262F36">
+            <path d="M969.50004,282 C973.642055,282 977,285.357792 977,289.5 C977,293.6421 973.642055,297 969.50004,297 C965.357821,297 962.000081,293.6421 962.000081,289.5 C962.000081,285.357792 965.357821,282 969.50004,282 Z M969.50004,283 C973.089784,283 976,285.910087 976,289.5 C976,293.08982 973.089784,296 969.50004,296 C965.91012,296 963.000081,293.08982 963.000081,289.5 C963.000081,285.910087 965.91012,283 969.50004,283 Z M968.474874,290.589087 L972.363961,286.7 L973.071068,287.407107 L968.474874,292.003301 L966,289.528427 L966.707107,288.82132 L968.474874,290.589087 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

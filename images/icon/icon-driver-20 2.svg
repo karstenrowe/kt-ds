@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-driver-20@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-120.000000, -240.000000)" fill="#262F36">
+            <path d="M135,257 L135,256 C135,254.343146 133.656854,253 132,253 L127,253 C125.343146,253 124,254.343146 124,256 L124,257 L123,257 L123,256 C123,253.790861 124.790861,252 127,252 L132,252 C134.209139,252 136,253.790861 136,256 L136,257 L135,257 Z M129.5,251 C127.014719,251 125,248.985281 125,246.5 C125,244.014719 127.014719,242 129.5,242 C131.985281,242 134,244.014719 134,246.5 C134,248.985281 131.985281,251 129.5,251 Z M129.5,250 C131.432997,250 133,248.432997 133,246.5 C133,244.567003 131.432997,243 129.5,243 C127.567003,243 126,244.567003 126,246.5 C126,248.432997 127.567003,250 129.5,250 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

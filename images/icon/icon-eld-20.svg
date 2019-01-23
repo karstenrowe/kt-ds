@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-eld-20@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-720.000000, -280.000000)" fill="#262F36">
+            <path d="M727,283 C727,282.447715 727.447715,282 728,282 L731,282 C731.552285,282 732,282.447715 732,283 L735,283 C736.104569,283 737,283.895431 737,285 L737,294 C737,295.104569 736.104569,296 735,296 L724,296 C722.895431,296 722,295.104569 722,294 L722,285 C722,283.895431 722.895431,283 724,283 L727,283 Z M724,284 C723.447715,284 723,284.447715 723,285 L723,294 C723,294.552285 723.447715,295 724,295 L735,295 C735.552285,295 736,294.552285 736,294 L736,285 C736,284.447715 735.552285,284 735,284 L724,284 Z M729,289 L733,289 L733,290 L729,290 L729,289 Z M726,289 L728,289 L728,290 L726,290 L726,289 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

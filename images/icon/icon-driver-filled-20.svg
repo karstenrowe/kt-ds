@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-driver-filled-20</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-120.000000, -1240.000000)" fill="#262F36">
+            <path d="M129.499973,1242 C131.985181,1242 133.999946,1244.01467 133.999946,1246.5 C133.999946,1248.98526 131.985181,1250.99999 129.499973,1250.99999 C127.014643,1250.99999 125,1248.98526 125,1246.5 C125,1244.01467 127.014643,1242 129.499973,1242 Z M123,1257 L123,1256 C123,1253.79086 124.790861,1252 127,1252 L132,1252 C134.209139,1252 136,1253.79086 136,1256 L136,1257 L123,1257 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

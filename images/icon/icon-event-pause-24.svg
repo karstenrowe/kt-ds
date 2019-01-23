@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-event-pause-24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-520.000000, -1360.000000)" fill="#262F36">
+            <path d="M528,1364 C529.104569,1364 530,1364.89543 530,1366 L530,1378 C530,1379.10457 529.104569,1380 528,1380 C526.895431,1380 526,1379.10457 526,1378 L526,1366 C526,1364.89543 526.895431,1364 528,1364 Z M536,1364 C537.104569,1364 538,1364.89543 538,1366 L538,1378 C538,1379.10457 537.104569,1380 536,1380 C534.895431,1380 534,1379.10457 534,1378 L534,1366 C534,1364.89543 534.895431,1364 536,1364 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

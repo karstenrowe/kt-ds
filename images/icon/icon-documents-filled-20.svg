@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-documents-filled-20</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-280.000000, -1240.000000)" fill="#262F36">
+            <path d="M296,1247 L296,1255 C296,1256.10457 295.104569,1257 294,1257 L285,1257 C283.895431,1257 283,1256.10457 283,1255 L283,1244 C283,1242.89543 283.895431,1242 285,1242 L291,1242 L291,1245 C291,1246.10457 291.895431,1247 293,1247 L296,1247 Z M296,1246 L293,1246 C292.447715,1246 292,1245.55228 292,1245 L292,1242 L296,1246 Z M286,1246 L286,1247 L289,1247 L289,1246 L286,1246 Z M286,1249 L286,1250 L293,1250 L293,1249 L286,1249 Z M286,1252 L286,1253 L293,1253 L293,1252 L286,1252 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
