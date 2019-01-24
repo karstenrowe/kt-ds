@@ -761,24 +761,9 @@ p {
   line-height: 22px;
 }
 
-.sg-markup-base-icon-html .sg-example img {
-  display: inline-block;
-  height: auto;
-}
-
 .sg-markup-base-icon-html .sg-example .icon {
   background-repeat: no-repeat;
   display: inline-block;
-}
-
-.sg-markup-base-icon-html .sg-example .icon:hover {
-  background-color: #EFF1F3;
-  -webkit-transition: all .15s ease-in;
-  -moz-transition: all .15s ease-in;
-  -ms-transition: all .15s ease-in;
-  -o-transition: all .15s ease-in;
-  transition: all .15s ease-in;
-  border-radius: 4px;
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-16 {

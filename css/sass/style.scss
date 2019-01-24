@@ -837,13 +837,6 @@ p {
     line-height: 22px;
   }
 
-  img {
-    display: inline-block;
-    // width: 100%;
-    height: auto;
-
-  }
-
   .icon {
     background: {
       repeat: no-repeat;
@@ -994,7 +987,6 @@ p {
         }
       }
 
-
       &.icon-close {
         background-image: url("../images/icon/icon-close-20.svg");
       }
@@ -1131,7 +1123,6 @@ p {
         background-image: url("../images/icon/icon-download-20.svg");
       }
 
-
       &.icon-driver {
         background-image: url("../images/icon/icon-driver-20.svg");
 
@@ -1140,10 +1131,8 @@ p {
         }
       }
 
-
       //Driver Add onwards
       // &.icon- {background-image: url("../images/icon/icon--20.svg"); }
-
       &.icon-location {
         background-image: url("../images/icon/icon-location-20.svg");
 
@@ -1161,8 +1150,6 @@ p {
         }
       }
 
-
-
       &.icon-overview {
         background-image: url("../images/icon/icon-overview-20.svg");
 
@@ -1170,7 +1157,6 @@ p {
           background-image: url("../images/icon/icon-overview-20-fill.svg");
         }
       }
-
 
       &.icon-scorecard {
         background-image: url("../images/icon/icon-scorecard-20.svg");
