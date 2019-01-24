@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-calendar-filled-20</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-480.000000, -1240.000000)" fill="#262F36">
+            <path d="M493,1243 L493,1241 L494,1241 L494,1243 L495,1243 C496.104569,1243 497,1243.89543 497,1245 L497,1246 L482,1246 L482,1245 C482,1243.89543 482.895431,1243 484,1243 L485,1243 L485,1241 L486,1241 L486,1243 L493,1243 Z M497,1247 L497,1254 C497,1255.10457 496.104569,1256 495,1256 L484,1256 C482.895431,1256 482,1255.10457 482,1254 L482,1247 L497,1247 Z M487,1249 L486,1249 L486,1250 L487,1250 L487,1249 Z M487,1252 L486,1252 L486,1253 L487,1253 L487,1252 Z M490,1249 L489,1249 L489,1250 L490,1250 L490,1249 Z M489,1252 L489,1253 L490,1253 L490,1252 L489,1252 Z M493,1249 L492,1249 L492,1250 L493,1250 L493,1249 Z M492,1252 L492,1253 L493,1253 L493,1252 L492,1252 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

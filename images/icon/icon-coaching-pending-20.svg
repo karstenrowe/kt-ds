@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-coaching-pending-20@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-480.000000, -280.000000)" fill="#262F36">
+            <path d="M482,283.5 L489.5,281.5 L497,283.5 L497,286.5 C497,289.5 496.333333,291.833333 495,293.5 C493.666667,295.166667 491.833333,296.5 489.5,297.5 C487.166667,296.5 485.333333,295.166667 484,293.5 C482.666667,291.833333 482,289.5 482,286.5 L482,283.5 Z M483,284.268278 L483,286.5 C483,289.289549 483.604298,291.404591 484.780869,292.875305 C485.931837,294.314016 487.500654,295.491572 489.5,296.4064 C491.499346,295.491572 493.068163,294.314016 494.219131,292.875305 C495.395702,291.404591 496,289.289549 496,286.5 L496,284.268278 L489.5,282.534945 L483,284.268278 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

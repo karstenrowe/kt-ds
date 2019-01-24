@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-fleet-manager-20@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-720.000000, -240.000000)" fill="#262F36">
+            <path d="M730,256 L734,256 L734,257 L725,257 L725,256 L729,256 L729,255 L724,255 C722.895431,255 722,254.104569 722,253 L722,245 C722,243.895431 722.895431,243 724,243 L735,243 C736.104569,243 737,243.895431 737,245 L737,253 C737,254.104569 736.104569,255 735,255 L730,255 L730,256 Z M724,254.000062 L735,254.000062 C735.552285,254.000062 736,253.552285 736,253 L736,245 C736,244.447715 735.552285,244 735,244 L724,244 C723.447715,244 723,244.447715 723,245 L723,253 C723,253.552285 723.447715,254.000062 724,254.000062 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-company-filled-20</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-600.000000, -1240.000000)" fill="#262F36">
+            <path d="M616,1256 L618,1256 L618,1257 L601,1257 L601,1256 L603,1256 L603,1244 C603,1242.89543 603.895431,1242 605,1242 L614,1242 C615.104569,1242 616,1242.89543 616,1244 L616,1256 Z M606,1252 L606,1256 L613,1256 L613,1252 L606,1252 Z M610,1256 L610,1253 L612,1253 L612,1256 L610,1256 Z M609,1256 L607,1256 L607,1253 L609,1253 L609,1256 Z M607,1245 L606,1245 L606,1247 L607,1247 L607,1245 Z M611,1247 L611,1245 L610,1245 L610,1247 L611,1247 Z M609,1245 L608,1245 L608,1247 L609,1247 L609,1245 Z M607,1248 L606,1248 L606,1250 L607,1250 L607,1248 Z M609,1248 L608,1248 L608,1250 L609,1250 L609,1248 Z M611,1248 L610,1248 L610,1250 L611,1250 L611,1248 Z M612,1250 L613,1250 L613,1248 L612,1248 L612,1250 Z M612,1245 L612,1247 L613,1247 L613,1245 L612,1245 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

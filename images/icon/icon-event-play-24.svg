@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-event-play-24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-480.000000, -1360.000000)" fill="#262F36">
+            <path d="M499.5,1372.86423 L487.5,1379.79243 C487.021707,1380.06857 486.410117,1379.9047 486.133975,1379.42641 C486.046206,1379.27439 486,1379.10194 486,1378.92641 L486,1365.07 C486,1364.51772 486.447715,1364.07 487,1364.07 C487.175537,1364.07 487.347981,1364.11621 487.5,1364.20397 L499.5,1371.13218 C499.978293,1371.40832 500.142168,1372.01991 499.866025,1372.4982 C499.778257,1372.65022 499.652019,1372.77646 499.5,1372.86423 Z" id="foreshape"></path>
+        </g>
+    </g>
+</svg>

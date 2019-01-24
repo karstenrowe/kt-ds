@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-note-20@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-920.000000, -320.000000)" fill="#262F36">
+            <path d="M933,335.585786 L935.585786,333 L934,333 C933.447715,333 933,333.447715 933,334 L933,335.585786 Z M936,332 L936,324 C936,323.447715 935.552285,323 935,323 L924,323 C923.447715,323 923,323.447715 923,324 L923,335 C923,335.552285 923.447715,336 924,336 L932,336 L932,334 C932,332.895431 932.895431,332 934,332 L936,332 Z M924,322 L935,322 C936.104569,322 937,322.895431 937,324 L937,333 L933,337 L924,337 C922.895431,337 922,336.104569 922,335 L922,324 C922,322.895431 922.895431,322 924,322 Z M925,329 L934,329 L934,330 L925,330 L925,329 Z M925,332 L930,332 L930,333 L925,333 L925,332 Z M925,326 L934,326 L934,327 L925,327 L925,326 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-account-security-filled-20</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-320.000000, -1280.000000)" fill="#262F36">
+            <path d="M330.751345,1297 L323,1297 L323,1296 C323,1293.79086 324.790861,1292 327,1292 L330,1292 L330,1293.5 C330,1294.88805 330.2444,1296.05873 330.751345,1297 Z M329.5,1291 C327.014719,1291 325,1288.98528 325,1286.5 C325,1284.01472 327.014719,1282 329.5,1282 C331.985281,1282 334,1284.01472 334,1286.5 C334,1288.98528 331.985281,1291 329.5,1291 Z M331,1292 L334.5,1291 L338,1292 L338,1293.5 C338,1295 337.688889,1296.16667 337.066667,1297 C336.444444,1297.83333 335.588889,1298.5 334.5,1299 C333.411111,1298.5 332.555556,1297.83333 331.933333,1297 C331.311111,1296.16667 331,1295 331,1293.5 L331,1292 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

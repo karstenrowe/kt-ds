@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-diagnostics-filled-20</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-760.000000, -1240.000000)" fill="#262F36">
+            <path d="M769.50004,1242 C773.642055,1242 777,1245.35779 777,1249.5 C777,1253.6421 773.642055,1257 769.50004,1257 C765.357821,1257 762.000081,1253.6421 762.000081,1249.5 C762.000081,1245.35779 765.357821,1242 769.50004,1242 Z M769,1245 L769,1250 L770,1250 L770,1245 L769,1245 Z M769,1252 L769,1253 L770,1253 L770,1252 L769,1252 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

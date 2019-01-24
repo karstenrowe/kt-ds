@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-event-recall-24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-280.000000, -1360.000000)">
+            <circle id="backshape" fill="#7D91A2" cx="291.5" cy="1371.5" r="9.5"></circle>
+            <polygon id="foreshape" fill="#FFFFFF" fill-rule="nonzero" points="291.196152 1371.25986 295.996152 1368 295.996152 1375 291.196152 1371.74014 291.196152 1375 286 1371.5 291.196152 1368"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-license-20@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-880.000000, -280.000000)" fill="#262F36">
+            <path d="M895,284 L884,284 C883.447715,284 883,284.447715 883,285 L883,294 C883,294.552285 883.447715,295 884,295 L895,295 C895.552285,295 896,294.552285 896,294 L896,285 C896,284.447715 895.552285,284 895,284 Z M895,283 C896.104569,283 897,283.895431 897,285 L897,294 C897,295.104569 896.104569,296 895,296 L884,296 C882.895431,296 882,295.104569 882,294 L882,285 C882,283.895431 882.895431,283 884,283 L895,283 Z M890,286 L894,286 L894,287 L890,287 L890,286 Z M890,289 L894,289 L894,290 L890,290 L890,289 Z M885,292 L894,292 L894,293 L885,293 L885,292 Z M885,286 L888,286 L888,290 L885,290 L885,286 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>
