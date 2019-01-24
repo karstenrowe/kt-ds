@@ -837,11 +837,28 @@ p {
     line-height: 22px;
   }
 
+  img {
+    display: inline-block;
+    // width: 100%;
+    height: auto;
+
+  }
+
   .icon {
     background: {
       repeat: no-repeat;
-    };
+    }
     display: inline-block;
+    &:hover{
+      background-color: $grey-10;
+      -webkit-transition: all .15s ease-in;
+      -moz-transition: all .15s ease-in;
+      -ms-transition: all .15s ease-in;
+      -o-transition: all .15s ease-in;
+      transition: all .15s ease-in;
+      border-radius: 4px;
+    }
+
 
     // 16px
     &.icon-size-16 {
@@ -947,11 +964,11 @@ p {
         }
       }
 
-      &.icon-app-android-filled {
+      &.icon-app-android-fill {
         background-image: url("../images/icon/icon-app-android-filled-20.svg");
       }
 
-      &.icon-app-ios-filled {
+      &.icon-app-ios-fill {
         background-image: url("../images/icon/icon-app-ios-filled-20.svg");
       }
 
@@ -1020,13 +1037,13 @@ p {
         }
       }
 
-      &.icon-coaching-coached {
-        background-image: url("../images/icon/icon-coaching-coached-20.svg");
+      // &.icon-coaching-coached {
+      //   background-image: url("../images/icon/icon-coaching-coached-20.svg");
 
-        &.icon-fill {
-          background-image: url("../images/icon/icon-coaching-coached-filled-20.svg");
-        }
-      }
+      //   &.icon-fill {
+      //     background-image: url("../images/icon/icon-coaching-coached-filled-20.svg");
+      //   }
+      // }
 
       &.icon-coaching-locked {
         background-image: url("../images/icon/icon-coaching-locked-20.svg");
@@ -1044,7 +1061,7 @@ p {
         }
       }
 
-      &.icon-coaching-pending {
+      &.icon-coaching-uncoachable {
         background-image: url("../images/icon/icon-coaching-uncoachable-20.svg");
 
         &.icon-fill {
@@ -1067,7 +1084,6 @@ p {
       &.icon-costs {
         background-image: url("../images/icon/icon-costs-20.svg");
       }
-
 
       &.icon-cross {
         background-image: url("../images/icon/icon-cross-20.svg");
@@ -1174,6 +1190,16 @@ p {
         }
       }
 
+        // 20px map icons
+        &.icon-map-event-acceleration-timeline { background-image: url("../images/icon/icon-map-event-acceleration-timeline-20.svg");        }
+        &.icon-map-event-brake-timeline { background-image: url("../images/icon/icon-map-event-brake-timeline-20.svg");        }
+        &.icon-map-event-collision-timeline { background-image: url("../images/icon/icon-map-event-collision-timeline-20.svg");   }
+        &.icon-map-event-corner-timeline { background-image: url("../images/icon/icon-map-event-corner-timeline-20.svg");   }
+        &.icon-map-event-recall-timeline { background-image: url("../images/icon/icon-map-event-recall-timeline-20.svg");   }
+        &.icon-map-event-speeding-timeline { background-image: url("../images/icon/icon-map-event-speeding-timeline-20.svg");   }
+        &.icon-map-vehicle-driving-mark { background-image: url("../images/icon/icon-map-vehicle-driving-mark-20.svg");   }
+        &.icon-map-vehicle-driving-mark-eld { background-image: url("../images/icon/icon-map-vehicle-driving-mark-eld-20.svg");   }
+
     }
 
     // 24px
@@ -1196,6 +1222,10 @@ p {
 
       &.icon-clock {
         background-image: url("../images/icon/icon-clock-24.svg");
+
+        &.icon-fill {
+          background-image: url("../images/icon/icon-clock-filled-24.svg");
+        }
       }
 
       &.icon-close {
@@ -1208,6 +1238,42 @@ p {
         &.icon-fill {
           background-image: url("../images/icon/icon-cross-filled-24.svg");
         }
+      }
+
+      &.icon-exchange {
+        background-image: url("../images/icon/icon-exchange-24.svg");
+      }
+
+      &.icon-event-acceleration {
+        background-image: url("../images/icon/icon-event-acceleration-24.svg");
+      }
+
+      &.icon-event-brake {
+        background-image: url("../images/icon/icon-event-brake-24.svg");
+      }
+
+      &.icon-event-collision {
+        background-image: url("../images/icon/icon-event-collision-24.svg");
+      }
+
+      &.icon-event-corner {
+        background-image: url("../images/icon/icon-event-corner-24.svg");
+      }
+
+      &.icon-event-pause {
+        background-image: url("../images/icon/icon-event-pause-24.svg");
+      }
+
+      &.icon-event-play {
+        background-image: url("../images/icon/icon-event-play-24.svg");
+      }
+
+      &.icon-event-recall {
+        background-image: url("../images/icon/icon-event-recall-24.svg");
+      }
+
+      &.icon-event-speeding {
+        background-image: url("../images/icon/icon-event-speeding-24.svg");
       }
 
       &.icon-minus {
@@ -1227,9 +1293,6 @@ p {
       }
 
 
-      &.icon-exchange {
-        background-image: url("../images/icon/icon-exchange-24.svg");
-      }
 
       &.icon-redo {
         background-image: url("../images/icon/icon-redo-24.svg");

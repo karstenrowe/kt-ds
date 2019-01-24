@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-map-event-corner-timeline-20</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-160.000000, -1520.000000)" fill-rule="nonzero">
+            <path d="M165,1534 C165,1529.02944 169.029437,1525 174,1525 L175,1525 L175,1530 L174,1530 C171.790861,1530 170,1531.79086 170,1534 L170,1535 L165,1535 L165,1534 Z" id="backshape" fill="#FFFFFF"></path>
+            <path d="M166,1534 C166,1529.58172 169.581722,1526 174,1526 L174,1529 C171.238576,1529 169,1531.23858 169,1534 L166,1534 Z" id="foreshape" fill="#A45DDE"></path>
+        </g>
+    </g>
+</svg>

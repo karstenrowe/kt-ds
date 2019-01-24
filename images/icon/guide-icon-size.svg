@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="385px" height="139px" viewBox="0 0 385 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Guide" transform="translate(-80.000000, -160.000000)" fill="#000000">
+            <g id="Group" transform="translate(80.000000, 160.000000)">
+                <g id="24" transform="translate(160.000000, 0.000000)">
+                    <path d="M1,1 L1,23 L23,23 L23,1 L1,1 Z M0,0 L24,0 L24,24 L0,24 L0,0 Z" id="Rectangle-3" fill-rule="nonzero"></path>
+                    <path d="M29,1 L29,23 L31,23 L31,24 L26,24 L26,23 L28,23 L28,1 L26,1 L26,-1.11022302e-16 L31,2.22044605e-16 L31,1 L29,1 Z" id="Combined-Shape" fill-rule="nonzero"></path>
+                    <path d="M12.5,17.5 L12.5,39.5 L14.5,39.5 L14.5,40.5 L9.5,40.5 L9.5,39.5 L11.5,39.5 L11.5,17.5 L9.5,17.5 L9.5,16.5 L14.5,16.5 L14.5,17.5 L12.5,17.5 Z" id="Combined-Shape" fill-rule="nonzero" transform="translate(12.000000, 28.500000) rotate(-90.000000) translate(-12.000000, -28.500000) "></path>
+                    <text font-family="OpenSans-SemiBold, Open Sans" font-size="10" font-weight="500" line-spacing="12">
+                        <tspan x="32" y="11">24</tspan>
+                    </text>
+                    <text font-family="OpenSans-SemiBold, Open Sans" font-size="10" font-weight="500" line-spacing="12">
+                        <tspan x="0" y="43">24</tspan>
+                    </text>
+                </g>
+                <g id="24" transform="translate(240.000000, 0.000000)">
+                    <path d="M1,1 L1,119 L119,119 L119,1 L1,1 Z M0,0 L120,0 L120,120 L0,120 L0,0 Z" id="Rectangle-3" fill-rule="nonzero"></path>
+                    <path d="M125,1 L125,119 L127,119 L127,120 L122,120 L122,119 L124,119 L124,1 L122,1 L122,-1.11022302e-16 L127,2.22044605e-16 L127,1 L125,1 Z" id="Combined-Shape" fill-rule="nonzero"></path>
+                    <path d="M60.5,65.5 L60.5,183.5 L62.5,183.5 L62.5,184.5 L57.5,184.5 L57.5,183.5 L59.5,183.5 L59.5,65.5 L57.5,65.5 L57.5,64.5 L62.5,64.5 L62.5,65.5 L60.5,65.5 Z" id="Combined-Shape" fill-rule="nonzero" transform="translate(60.000000, 124.500000) rotate(-90.000000) translate(-60.000000, -124.500000) "></path>
+                    <text id="120" font-family="OpenSans-SemiBold, Open Sans" font-size="10" font-weight="500" line-spacing="12">
+                        <tspan x="128" y="11">120</tspan>
+                    </text>
+                    <text id="120" font-family="OpenSans-SemiBold, Open Sans" font-size="10" font-weight="500" line-spacing="12">
+                        <tspan x="0" y="139">120</tspan>
+                    </text>
+                </g>
+                <g id="20" transform="translate(80.000000, 0.000000)">
+                    <path d="M1,1 L1,19 L19,19 L19,1 L1,1 Z M0,0 L20,0 L20,20 L0,20 L0,0 Z" id="Rectangle-3" fill-rule="nonzero"></path>
+                    <path d="M25,1 L25,19 L27,19 L27,20 L22,20 L22,19 L24,19 L24,1 L22,1 L22,-1.11022302e-16 L27,2.22044605e-16 L27,1 L25,1 Z" id="Combined-Shape" fill-rule="nonzero"></path>
+                    <path d="M10.5,15.5 L10.5,33.5 L12.5,33.5 L12.5,34.5 L7.5,34.5 L7.5,33.5 L9.5,33.5 L9.5,15.5 L7.5,15.5 L7.5,14.5 L12.5,14.5 L12.5,15.5 L10.5,15.5 Z" id="Combined-Shape" fill-rule="nonzero" transform="translate(10.000000, 24.500000) rotate(-90.000000) translate(-10.000000, -24.500000) "></path>
+                    <text font-family="OpenSans-SemiBold, Open Sans" font-size="10" font-weight="500" line-spacing="12">
+                        <tspan x="28" y="11">20</tspan>
+                    </text>
+                    <text font-family="OpenSans-SemiBold, Open Sans" font-size="10" font-weight="500" line-spacing="12">
+                        <tspan x="0" y="39">20</tspan>
+                    </text>
+                </g>
+                <g id="16x16px">
+                    <path d="M1,1 L1,15 L15,15 L15,1 L1,1 Z M0,0 L16,0 L16,16 L0,16 L0,0 Z" id="Rectangle-3" fill-rule="nonzero"></path>
+                    <path d="M21,1 L21,15 L23,15 L23,16 L18,16 L18,15 L20,15 L20,1 L18,1 L18,-1.11022302e-16 L23,2.22044605e-16 L23,1 L21,1 Z" id="Combined-Shape" fill-rule="nonzero"></path>
+                    <path d="M8.5,13.5 L8.5,27.5 L10.5,27.5 L10.5,28.5 L5.5,28.5 L5.5,27.5 L7.5,27.5 L7.5,13.5 L5.5,13.5 L5.5,12.5 L10.5,12.5 L10.5,13.5 L8.5,13.5 Z" id="Combined-Shape" fill-rule="nonzero" transform="translate(8.000000, 20.500000) rotate(-90.000000) translate(-8.000000, -20.500000) "></path>
+                    <text id="16" font-family="OpenSans-SemiBold, Open Sans" font-size="10" font-weight="500" line-spacing="12">
+                        <tspan x="28" y="11">16</tspan>
+                    </text>
+                    <text id="16" font-family="OpenSans-SemiBold, Open Sans" font-size="10" font-weight="500" line-spacing="12">
+                        <tspan x="0" y="39">16</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
