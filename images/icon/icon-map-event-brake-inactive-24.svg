@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-map-event-brake-map-inactive-24</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M331.133975,1618 L325.071797,1607.5 C324.795654,1607.02171 324.95953,1606.41012 325.437822,1606.13397 C325.589841,1606.04621 325.762286,1606 325.937822,1606 L338.062178,1606 C338.614463,1606 339.062178,1606.44772 339.062178,1607 C339.062178,1607.17554 339.015972,1607.34798 338.928203,1607.5 L332.866025,1618 C332.589883,1618.47829 331.978293,1618.64217 331.5,1618.36603 C331.347981,1618.27826 331.221743,1618.15202 331.133975,1618 Z" id="path-1"></path>
+        <filter x="-24.2%" y="-33.3%" width="148.3%" height="159.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.501330389 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-320.000000, -1600.000000)" fill-rule="nonzero">
+            <g id="backshape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+            <polygon id="foreshape" fill="#F06151" points="332 1615.5 327.669873 1608 336.330127 1608"></polygon>
+        </g>
+    </g>
+</svg>

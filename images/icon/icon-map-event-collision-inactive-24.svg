@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-map-event-collision-map-inactive-24</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M92,1609.5 L96.4,1606.2 C96.8418278,1605.86863 97.4686292,1605.95817 97.8,1606.4 C97.9298221,1606.5731 98,1606.78363 98,1607 L98,1617 C98,1617.55228 97.5522847,1618 97,1618 C96.7836298,1618 96.5730962,1617.92982 96.4,1617.8 L92,1614.5 L87.6,1617.8 C87.1581722,1618.13137 86.5313708,1618.04183 86.2,1617.6 C86.0701779,1617.4269 86,1617.21637 86,1617 L86,1607 C86,1606.44772 86.4477153,1606 87,1606 C87.2163702,1606 87.4269038,1606.07018 87.6,1606.2 L92,1609.5 Z" id="path-1"></path>
+        <filter x="-37.5%" y="-37.5%" width="175.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.501330389 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-80.000000, -1600.000000)" fill-rule="nonzero">
+            <g id="backshape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+            <path d="M88,1609 L92,1612 L88,1615 L88,1609 Z M96,1609 L96,1615 L92,1612 L96,1609 Z" id="foreshape" fill="#000000"></path>
+        </g>
+    </g>
+</svg>

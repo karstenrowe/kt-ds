@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-map-event-corner-map-inactive-24</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M246,1616 C246,1610.47715 250.477153,1606 256,1606 L257,1606 C257.552285,1606 258,1606.44772 258,1607 L258,1612 C258,1612.55228 257.552285,1613 257,1613 L256,1613 C254.343146,1613 253,1614.34315 253,1616 L253,1617 C253,1617.55228 252.552285,1618 252,1618 L247,1618 C246.447715,1618 246,1617.55228 246,1617 L246,1616 Z" id="path-1"></path>
+        <filter x="-37.5%" y="-37.5%" width="175.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.501330389 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-240.000000, -1600.000000)" fill-rule="nonzero">
+            <g id="backshape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+            <path d="M248,1616 C248,1611.58172 251.581722,1608 256,1608 L256,1611 C253.238576,1611 251,1613.23858 251,1616 L248,1616 Z" id="foreshape" fill="#B078D9"></path>
+        </g>
+    </g>
+</svg>

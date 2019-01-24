@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-map-event-recall-map-inactive-24</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M173.676337,1608.1186 L176.45304,1606.32256 C176.916771,1606.0226 177.53586,1606.15537 177.835812,1606.6191 C177.940473,1606.78091 177.996152,1606.96951 177.996152,1607.16222 L177.996152,1616.83778 C177.996152,1617.39007 177.548437,1617.83778 176.996152,1617.83778 C176.803447,1617.83778 176.614847,1617.7821 176.45304,1617.67744 L173.676337,1615.8814 L173.676337,1616.82962 C173.676337,1617.3819 173.228622,1617.82962 172.676337,1617.82962 C172.484906,1617.82962 172.297497,1617.77467 172.136372,1617.6713 L164.608065,1612.84169 C164.143214,1612.54347 164.008128,1611.92489 164.306343,1611.46003 C164.384038,1611.33892 164.486955,1611.23601 164.608065,1611.15831 L172.136372,1606.3287 C172.601223,1606.03048 173.219809,1606.16557 173.518024,1606.63042 C173.621391,1606.79154 173.676337,1606.97895 173.676337,1607.17038 L173.676337,1608.1186 Z" id="path-1"></path>
+        <filter x="-24.8%" y="-27.4%" width="155.4%" height="154.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.501330389 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-160.000000, -1600.000000)" fill-rule="nonzero">
+            <g id="backshape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+            <polygon id="foreshape" fill="#7D91A2" points="171.676337 1611.79416 175.996152 1609 175.996152 1615 171.676337 1612.20584 171.676337 1615 167 1612 171.676337 1609"></polygon>
+        </g>
+    </g>
+</svg>
