@@ -851,16 +851,6 @@ p {
 
     display: inline-block;
 
-    &:hover {
-      background-color: $grey-10;
-      -webkit-transition: all .15s ease-in;
-      -moz-transition: all .15s ease-in;
-      -ms-transition: all .15s ease-in;
-      -o-transition: all .15s ease-in;
-      transition: all .15s ease-in;
-      border-radius: 4px;
-    }
-
     // 16px
     &.icon-size-16 {
       height: 16px;
