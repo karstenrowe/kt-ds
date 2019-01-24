@@ -585,10 +585,7 @@ p {
   }
 }
 
-// ————————————————————————————————————————————————————————————————
-//  Color
-// ————————————————————————————————————————————————————————————————
-
+// Color
 .sg-markup-Brand-color-html .sg-example {
   font-size: 14px;
   line-height: 22px;
@@ -843,18 +840,14 @@ p {
   .icon {
     background: {
       repeat: no-repeat;
-    }
-
-    ;
+    };
     display: inline-block;
 
-    // Size
-
+    // 16px
     &.icon-size-16 {
       height: 16px;
       width: 16px;
 
-      // 16px icons
       &.icon-chevron-down {
         background-image: url("../images/icon/icon-chevron-down-16.svg");
       }
@@ -918,10 +911,9 @@ p {
       &.icon-switch-on {
         background-image: url("../images/icon/icon-switch-on-16.svg");
       }
-
-
     }
 
+    // 20px
     &.icon-size-20 {
       height: 20px;
       width: 20px;
@@ -1184,6 +1176,7 @@ p {
 
     }
 
+    // 24px
     &.icon-size-24 {
       height: 24px;
       width: 24px;
@@ -1253,6 +1246,7 @@ p {
 
     }
 
+    // 120px
     &.icon-size-120 {
       height: 120px;
       width: 120px;
@@ -1410,7 +1404,6 @@ p {
 
     }
   }
-
 }
 
 // Link
@@ -1817,13 +1810,13 @@ p {
     }
 
     .container-card-body {
+      background: #fff;
       border: 1px solid $grey-20;
+      border-radius: 4px;
       box-shadow: 0 1px 1px 0 rgba(138, 156, 167, 0.15);
 
       .container-card-sub-header {
-        background: #fff;
         border-bottom: 1px solid $grey-20;
-        border-radius: 4px 4px 0 0;
         color: $grey-40;
         font-size: 14px;
         font-weight: 600;
@@ -1835,7 +1828,6 @@ p {
       }
 
       .container-card-main-content {
-        background: #fff;
         border-radius: 0 0 4px 4px;
         padding: 0.6rem 0.8rem;
 
