@@ -847,29 +847,12 @@ p {
     line-height: 22px;
   }
 
-  img {
-    display: inline-block;
-    // width: 100%;
-    height: auto;
-
-  }
-
   .icon {
     background: {
       repeat: no-repeat;
     }
 
     display: inline-block;
-
-    &:hover {
-      background-color: $grey-10;
-      -webkit-transition: all .15s ease-in;
-      -moz-transition: all .15s ease-in;
-      -ms-transition: all .15s ease-in;
-      -o-transition: all .15s ease-in;
-      transition: all .15s ease-in;
-      border-radius: 4px;
-    }
 
     // 16px
     &.icon-size-16 {
@@ -946,7 +929,6 @@ p {
       height: 20px;
       width: 20px;
 
-      // 20px icons
       &.icon-0-placeholder {
         background-image: url("../images/icon/icon-0-placeholder-20.svg");
       }
@@ -1014,7 +996,6 @@ p {
           background-image: url("../images/icon/icon-calendar-20.svg");
         }
       }
-
 
       &.icon-close {
         background-image: url("../images/icon/icon-close-20.svg");
@@ -1152,7 +1133,6 @@ p {
         background-image: url("../images/icon/icon-download-20.svg");
       }
 
-
       &.icon-driver {
         background-image: url("../images/icon/icon-driver-20.svg");
 
@@ -1161,10 +1141,8 @@ p {
         }
       }
 
-
       //Driver Add onwards
       // &.icon- {background-image: url("../images/icon/icon--20.svg"); }
-
       &.icon-location {
         background-image: url("../images/icon/icon-location-20.svg");
 
@@ -1182,8 +1160,6 @@ p {
         }
       }
 
-
-
       &.icon-overview {
         background-image: url("../images/icon/icon-overview-20.svg");
 
@@ -1191,7 +1167,6 @@ p {
           background-image: url("../images/icon/icon-overview-20-fill.svg");
         }
       }
-
 
       &.icon-scorecard {
         background-image: url("../images/icon/icon-scorecard-20.svg");
@@ -1241,7 +1216,6 @@ p {
       height: 24px;
       width: 24px;
 
-      // 24px
       &.icon-0-placeholder {
         background-image: url("../images/icon/icon-0-placeholder-24.svg");
       }
@@ -1437,7 +1411,6 @@ p {
       height: 120px;
       width: 120px;
 
-      // 120px icons
       &.icon-alerts {
         background-image: url("../images/icon/icon-alerts-120.svg");
       }
