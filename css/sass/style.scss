@@ -391,6 +391,16 @@ p {
         }
       }
 
+
+      &.col-10 {
+        grid-gap: 0;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        @media screen and (min-width: 1200px) {
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        }
+      }
+
       &.col-12 {
         grid-gap: 0;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1390,8 +1400,36 @@ p {
       }
 
       &.icon-map-vehicle-stationary {
-        background-image: url("../images/icon/icon-map-vehicle-stationary-mark-24.svg");
+        background-image: url("../images/icon/icon-map-vehicle-stationary-24.svg");
       }
+
+      // 24px overlay icons
+
+
+      &.icon-overlay-compass-dynamic {
+        background-image: url("../images/icon/icon-overlay-compass-dynamic-24.svg");
+      }
+
+      &.icon-overlay-cross {
+        background-image: url("../images/icon/icon-overlay-cross-24.svg");
+      }
+
+      &.icon-overlay-redo {
+        background-image: url("../images/icon/icon-overlay-redo-24.svg");
+      }
+
+      &.icon-overlay-undo {
+        background-image: url("../images/icon/icon-overlay-undo-24.svg");
+      }
+
+      &.icon-overlay-video-download {
+        background-image: url("../images/icon/icon-overlay-video-download-24.svg");
+      }
+
+      &.icon-overlay-video-fullscreen {
+        background-image: url("../images/icon/icon-overlay-video-fullscreen-24.svg");
+      }
+
     }
 
     // 120px
@@ -1547,6 +1585,12 @@ p {
       &.icon-wrench {
         background-image: url("../images/icon/icon-wrench-120.svg");
       }
+
+      //120px map
+      &.icon-overlay-play {
+        background-image: url("../images/icon/icon-overlay-play-120.svg");
+      }
+
     }
   }
 }

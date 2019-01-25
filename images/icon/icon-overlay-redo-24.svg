@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-overlay-redo-24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-240.000000, -1760.000000)" fill="#262F36">
+            <path d="M257.171573,1767 L254.585786,1764.41421 L256,1763 L261,1768 L256,1773 L254.585786,1771.58579 L257.171573,1769 L249,1769 C246.790861,1769 245,1770.79086 245,1773 C245,1775.20914 246.790861,1777 249,1777 L259,1777 L259,1779 L249,1779 C245.686292,1779 243,1776.31371 243,1773 C243,1769.68629 245.686292,1767 249,1767 L257.171573,1767 Z" id="shape"></path>
+        </g>
+    </g>
+</svg>

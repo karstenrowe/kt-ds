@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-overlay-video-fullscreen-24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-160.000000, -1760.000000)" fill="#262F36">
+            <path d="M166,1764 L170,1764 L170,1766 L166,1766 L166,1770 L164,1770 L164,1766 C164,1764.89543 164.895431,1764 166,1764 Z M180,1766 L180,1770 L178,1770 L178,1766 L174,1766 L174,1764 L178,1764 C179.104569,1764 180,1764.89543 180,1766 Z M164,1778 L164,1774 L166,1774 L166,1778 L170,1778 L170,1780 L166,1780 C164.895431,1780 164,1779.10457 164,1778 Z M178,1780 L174,1780 L174,1778 L178,1778 L178,1774 L180,1774 L180,1778 C180,1779.10457 179.104569,1780 178,1780 Z" id="shape" transform="translate(172.000000, 1772.000000) rotate(-360.000000) translate(-172.000000, -1772.000000) "></path>
+        </g>
+    </g>
+</svg>

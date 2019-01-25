@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-overlay-play-120</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-80.000000, -1840.000000)">
+            <path d="M140,1945 C115.147186,1945 95,1924.85281 95,1900 C95,1875.14719 115.147186,1855 140,1855 C164.852814,1855 185,1875.14719 185,1900 C185,1924.85281 164.852814,1945 140,1945 Z" id="backshape" fill="#207CBA"></path>
+            <path d="M159.749597,1902.18444 L129.749955,1919.66161 C128.554238,1920.35821 127.02528,1919.94482 126.334932,1918.73827 C126.115514,1918.35479 126,1917.91978 126,1917.47697 L126,1882.52261 C126,1881.12941 127.119275,1880 128.49997,1880 C128.938807,1880 129.369912,1880.11656 129.749955,1880.33797 L159.749597,1897.81514 C160.945315,1898.51174 161.354998,1900.05455 160.66465,1901.2611 C160.445232,1901.64458 160.129641,1901.96303 159.749597,1902.18444 Z" id="foreshape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
