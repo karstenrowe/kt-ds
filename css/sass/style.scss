@@ -847,6 +847,12 @@ p {
     line-height: 22px;
   }
 
+  .bg-grey-10 {
+    background-color: $grey-10;
+    border-radius: 4px;
+    padding: 4px 0 0 4px;
+  }
+
   .icon {
     background: {
       repeat: no-repeat;
@@ -2004,34 +2010,84 @@ p {
 
 // Filter
 .sg-markup-component-filter-html .sg-example {
+
+
   .filter {
-
-    // background: $grey-50;
+    min-width: 200px;
+    width: 320px;
+    font-family: $font-body;
     border-radius: 4px;
-
-    height: 40px;
-    min-width: 300px;
-    // color: #fff;
-    // letter-spacing: 0.4px;
     font-size: 14px;
-    border: 1px $grey-40 solid;
     text-align: left;
-    line-height: 20px;
-    // font-weight: 600;
-    margin-bottom: 4px;
-    padding: 4px 12px;
+    line-height: 22px;
+    height: 40px;
+    padding: 4px 16px;
 
-    // &.badge-word {
-    //   width: 80px;
-    // }
-    // &.badge-driving {
-    //   background: $green-50;
-    // }
-    // &.badge-on-duty {
-    //   background: $blue-50;
-    // }
-    // &.badge-major {
-    //   background: $red-50;
-    // }
+    p {
+      margin: 4px auto;
+      display: inline-block;
+    }
+
+    &.filter-idle {
+      border: 1px $grey-30 solid;
+
+      p {
+        color: $grey-30;
+        font-style: italic;
+      }
+    }
+
+    &.filter-active {
+      border: 1px $grey-50 solid;
+
+      p {
+        color: $grey-70;
+        font-style: italic;
+      }
+    }
+
+
+    &.filter-selected {
+      border: 1px $grey-30 solid;
+
+      p {
+        color: $grey-60;
+      }
+    }
+
+  }
+
+  //for labelling
+  p { 
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  //This code is repetitive and poor, need help to understand the structure of this repo and then change this
+  .icon {
+    background: {
+      repeat: no-repeat;
+    }
+
+    margin: 6px auto;
+    float: right;
+    display: inline-block;
+
+    &.icon-size-16 {
+      height: 16px;
+      width: 16px;
+
+      &.icon-chevron-down {
+        background-image: url("../images/icon/icon-chevron-down-16.svg");
+      }
+
+      &.icon-cross {
+        background-image: url("../images/icon/icon-cross-16.svg");
+      }
+    }
+  }
+
+  input {
+    display: none;
   }
 }
