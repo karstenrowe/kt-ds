@@ -391,16 +391,6 @@ p {
         }
       }
 
-
-      &.col-10 {
-        grid-gap: 0;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-
-        @media screen and (min-width: 1200px) {
-          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        }
-      }
-
       &.col-12 {
         grid-gap: 0;
         grid-template-columns: 1fr 1fr 1fr 1fr;
