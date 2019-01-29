@@ -548,40 +548,30 @@ p {
     margin-top: 0;
   }
 
-  .logo-type-kt {
+  // Shared
+  .logo {
     background: {
-      image: url("../images/logo-type-kt.svg");
       position: 0 0;
       repeat: no-repeat;
       size: contain;
-    }
-
-    ;
+    };
     min-height: 40px;
+  }
+
+  .logo-type-kt {
+    background-image: url("../images/logo-type-kt.svg");
   }
 
   .logo-symbol-kt {
-    background: {
-      image: url("../images/logo-symbol-kt.svg");
-      position: 0 0;
-      repeat: no-repeat;
-      size: contain;
-    }
-
-    ;
-    min-height: 40px;
+    background-image: url("../images/logo-symbol-kt.svg");
   }
 
   .app-icon-kt {
-    background: {
-      image: url("../images/app-icon-kt.svg");
-      position: 0 0;
-      repeat: no-repeat;
-      size: contain;
-    }
+    background-image: url("../images/app-icon-kt.svg");
+  }
 
-    ;
-    min-height: 40px;
+  .app-avatar-kt {
+    background-image: url("../images/app-avatar-kt.svg");
   }
 }
 
@@ -837,12 +827,6 @@ p {
     line-height: 22px;
   }
 
-  .bg-grey-10 {
-    background-color: $grey-10;
-    border-radius: 4px;
-    padding: 4px 0 0 4px;
-  }
-
   .icon {
     background: {
       repeat: no-repeat;
@@ -887,8 +871,8 @@ p {
         background-image: url("../images/icon/icon-chevron-tiny-right-16.svg");
       }
 
-      &.icon-bullet {
-        background-image: url("../images/icon/icon-bullet-16.svg");
+      &.icon-spacer {
+        background-image: url("../images/icon/icon-spacer-16.svg");
       }
 
       &.icon-i {
@@ -2001,7 +1985,6 @@ p {
 // Filter
 .sg-markup-component-filter-html .sg-example {
 
-
   .filter {
     min-width: 200px;
     width: 320px;
@@ -2048,7 +2031,7 @@ p {
   }
 
   //for labelling
-  p { 
+  p {
     font-size: 14px;
     line-height: 22px;
   }
@@ -2071,8 +2054,8 @@ p {
         background-image: url("../images/icon/icon-chevron-down-16.svg");
       }
 
-      &.icon-cross {
-        background-image: url("../images/icon/icon-cross-16.svg");
+      &.icon-clear {
+        background-image: url("../images/icon/icon-clear-16.svg");
       }
     }
   }
