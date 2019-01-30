@@ -1009,14 +1009,6 @@ p {
         }
       }
 
-      // &.icon-coaching-coached {
-      //   background-image: url("../images/icon/icon-coaching-coached-20.svg");
-
-      //   &.icon-fill {
-      //     background-image: url("../images/icon/icon-coaching-coached-filled-20.svg");
-      //   }
-      // }
-
       &.icon-coaching-locked {
         background-image: url("../images/icon/icon-coaching-locked-20.svg");
 
@@ -1122,7 +1114,6 @@ p {
       }
 
       //Driver Add onwards
-      // &.icon- {background-image: url("../images/icon/icon--20.svg"); }
       &.icon-location {
         background-image: url("../images/icon/icon-location-20.svg");
 
@@ -2030,13 +2021,13 @@ p {
 
   }
 
-  //for labelling
   p {
     font-size: 14px;
     line-height: 22px;
   }
 
-  //This code is repetitive and poor, need help to understand the structure of this repo and then change this
+  //repetitive code
+  //need help to understand the structure of this repo and then change this
   .icon {
     background: {
       repeat: no-repeat;
@@ -2062,5 +2053,131 @@ p {
 
   input {
     display: none;
+  }
+}
+
+.sg-markup-component-map-html .sg-example {
+  p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .icon {
+    background: {
+      repeat: no-repeat;
+    }
+
+    display: inline-block;
+
+    // 20px
+    &.icon-size-20 {
+      height: 20px;
+      width: 20px;
+
+      // 20px map icons
+      &.icon-map-event-acceleration-timeline {
+        background-image: url("../images/icon/icon-map-event-acceleration-timeline-20.svg");
+      }
+
+      &.icon-map-event-brake-timeline {
+        background-image: url("../images/icon/icon-map-event-brake-timeline-20.svg");
+      }
+
+      &.icon-map-event-collision-timeline {
+        background-image: url("../images/icon/icon-map-event-collision-timeline-20.svg");
+      }
+
+      &.icon-map-event-corner-timeline {
+        background-image: url("../images/icon/icon-map-event-corner-timeline-20.svg");
+      }
+
+      &.icon-map-event-recall-timeline {
+        background-image: url("../images/icon/icon-map-event-recall-timeline-20.svg");
+      }
+
+      &.icon-map-event-speeding-timeline {
+        background-image: url("../images/icon/icon-map-event-speeding-timeline-20.svg");
+      }
+
+      &.icon-map-vehicle-driving-mark {
+        background-image: url("../images/icon/icon-map-vehicle-driving-mark-20.svg");
+      }
+
+      &.icon-map-vehicle-driving-mark-eld {
+        background-image: url("../images/icon/icon-map-vehicle-driving-mark-eld-20.svg");
+      }
+
+    }
+
+    // 24px
+    &.icon-size-24 {
+      height: 24px;
+      width: 24px;
+
+      // 24px map icons
+      &.icon-map-event-acceleration-active {
+        background-image: url("../images/icon/icon-map-event-acceleration-active-24.svg");
+      }
+
+      &.icon-map-event-acceleration-inactive {
+        background-image: url("../images/icon/icon-map-event-acceleration-inactive-24.svg");
+      }
+
+      &.icon-map-event-brake-active {
+        background-image: url("../images/icon/icon-map-event-brake-active-24.svg");
+      }
+
+      &.icon-map-event-brake-inactive {
+        background-image: url("../images/icon/icon-map-event-brake-inactive-24.svg");
+      }
+
+      &.icon-map-event-collision-active {
+        background-image: url("../images/icon/icon-map-event-collision-active-24.svg");
+      }
+
+      &.icon-map-event-collision-inactive {
+        background-image: url("../images/icon/icon-map-event-collision-inactive-24.svg");
+      }
+
+      &.icon-map-event-corner-active {
+        background-image: url("../images/icon/icon-map-event-corner-active-24.svg");
+      }
+
+      &.icon-map-event-corner-inactive {
+        background-image: url("../images/icon/icon-map-event-corner-inactive-24.svg");
+      }
+
+      &.icon-map-event-recall-active {
+        background-image: url("../images/icon/icon-map-event-recall-active-24.svg");
+      }
+
+      &.icon-map-event-recall-inactive {
+        background-image: url("../images/icon/icon-map-event-recall-inactive-24.svg");
+      }
+
+      &.icon-map-event-speeding-active {
+        background-image: url("../images/icon/icon-map-event-speeding-active-24.svg");
+      }
+
+      &.icon-map-event-speeding-inactive {
+        background-image: url("../images/icon/icon-map-event-speeding-inactive-24.svg");
+      }
+
+      &.icon-map-vehicle-disabled {
+        background-image: url("../images/icon/icon-map-vehicle-disabled-24.svg");
+      }
+
+      &.icon-map-vehicle-driving {
+        background-image: url("../images/icon/icon-map-vehicle-driving-24.svg");
+      }
+
+      &.icon-map-vehicle-driving-direction {
+        background-image: url("../images/icon/icon-map-vehicle-driving-direction-24.svg");
+      }
+
+      &.icon-map-vehicle-stationary {
+        background-image: url("../images/icon/icon-map-vehicle-stationary-24.svg");
+      }
+    }
   }
 }
