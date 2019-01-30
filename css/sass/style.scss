@@ -859,8 +859,8 @@ p {
         background-image: url("../images/icon/icon-pop-up-list-16.svg");
       }
 
-      &.icon-cross {
-        background-image: url("../images/icon/icon-cross-16.svg");
+      &.icon-clear {
+        background-image: url("../images/icon/icon-clear-16.svg");
       }
 
       &.icon-lock {
@@ -891,10 +891,6 @@ p {
         background-image: url("../images/icon/icon-link-16.svg");
       }
 
-      &.icon-0-placeholder {
-        background-image: url("../images/icon/icon-0-placeholder-16.svg");
-      }
-
       &.icon-switch-off {
         background-image: url("../images/icon/icon-switch-off-16.svg");
       }
@@ -908,10 +904,6 @@ p {
     &.icon-size-20 {
       height: 20px;
       width: 20px;
-
-      &.icon-0-placeholder {
-        background-image: url("../images/icon/icon-0-placeholder-20.svg");
-      }
 
       &.icon-16-hour-exception {
         background-image: url("../images/icon/icon-16-hour-exception-20.svg");
@@ -1049,11 +1041,11 @@ p {
         background-image: url("../images/icon/icon-costs-20.svg");
       }
 
-      &.icon-cross {
-        background-image: url("../images/icon/icon-cross-20.svg");
+      &.icon-clear {
+        background-image: url("../images/icon/icon-clear-20.svg");
 
         &.icon-fill {
-          background-image: url("../images/icon/icon-cross-filled-20.svg");
+          background-image: url("../images/icon/icon-clear-filled-20.svg");
         }
       }
 
@@ -1187,10 +1179,6 @@ p {
       height: 24px;
       width: 24px;
 
-      &.icon-0-placeholder {
-        background-image: url("../images/icon/icon-0-placeholder-24.svg");
-      }
-
       &.icon-avatar {
         background-image: url("../images/icon/icon-avatar-24.svg");
 
@@ -1211,11 +1199,11 @@ p {
         background-image: url("../images/icon/icon-close-24.svg");
       }
 
-      &.icon-cross {
-        background-image: url("../images/icon/icon-cross-24.svg");
+      &.icon-clear {
+        background-image: url("../images/icon/icon-clear-24.svg");
 
         &.icon-fill {
-          background-image: url("../images/icon/icon-cross-filled-24.svg");
+          background-image: url("../images/icon/icon-clear-filled-24.svg");
         }
       }
 
