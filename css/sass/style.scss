@@ -828,16 +828,17 @@ p {
   }
 
   .icon {
-    background: {
-      repeat: no-repeat;
-    }
-
     display: inline-block;
+    background: { repeat: no-repeat; }
 
     // 16px
     &.icon-size-16 {
       height: 16px;
       width: 16px;
+
+      &.blank-placeholder {
+        background-color: $grey-10;
+      }
 
       &.icon-chevron-down {
         background-image: url("../images/icon/icon-chevron-down-16.svg");
@@ -905,6 +906,10 @@ p {
       height: 20px;
       width: 20px;
 
+      &.blank-placeholder {
+        background-color: $grey-10;
+      }
+
       &.icon-16-hour-exception {
         background-image: url("../images/icon/icon-16-hour-exception-20.svg");
       }
@@ -965,7 +970,7 @@ p {
         background-image: url("../images/icon/icon-calendar-20.svg");
 
         &.icon-fill {
-          background-image: url("../images/icon/icon-calendar-20.svg");
+          background-image: url("../images/icon/icon-calendar-filled-20.svg");
         }
       }
 
@@ -1105,7 +1110,6 @@ p {
         }
       }
 
-      //Driver Add onwards
       &.icon-location {
         background-image: url("../images/icon/icon-location-20.svg");
 
@@ -1113,7 +1117,6 @@ p {
           background-image: url("../images/icon/icon-scorecard-20-fill.svg");
         }
       }
-
 
       &.icon-log {
         background-image: url("../images/icon/icon-log-20.svg");
@@ -1178,6 +1181,10 @@ p {
     &.icon-size-24 {
       height: 24px;
       width: 24px;
+
+      &.blank-placeholder {
+        background-color: $grey-10;
+      }
 
       &.icon-avatar {
         background-image: url("../images/icon/icon-avatar-24.svg");
@@ -1247,7 +1254,7 @@ p {
         background-image: url("../images/icon/icon-minus-24.svg");
 
         &.icon-fill {
-          background-image: url("../images/icon/icon-avatar-minus-24.svg");
+          background-image: url("../images/icon/icon-minus-filled-24.svg");
         }
       }
 
@@ -1337,8 +1344,6 @@ p {
       }
 
       // 24px overlay icons
-
-
       &.icon-overlay-compass-dynamic {
         background-image: url("../images/icon/icon-overlay-compass-dynamic-24.svg");
       }
