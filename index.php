@@ -3,7 +3,7 @@
 <html lang="en" class="no-js">
 <head>
 <meta charset="utf-8">
-  <title>Style Guide Boilerplate</title>
+  <title>KeepTruckin Style Guide</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Google Fonts -->

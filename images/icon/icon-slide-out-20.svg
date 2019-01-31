@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-slide-out-20@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbol" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/20/slide-out" fill="#262F36">
+            <g id="shape">
+                <path d="M4,4 C3.44771525,4 3,4.44771525 3,5 L3,14 C3,14.5522847 3.44771525,15 4,15 L15,15 C15.5522847,15 16,14.5522847 16,14 L16,5 C16,4.44771525 15.5522847,4 15,4 L4,4 Z M4,3 L15,3 C16.1045695,3 17,3.8954305 17,5 L17,14 C17,15.1045695 16.1045695,16 15,16 L4,16 C2.8954305,16 2,15.1045695 2,14 L2,5 C2,3.8954305 2.8954305,3 4,3 Z M5,4 L6,4 L6,15 L5,15 L5,4 Z M11.5428932,7.45710678 L12.25,6.75 L15,9.5 L12.25,12.25 L11.5428932,11.5428932 L13.0857864,10 L7,10 L7,9 L13.0857864,9 L11.5428932,7.45710678 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>
