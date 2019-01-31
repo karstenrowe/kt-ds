@@ -2326,3 +2326,78 @@ p {
     }
   }
 }
+
+
+//Notification
+.sg-markup-component-notification-html .sg-example {
+
+  .notification {
+    font-family: $font-body;
+    border-radius: 4px;
+    font-size: 16px;
+    min-width: 500px;
+    text-align: left;
+    line-height: 24px;
+    padding: 8px 16px;
+    margin-bottom: 40px;
+
+    a {
+      color: inherit;
+    }
+
+    &.notification-info {
+      color: $blue-60;
+      background: $blue-10;
+      border: 1px solid $blue-60;
+    }
+
+    &.notification-success {
+      color: $green-60;
+      background: $green-10;
+      border: 1px solid $green-60;
+    }
+
+    &.notification-warning {
+      color: $yellow-60;
+      background: $yellow-10;
+      border: 1px solid $yellow-60;
+    }
+
+    &.notification-error {
+      color: $red-60;
+      background: $red-10;
+      border: 1px solid $red-60;
+    }
+
+    &.notification-with-heading {
+    text-align: center;
+
+      p {
+        margin: 0px auto;
+        font-size: inherit;
+        color: inherit;
+        line-height: inherit;
+      }
+    }
+  }
+
+  //redundant code, will be linked from icon
+  .icon {
+    margin: 4px auto;
+    float: right;
+    display: inline-block;
+
+    &:hover{
+      cursor: pointer;
+    }
+
+    &.icon-size-16 {
+      height: 16px;
+      width: 16px;
+
+      &.icon-clear {
+        background-image: url("../images/icon/icon-clear-16.svg");
+      }
+    }
+  }
+}
