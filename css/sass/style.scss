@@ -2335,19 +2335,14 @@ p {
   }
 }
 
-
 //Notification
 .sg-markup-component-notification-html .sg-example {
 
   .notification {
-    font-family: $font-body;
     border-radius: 4px;
-    font-size: 16px;
     min-width: 500px;
-    text-align: left;
-    line-height: 24px;
     padding: 8px 16px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 
     a {
       color: inherit;
@@ -2381,23 +2376,17 @@ p {
     text-align: center;
 
       p {
-        margin: 0px auto;
-        font-size: inherit;
+        margin-top: 4px;
         color: inherit;
-        line-height: inherit;
       }
     }
   }
 
-  //redundant code, will be linked from icon
+  // Redundant code, will be linked from icon
   .icon {
     margin: 4px auto;
     float: right;
     display: inline-block;
-
-    &:hover{
-      cursor: pointer;
-    }
 
     &.icon-size-16 {
       height: 16px;
