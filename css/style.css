@@ -2005,7 +2005,7 @@ p {
   background: #fff;
   border: 1px solid #BEC8D1;
   border-radius: 4px;
-  box-shadow: 0 1px 1px 0 rgba(138, 156, 167, 0.15);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .sg-markup-component-card-html .sg-example .component-card .container-card-body .container-card-sub-header {
@@ -2219,6 +2219,7 @@ p {
 
 .sg-markup-component-notification-html .sg-example .notification {
   border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
   min-width: 500px;
   padding: 8px 16px;
   margin-bottom: 20px;
@@ -2257,7 +2258,7 @@ p {
 }
 
 .sg-markup-component-notification-html .sg-example .notification.notification-with-heading p {
-  margin-top: 4px;
+  margin: 4px 0 0 0;
   color: inherit;
 }
 
