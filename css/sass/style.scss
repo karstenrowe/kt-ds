@@ -2399,3 +2399,57 @@ p {
     }
   }
 }
+
+.sg-markup-component-table-html .sg-example {
+
+  .table {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+
+  .table-cell {
+    box-sizing: border-box;
+    flex-grow: 1;
+    width: 100%;  // default to full width
+    padding: 0.8em 1.2em;
+    overflow: hidden; // or flex might break
+    list-style: none;
+    border: solid 1px $grey-20;
+    margin: -1px 0 0 -1px;
+
+    &.table-cell-head{
+      background-color: $grey-10;
+      color: $grey-80;
+      font-weight: 600;
+    }
+
+  }
+
+  // table column sizing
+  .table-2cols > .table-cell  { width: 50%; }
+  .table-3cols > .table-cell  { width: 33.33%; }
+  .table-4cols > .table-cell  { width: 25%; }
+  .table-5cols > .table-cell  { width: 20%; }
+  .table-6cols > .table-cell  { width: 16.6%; }
+
+  // responsive
+  $breakpoint-mobile: 480px;
+
+  @media all and (max-width: $breakpoint-mobile) {
+    .table-collapse  {
+      display: block;
+      > .table-cell { width: 100% !important; }
+      > .table-cell-foot { margin-bottom: 1em; }
+    }
+  }
+
+  // non-flex modernizer fallback
+  .no-flexbox .table {
+    display: block;
+    > .table-cell { width: 100%; }
+    > .table-cell-foot { margin-bottom: 1em; }
+  }
+
+}
