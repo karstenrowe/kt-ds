@@ -2423,18 +2423,17 @@ p {
       background-color: $grey-10;
       color: $grey-80;
       font-weight: 600;
+      text-transform: uppercase; 
     }
 
   }
 
-  // table column sizing
-  .table-2cols > .table-cell  { width: 50%; }
-  .table-3cols > .table-cell  { width: 33.33%; }
-  .table-4cols > .table-cell  { width: 25%; }
-  .table-5cols > .table-cell  { width: 20%; }
-  .table-6cols > .table-cell  { width: 16.6%; }
+  // Table column sizing
+  .table-col-2 > .table-cell  { width: 100/2; }
+  .table-col-4 > .table-cell  { width: 100/4; }
+  .table-col-6 > .table-cell  { width: 100/6; }
 
-  // responsive
+  // Responsive
   $breakpoint-mobile: 480px;
 
   @media all and (max-width: $breakpoint-mobile) {
@@ -2443,13 +2442,6 @@ p {
       > .table-cell { width: 100% !important; }
       > .table-cell-foot { margin-bottom: 1em; }
     }
-  }
-
-  // non-flex modernizer fallback
-  .no-flexbox .table {
-    display: block;
-    > .table-cell { width: 100%; }
-    > .table-cell-foot { margin-bottom: 1em; }
   }
 
 }
