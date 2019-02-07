@@ -554,7 +554,9 @@ p {
       position: 0 0;
       repeat: no-repeat;
       size: contain;
-    };
+    }
+
+    ;
     min-height: 40px;
   }
 
@@ -829,7 +831,10 @@ p {
 
   .icon {
     display: inline-block;
-    background: { repeat: no-repeat; }
+
+    background: {
+      repeat: no-repeat;
+    }
 
     // 16px
     &.icon-size-16 {
@@ -1191,7 +1196,7 @@ p {
       }
 
       &.icon-printer {
-      background-image: url("../images/icon/icon-20-outline-printer.svg");
+        background-image: url("../images/icon/icon-20-outline-printer.svg");
 
         &.icon-fill {
           background-image: url("../images/icon/icon-20-filled-printer.svg");
@@ -1219,7 +1224,7 @@ p {
       }
 
       &.icon-reports {
-      background-image: url("../images/icon/icon-20-outline-reports.svg");
+        background-image: url("../images/icon/icon-20-outline-reports.svg");
 
         &.icon-fill {
           background-image: url("../images/icon/icon-20-filled-reports.svg");
@@ -2099,7 +2104,7 @@ p {
       background: #fff;
       border: 1px solid $grey-20;
       border-radius: 4px;
-      box-shadow: 0 1px 1px 0 rgba(0,0,0, 0.1);
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
 
       .container-card-sub-header {
         border-bottom: 1px solid $grey-20;
@@ -2340,7 +2345,7 @@ p {
 
   .notification {
     border-radius: 4px;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0, 0.1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
     min-width: 500px;
     padding: 8px 16px;
     margin-bottom: 20px;
@@ -2374,7 +2379,7 @@ p {
     }
 
     &.notification-with-heading {
-    text-align: center;
+      text-align: center;
 
       p {
         margin: 4px 0 0 0;
@@ -2396,6 +2401,62 @@ p {
       &.icon-clear {
         background-image: url("../images/icon/icon-16-outline-clear.svg");
       }
+    }
+  }
+}
+
+//Tooltip
+.sg-markup-component-tooltip-html .sg-example {
+
+  .tooltip {
+    background-color: $grey-80;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 16px;
+    max-width: 240px;
+    min-width: min-content;
+    z-index: 100;
+    margin: 20px 0 20px;
+
+    p {
+      margin: 0;
+      color: $white-10;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .tooltip-heading {
+      font-size: 16px;
+      font-weight: 600;
+      color: $white-10;
+    }
+
+    &:before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      background-color: $grey-80;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      z-index: 120;
+      position: absolute;
+      right: auto;
+      bottom: auto;
+      margin-top: -21px;
+    }
+
+    &.tooltip-top-left:before {
+      margin-left: 0px;
+    }
+
+    &.tooltip-top-center:before {
+      margin-left: 80px;
+    }
+
+    &.tooltip-top-right:before {
+      margin-left: 190px;
     }
   }
 }
