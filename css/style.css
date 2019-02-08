@@ -2279,19 +2279,23 @@ p {
 
 .sg-markup-component-tooltip-html .sg-example .tooltip {
   background-color: #262F36;
-  font-size: 14px;
   border-radius: 4px;
-  padding: 16px;
-  position: relative;
+  padding: 14px 20px;
+  font-size: 14px;
   max-width: 240px;
-  min-width: min-content;
-  z-index: 100;
-  margin: 20px 0 20px;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 1200px) {
+  .sg-markup-component-tooltip-html .sg-example .tooltip {
+    padding: 18px 24px;
+  }
 }
 
 .sg-markup-component-tooltip-html .sg-example .tooltip p {
-  margin: 0;
   color: #FCFCFD;
+  margin: 0;
 }
 
 .sg-markup-component-tooltip-html .sg-example .tooltip a {
@@ -2299,9 +2303,8 @@ p {
 }
 
 .sg-markup-component-tooltip-html .sg-example .tooltip .tooltip-heading {
-  font-size: 16px;
   font-weight: 600;
-  color: #FCFCFD;
+  margin: 0 0 4px 0;
 }
 
 .sg-markup-component-tooltip-html .sg-example .tooltip:before {
@@ -2314,24 +2317,27 @@ p {
   position: absolute;
   right: auto;
   bottom: auto;
-  top: -4px;
   z-index: 1;
 }
 
-.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-left:before {
-  margin-left: 0px;
+.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-top:before {
+  top: -4px;
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-bottom:before {
+  bottom: -4px;
 }
 
 .sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-top-left:before {
-  margin-left: 0px;
-}
-
-.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-top-center:before {
-  left: 16px;
+  left: 32px;
 }
 
 .sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-top-right:before {
   right: 16px;
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-left:before {
+  left: -4px;
 }
 
 .sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-right:before {
@@ -2339,8 +2345,6 @@ p {
 }
 
 .sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-bottom-left:before {
-  top: auto;
-  bottom: -4px;
   margin-left: 0px;
 }
 

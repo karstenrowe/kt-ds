@@ -2410,18 +2410,19 @@ p {
 
   .tooltip {
     background-color: $grey-80;
-    font-size: 14px;
     border-radius: 4px;
-    padding: 16px;
-    position: relative;
+    padding: 14px 20px;
+    font-size: 14px;
     max-width: 240px;
-    min-width: min-content;
-    z-index: 100;
-    margin: 20px 0 20px;
+    position: relative;
+    z-index: 1;
+    @media (min-width: 1200px) {
+      padding: 18px 24px;
+    }
 
     p {
-      margin: 0;
       color: $white-10;
+      margin: 0;
     }
 
     a {
@@ -2429,9 +2430,9 @@ p {
     }
 
     .tooltip-heading {
-      font-size: 16px;
       font-weight: 600;
-      color: $white-10;
+      //color: $white-10;
+      margin: 0 0 4px 0;
     }
 
     &:before {
@@ -2444,27 +2445,29 @@ p {
       position: absolute;
       right: auto;
       bottom: auto;
-      top: -4px;
       z-index: 1;
     }
-    &.tooltip-left:before {
-      margin-left: 0px;
+    &.tooltip-top:before {
+      top: -4px;
+    }
+    &.tooltip-bottom:before {
+      bottom: -4px;
     }
     &.tooltip-top-left:before {
-      margin-left: 0px;
+      left: 32px;
     }
     &.tooltip-top-center:before {
-      left: 16px;
     }
     &.tooltip-top-right:before {
       right: 16px;
+    }
+    &.tooltip-left:before {
+      left: -4px;
     }
     &.tooltip-right:before {
       right: 16px;
     }
     &.tooltip-bottom-left:before {
-      top: auto;
-      bottom: -4px;
       margin-left: 0px;
     }
     &.tooltip-bottom-center:before {
