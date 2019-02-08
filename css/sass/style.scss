@@ -2405,22 +2405,24 @@ p {
   }
 }
 
-//Tooltip
+// Tooltip
 .sg-markup-component-tooltip-html .sg-example {
 
   .tooltip {
     background-color: $grey-80;
-    font-size: 14px;
     border-radius: 4px;
-    padding: 16px;
+    padding: 14px 20px;
+    font-size: 14px;
     max-width: 240px;
-    min-width: min-content;
-    z-index: 100;
-    margin: 20px 0 20px;
+    position: relative;
+    z-index: 1;
+    @media (min-width: 1200px) {
+      padding: 18px 24px;
+    }
 
     p {
-      margin: 0;
       color: $white-10;
+      margin: 0;
     }
 
     a {
@@ -2428,35 +2430,51 @@ p {
     }
 
     .tooltip-heading {
-      font-size: 16px;
       font-weight: 600;
-      color: $white-10;
+      //color: $white-10;
+      margin: 0 0 4px 0;
     }
 
     &:before {
-      content: "";
-      width: 10px;
-      height: 10px;
       background-color: $grey-80;
+      content: "";
+      width: 8px;
+      height: 8px;
       -webkit-transform: rotate(45deg);
       transform: rotate(45deg);
-      z-index: 120;
       position: absolute;
       right: auto;
       bottom: auto;
-      margin-top: -21px;
+      z-index: 1;
     }
-
-    &.arrow-top-left:before {
+    &.tooltip-top:before {
+      top: -4px;
+    }
+    &.tooltip-bottom:before {
+      bottom: -4px;
+    }
+    &.tooltip-top-left:before {
+      left: 32px;
+    }
+    &.tooltip-top-center:before {
+    }
+    &.tooltip-top-right:before {
+      right: 16px;
+    }
+    &.tooltip-left:before {
+      left: -4px;
+    }
+    &.tooltip-right:before {
+      right: 16px;
+    }
+    &.tooltip-bottom-left:before {
       margin-left: 0px;
     }
-
-    &.arrow-top-center:before {
-      margin-left: 80px;
+    &.tooltip-bottom-center:before {
+      left: 16px;
     }
-
-    &.arrow-top-right:before {
-      margin-left: 190px;
+    &.tooltip-bottom-right:before {
+      right: 16px;
     }
   }
 }
