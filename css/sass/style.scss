@@ -8,9 +8,9 @@ $grey-30: #9DACB9;
 $grey-20: #BEC8D1;
 $grey-10: #EFF1F3;
 
-$white-30: #F5F7F8;
-$white-20: #FCFCFD;
-$white-10: #FFFFFF;
+$white-20: #F5F7F8;
+$white-10: #FCFCFD;
+$white: #FFFFFF;
 
 $blue-80: #0D324A;
 $blue-70: #134A70;
@@ -866,8 +866,8 @@ p {
         background-image: url("../images/icon/icon-16-outline-pop-up-list.svg");
       }
 
-      &.icon-clear {
-        background-image: url("../images/icon/icon-16-outline-clear.svg");
+      &.icon-cross {
+        background-image: url("../images/icon/icon-16-outline-cross.svg");
       }
 
       &.icon-lock {
@@ -1052,11 +1052,11 @@ p {
         background-image: url("../images/icon/icon-20-outline-costs.svg");
       }
 
-      &.icon-clear {
-        background-image: url("../images/icon/icon-20-outline-clear.svg");
+      &.icon-cross {
+        background-image: url("../images/icon/icon-20-outline-cross.svg");
 
         &.icon-fill {
-          background-image: url("../images/icon/icon-20-filled-clear.svg");
+          background-image: url("../images/icon/icon-20-filled-cross.svg");
         }
       }
 
@@ -1372,11 +1372,11 @@ p {
         background-image: url("../images/icon/icon-24-outline-close.svg");
       }
 
-      &.icon-clear {
-        background-image: url("../images/icon/icon-24-outline-clear.svg");
+      &.icon-cross {
+        background-image: url("../images/icon/icon-24-outline-cross.svg");
 
         &.icon-fill {
-          background-image: url("../images/icon/icon-24-filled-clear.svg");
+          background-image: url("../images/icon/icon-24-filled-cross.svg");
         }
       }
 
@@ -2204,8 +2204,8 @@ p {
         background-image: url("../images/icon/icon-16-outline-chevron-down.svg");
       }
 
-      &.icon-clear {
-        background-image: url("../images/icon/icon-16-outline-clear.svg");
+      &.icon-cross {
+        background-image: url("../images/icon/icon-16-outline-cross.svg");
       }
     }
   }
@@ -2346,64 +2346,148 @@ p {
 
   .notification {
     border-radius: 4px;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-    min-width: 500px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0, 0.1);
     padding: 8px 16px;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
+
+    @media (min-width: 1200px) {
+      padding: 12px 20px;
+      margin-bottom: 16px;
+      min-width: 500px;
+    }
+
+    @media (min-width: 1600px) {
+      margin-bottom: 20px;
+    }
 
     a {
       color: inherit;
     }
 
     &.notification-info {
-      color: $blue-60;
       background: $blue-10;
       border: 1px solid $blue-60;
+      color: $blue-60;
     }
 
     &.notification-success {
-      color: $green-60;
       background: $green-10;
       border: 1px solid $green-60;
+      color: $green-60;
     }
 
     &.notification-warning {
-      color: $yellow-60;
       background: $yellow-10;
       border: 1px solid $yellow-60;
+      color: $yellow-60;
     }
 
     &.notification-error {
-      color: $red-60;
       background: $red-10;
       border: 1px solid $red-60;
+      color: $red-60;
     }
 
     &.notification-with-heading {
       text-align: center;
 
       p {
-        margin: 4px 0 0 0;
         color: inherit;
+        margin: 2px 0 0 0;
+        @media (min-width: 1200px) {
+          margin: 4px 0 0 0;
+        }
       }
     }
   }
 
-  // Redundant code, will be linked from icon
   .icon {
-    margin: 4px auto;
+    display: inline-block;
     float: right;
+    margin: 4px auto;
+    opacity: 0.8;
+    &:hover {
+      opacity: 1;
+    }
+
+    &.icon-size-16 {
+      height: 16px;
+      width: 16px;
+      &.icon-cross-blue {
+        background-image: url("../images/icon/icon-16-outline-cross-blue.svg");
+      }
+      &.icon-cross-green {
+        background-image: url("../images/icon/icon-16-outline-cross-green.svg");
+      }
+      &.icon-cross-yellow {
+        background-image: url("../images/icon/icon-16-outline-cross-yellow.svg");
+      }
+      &.icon-cross-red {
+        background-image: url("../images/icon/icon-16-outline-cross-red.svg");
+      }
+    }
+  }
+}
+
+.sg-markup-component-table-html .sg-example {
+
+  .table {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 20px 0;
+  }
+
+  .table-cell {
+    flex-grow: 1;
+    width: 100%;  // default to full width
+    padding: 0.8em 1.2em;
+    overflow: hidden; // or flex might break
+    list-style: none;
+    border: solid 1px $grey-20;
+    margin: -1px 0 0 -1px;
+
+    &.table-cell-head {
+      background-color: $grey-10;
+      color: $grey-80;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+
+  // Table column sizing
+  .table-col-2 > .table-cell  { width: (100% / 2); }
+  .table-col-4 > .table-cell  { width: (100% / 4); }
+  .table-col-6 > .table-cell  { width: (100% / 6); }
+
+  // Responsive
+  $breakpoint-mobile: 480px;
+
+  @media all and (max-width: $breakpoint-mobile) {
+    .table-collapse  {
+      display: block;
+      > .table-cell { width: 100% !important; }
+      > .table-cell-foot { margin-bottom: 1em; }
+    }
+  }
+
+  .icon {
+    // margin: 4px auto;
+    // float: right;
     display: inline-block;
 
     &.icon-size-16 {
       height: 16px;
       width: 16px;
 
-      &.icon-clear {
-        background-image: url("../images/icon/icon-16-outline-clear.svg");
+      &.icon-chevron-up {
+        background-image: url("../images/icon/icon-chevron-up-16.svg");
+      }
+      &.icon-chevron-down {
+        background-image: url("../images/icon/icon-chevron-down-16.svg");
       }
     }
   }
+
 }
 
 // Tooltip
