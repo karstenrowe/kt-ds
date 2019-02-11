@@ -700,16 +700,24 @@ p {
   background: #F9F2D2;
 }
 
-.sg-markup-Brand-color-html .sg-example .sg-color-swatch.driving-event-corner {
+.sg-markup-Brand-color-html .sg-example .sg-color-swatch.dpe-corner {
   background: #B078D9;
 }
 
-.sg-markup-Brand-color-html .sg-example .sg-color-swatch.driving-event-acceleration {
+.sg-markup-Brand-color-html .sg-example .sg-color-swatch.dpe-acceleration {
   background: #ECD166;
 }
 
-.sg-markup-Brand-color-html .sg-example .sg-color-swatch.driving-event-brake {
+.sg-markup-Brand-color-html .sg-example .sg-color-swatch.dpe-brake {
   background: #F06151;
+}
+
+.sg-markup-Brand-color-html .sg-example .sg-color-swatch.white-20 {
+  background: #F5F7F8;
+}
+
+.sg-markup-Brand-color-html .sg-example .sg-color-swatch.white-10 {
+  background: #FCFCFD;
 }
 
 .sg-markup-Brand-font-html .sg-example p.font-open-sans {

@@ -10,7 +10,6 @@ $grey-10: #EFF1F3;
 
 $white-20: #F5F7F8;
 $white-10: #FCFCFD;
-$white: #FFFFFF;
 
 $blue-80: #0D324A;
 $blue-70: #134A70;
@@ -48,9 +47,9 @@ $yellow-30: #E8C228;
 $yellow-20: #ECD166;
 $yellow-10: #F9F2D2;
 
-$driving-event-corner: #B078D9;
-$driving-event-acceleration: $yellow-20;
-$driving-event-brake: $red-40;
+$dpe-corner-purple: #B078D9;
+$dpe-acceleration-yellow: $yellow-20;
+$dpe-brake-red: $red-40;
 
 // Reset
 *,
@@ -758,16 +757,23 @@ p {
       background: $yellow-10;
     }
 
-    &.driving-event-corner {
-      background: $driving-event-corner;
+    &.dpe-corner {
+      background: $dpe-corner-purple;
     }
 
-    &.driving-event-acceleration {
-      background: $driving-event-acceleration;
+    &.dpe-acceleration {
+      background: $dpe-acceleration-yellow;
     }
 
-    &.driving-event-brake {
-      background: $driving-event-brake;
+    &.dpe-brake {
+      background: $dpe-brake-red;
+    }
+
+    &.white-20 {
+      background: $white-20;
+    }
+    &.white-10 {
+      background: $white-10;
     }
   }
 }
