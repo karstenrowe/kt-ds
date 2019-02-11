@@ -2341,58 +2341,72 @@ p {
   .notification {
     border-radius: 4px;
     box-shadow: 0 1px 1px 0 rgba(0,0,0, 0.1);
-    min-width: 500px;
     padding: 8px 16px;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
+
+    @media (min-width: 1200px) {
+      padding: 12px 20px;
+      margin-bottom: 16px;
+      min-width: 500px;
+    }
+
+    @media (min-width: 1600px) {
+      margin-bottom: 20px;
+    }
 
     a {
       color: inherit;
     }
 
     &.notification-info {
-      color: $blue-60;
       background: $blue-10;
       border: 1px solid $blue-60;
+      color: $blue-60;
     }
 
     &.notification-success {
-      color: $green-60;
       background: $green-10;
       border: 1px solid $green-60;
+      color: $green-60;
     }
 
     &.notification-warning {
-      color: $yellow-60;
       background: $yellow-10;
       border: 1px solid $yellow-60;
+      color: $yellow-60;
     }
 
     &.notification-error {
-      color: $red-60;
       background: $red-10;
       border: 1px solid $red-60;
+      color: $red-60;
     }
 
     &.notification-with-heading {
-    text-align: center;
+      text-align: center;
 
       p {
-        margin: 4px 0 0 0;
         color: inherit;
+        margin: 2px 0 0 0;
+        @media (min-width: 1200px) {
+          margin: 4px 0 0 0;
+        }
       }
     }
   }
 
-  // Redundant code, will be linked from icon
   .icon {
-    margin: 4px auto;
-    float: right;
     display: inline-block;
+    float: right;
+    margin: 4px auto;
+    opacity: 0.8;
+    &:hover {
+      opacity: 1;
+    }
 
     &.icon-size-16 {
       height: 16px;
       width: 16px;
-
       &.icon-cross-blue {
         background-image: url("../images/icon/icon-16-outline-cross-blue.svg");
       }
