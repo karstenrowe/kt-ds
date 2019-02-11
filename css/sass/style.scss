@@ -10,6 +10,7 @@ $grey-10: #EFF1F3;
 
 $white-20: #F5F7F8;
 $white-10: #FCFCFD;
+$white: #FFFFFF;
 
 $blue-80: #0D324A;
 $blue-70: #134A70;
@@ -2421,4 +2422,65 @@ p {
       }
     }
   }
+}
+
+.sg-markup-component-table-html .sg-example {
+
+  .table {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 20px 0;
+  }
+
+  .table-cell {
+    flex-grow: 1;
+    width: 100%;  // default to full width
+    padding: 0.8em 1.2em;
+    overflow: hidden; // or flex might break
+    list-style: none;
+    border: solid 1px $grey-20;
+    margin: -1px 0 0 -1px;
+
+    &.table-cell-head {
+      background-color: $grey-10;
+      color: $grey-80;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+
+  // Table column sizing
+  .table-col-2 > .table-cell  { width: (100% / 2); }
+  .table-col-4 > .table-cell  { width: (100% / 4); }
+  .table-col-6 > .table-cell  { width: (100% / 6); }
+
+  // Responsive
+  $breakpoint-mobile: 480px;
+
+  @media all and (max-width: $breakpoint-mobile) {
+    .table-collapse  {
+      display: block;
+      > .table-cell { width: 100% !important; }
+      > .table-cell-foot { margin-bottom: 1em; }
+    }
+  }
+
+  .icon {
+    // margin: 4px auto;
+    // float: right;
+    display: inline-block;
+
+    &.icon-size-16 {
+      height: 16px;
+      width: 16px;
+
+      &.icon-chevron-up {
+        background-image: url("../images/icon/icon-chevron-up-16.svg");
+      }
+      &.icon-chevron-down {
+        background-image: url("../images/icon/icon-chevron-down-16.svg");
+      }
+    }
+  }
+
 }
