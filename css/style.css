@@ -2312,3 +2312,229 @@ p {
 .sg-markup-component-notification-html .sg-example .icon.icon-size-16.icon-cross-red {
   background-image: url("../images/icon/icon-16-outline-cross-red.svg");
 }
+
+.sg-markup-component-table-html .sg-example .table {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 20px 0;
+}
+
+.sg-markup-component-table-html .sg-example .table-cell {
+  flex-grow: 1;
+  width: 100%;
+  padding: 0.8em 1.2em;
+  overflow: hidden;
+  list-style: none;
+  border: solid 1px #BEC8D1;
+  margin: -1px 0 0 -1px;
+}
+
+.sg-markup-component-table-html .sg-example .table-cell.table-cell-head {
+  background-color: #EFF1F3;
+  color: #262F36;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.sg-markup-component-table-html .sg-example .table-col-2 > .table-cell {
+  width: 50%;
+}
+
+.sg-markup-component-table-html .sg-example .table-col-4 > .table-cell {
+  width: 25%;
+}
+
+.sg-markup-component-table-html .sg-example .table-col-6 > .table-cell {
+  width: 16.66667%;
+}
+
+@media all and (max-width: 480px) {
+  .sg-markup-component-table-html .sg-example .table-collapse {
+    display: block;
+  }
+  .sg-markup-component-table-html .sg-example .table-collapse > .table-cell {
+    width: 100% !important;
+  }
+  .sg-markup-component-table-html .sg-example .table-collapse > .table-cell-foot {
+    margin-bottom: 1em;
+  }
+}
+
+.sg-markup-component-table-html .sg-example .icon {
+  display: inline-block;
+}
+
+.sg-markup-component-table-html .sg-example .icon.icon-size-16 {
+  height: 16px;
+  width: 16px;
+}
+
+.sg-markup-component-table-html .sg-example .icon.icon-size-16.icon-chevron-up {
+  background-image: url("../images/icon/icon-chevron-up-16.svg");
+}
+
+.sg-markup-component-table-html .sg-example .icon.icon-size-16.icon-chevron-down {
+  background-image: url("../images/icon/icon-chevron-down-16.svg");
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip {
+  background-color: #262F36;
+  border-radius: 4px;
+  padding: 14px 20px;
+  font-size: 14px;
+  max-width: 240px;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 1200px) {
+  .sg-markup-component-tooltip-html .sg-example .tooltip {
+    padding: 18px 24px;
+  }
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip p {
+  color: #FCFCFD;
+  margin: 0;
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip a {
+  color: inherit;
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip .tooltip-heading {
+  font-weight: 600;
+  margin: 0 0 4px 0;
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip:before {
+  background-color: #262F36;
+  content: "";
+  width: 8px;
+  height: 8px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  right: auto;
+  bottom: auto;
+  z-index: 1;
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-top:before {
+  top: -4px;
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-bottom:before {
+  bottom: -4px;
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-top-left:before {
+  left: 32px;
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-top-right:before {
+  right: 16px;
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-left:before {
+  left: -4px;
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-right:before {
+  right: 16px;
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-bottom-left:before {
+  margin-left: 0px;
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-bottom-center:before {
+  left: 16px;
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-bottom-right:before {
+  right: 16px;
+}
+
+.sg-markup-component-popover-html .sg-example .popover {
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  margin: 20px 0 20px;
+  color: #4D5E6C;
+  border: 1px solid #9DACB9;
+  border-radius: 4px;
+  padding: 14px 20px;
+  font-size: 14px;
+  max-width: 240px;
+  position: relative;
+  z-index: 2;
+}
+
+@media (min-width: 1200px) {
+  .sg-markup-component-popover-html .sg-example .popover {
+    padding: 18px 24px;
+  }
+}
+
+.sg-markup-component-popover-html .sg-example .popover .icon {
+  float: right;
+  display: inline-block;
+  position: relative;
+  top: -8px;
+  right: -10px;
+}
+
+.sg-markup-component-popover-html .sg-example .popover .icon.icon-size-20 {
+  height: 20px;
+  width: 20px;
+}
+
+.sg-markup-component-popover-html .sg-example .popover .icon.icon-size-20.icon-close-grey {
+  background-image: url("../images/icon/icon-20-outline-close-grey.svg");
+}
+
+.sg-markup-component-popover-html .sg-example .popover p {
+  margin: 0;
+  color: #4D5E6C;
+}
+
+.sg-markup-component-popover-html .sg-example .popover a {
+  color: #207CBA;
+  text-decoration: none;
+}
+
+.sg-markup-component-popover-html .sg-example .popover .popover-heading {
+  font-size: 16px;
+  font-weight: 600;
+  color: #262F36;
+}
+
+.sg-markup-component-popover-html .sg-example .popover:before, .sg-markup-component-popover-html .sg-example .popover:after {
+  background-color: #9DACB9;
+  content: "";
+  width: 8px;
+  height: 8px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  right: auto;
+  bottom: auto;
+}
+
+.sg-markup-component-popover-html .sg-example .popover:before {
+  background-color: #9DACB9;
+  z-index: 1;
+}
+
+.sg-markup-component-popover-html .sg-example .popover:after {
+  background-color: #FCFCFD;
+  z-index: 3;
+}
+
+.sg-markup-component-popover-html .sg-example .popover.popover-top-left:after {
+  top: -3px;
+}
+
+.sg-markup-component-popover-html .sg-example .popover.popover-top-left:before {
+  top: -5px;
+}
