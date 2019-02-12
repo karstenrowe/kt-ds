@@ -51,7 +51,7 @@ button {
   position: static;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1200px) {
   .sg-sidebar,
   .js .sg-sidebar,
   .js.nav-is-active .sg-sidebar {
@@ -257,7 +257,7 @@ p {
   transition: all .15s ease-in;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1200px) {
   .sg-nav-toggle {
     display: none;
   }
@@ -1698,14 +1698,14 @@ p {
   margin-bottom: 1.6rem;
 }
 
+.sg-markup-base-button-html .sg-example .col.col-8 {
+  grid-gap: 0;
+}
+
 @media screen and (min-width: 1200px) {
   .sg-markup-base-button-html .sg-example .col.col-8 {
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
-}
-
-.sg-markup-base-button-html .sg-example .col.col-8.button-variant {
-  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr;
 }
 
 .sg-markup-base-button-html .sg-example p.col-header {
@@ -1720,16 +1720,21 @@ p {
   color: #E6F3FB;
   cursor: default;
   display: inline-block;
-  letter-spacing: 0.4px;
   font-weight: 600;
+  letter-spacing: 0.4px;
+  position: relative;
   text-decoration: none;
 }
 
 .sg-markup-base-button-html .sg-example .button .icon {
-  background-image: url("../images/icon/icon-20-outline-overview.svg");
+  background-image: url("../images/icon/icon-20-filled-overview.svg");
   background-repeat: no-repeat;
   display: inline-block;
   height: 20px;
+  position: relative;
+  top: -2px;
+  margin-right: 6px;
+  vertical-align: middle;
   width: 20px;
 }
 
@@ -1966,7 +1971,7 @@ p {
   .sg-markup-base-button-html .sg-example .button.button-size-xl, .sg-markup-base-button-html .sg-example .button.button-size-xl.button-label {
     font-size: 22px;
     line-height: 30px;
-    padding: 12px 26px;
+    padding: 12px 30px;
   }
 }
 
