@@ -1798,7 +1798,7 @@ p {
         grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
       }
 
-      &.button-variants {
+      &.button-variant {
         grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr;
       }
     }
@@ -1822,10 +1822,9 @@ p {
 
     .icon {
       background: {
+        image: url("../images/icon/icon-20-outline-overview.svg");
         repeat: no-repeat;
-      }
-
-      ;
+      };
       display: inline-block;
       height: 20px;
       width: 20px;
@@ -2018,10 +2017,6 @@ p {
         font-size: 18px;
         line-height: 26px;
         padding: 8px 22px;
-      }
-
-      .icon {
-        background-image: url("../images/icon/icon-20-outline-overview.svg");
       }
     }
 
