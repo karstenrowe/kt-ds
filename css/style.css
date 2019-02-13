@@ -1525,6 +1525,10 @@ p {
   background-image: url("../images/icon/icon-120-o-location-unavailable.svg");
 }
 
+.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-maintenance {
+  background-image: url("../images/icon/icon-120-o-wrench.svg");
+}
+
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-message {
   background-image: url("../images/icon/icon-120-o-message.svg");
 }
@@ -1545,32 +1549,28 @@ p {
   background-image: url("../images/icon/icon-120-o-record.svg");
 }
 
-.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-reports {
-  background-image: url("../images/icon/icon-120-o-reports.svg");
+.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-report {
+  background-image: url("../images/icon/icon-120-o-report.svg");
 }
 
-.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-reports-locked {
-  background-image: url("../images/icon/icon-120-o-reports-locked.svg");
+.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-report-locked {
+  background-image: url("../images/icon/icon-120-o-report-locked.svg");
 }
 
-.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-request-pending {
-  background-image: url("../images/icon/icon-120-o-request-pending.svg");
+.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-scorecard {
+  background-image: url("../images/icon/icon-120-o-scorecard.svg");
 }
 
-.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-scorecards {
-  background-image: url("../images/icon/icon-120-o-scorecards.svg");
-}
-
-.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-scorecards-new {
-  background-image: url("../images/icon/icon-120-o-scorecards-new.svg");
+.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-scorecard-leader {
+  background-image: url("../images/icon/icon-120-o-scorecard-leader.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-search {
   background-image: url("../images/icon/icon-120-o-search.svg");
 }
 
-.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-signature {
-  background-image: url("../images/icon/icon-120-o-signature.svg");
+.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-sign {
+  background-image: url("../images/icon/icon-120-o-sign.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-stopwatch {
@@ -1599,10 +1599,6 @@ p {
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-warning {
   background-image: url("../images/icon/icon-120-o-warning.svg");
-}
-
-.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-wrench {
-  background-image: url("../images/icon/icon-120-o-wrench.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-play {

@@ -1600,6 +1600,10 @@ p {
         background-image: url("../images/icon/icon-120-o-location-unavailable.svg");
       }
 
+      &.icon-maintenance {
+        background-image: url("../images/icon/icon-120-o-wrench.svg");
+      }
+      
       &.icon-message {
         background-image: url("../images/icon/icon-120-o-message.svg");
       }
@@ -1620,32 +1624,28 @@ p {
         background-image: url("../images/icon/icon-120-o-record.svg");
       }
 
-      &.icon-reports {
-        background-image: url("../images/icon/icon-120-o-reports.svg");
+      &.icon-report {
+        background-image: url("../images/icon/icon-120-o-report.svg");
       }
 
-      &.icon-reports-locked {
-        background-image: url("../images/icon/icon-120-o-reports-locked.svg");
+      &.icon-report-locked {
+        background-image: url("../images/icon/icon-120-o-report-locked.svg");
       }
 
-      &.icon-request-pending {
-        background-image: url("../images/icon/icon-120-o-request-pending.svg");
+      &.icon-scorecard {
+        background-image: url("../images/icon/icon-120-o-scorecard.svg");
       }
 
-      &.icon-scorecards {
-        background-image: url("../images/icon/icon-120-o-scorecards.svg");
-      }
-
-      &.icon-scorecards-new {
-        background-image: url("../images/icon/icon-120-o-scorecards-new.svg");
+      &.icon-scorecard-leader {
+        background-image: url("../images/icon/icon-120-o-scorecard-leader.svg");
       }
 
       &.icon-search {
         background-image: url("../images/icon/icon-120-o-search.svg");
       }
 
-      &.icon-signature {
-        background-image: url("../images/icon/icon-120-o-signature.svg");
+      &.icon-sign {
+        background-image: url("../images/icon/icon-120-o-sign.svg");
       }
 
       &.icon-stopwatch {
@@ -1674,10 +1674,6 @@ p {
 
       &.icon-warning {
         background-image: url("../images/icon/icon-120-o-warning.svg");
-      }
-
-      &.icon-wrench {
-        background-image: url("../images/icon/icon-120-o-wrench.svg");
       }
 
       &.icon-play {
