@@ -923,11 +923,11 @@ p {
         background-image: url("../images/icon/icon-20-o-add.svg");
       }
 
-      &.icon-alerts {
-        background-image: url("../images/icon/icon-20-o-alerts.svg");
+      &.icon-alert {
+        background-image: url("../images/icon/icon-20-o-alert.svg");
 
         &.icon-fill {
-          background-image: url("../images/icon/icon-20-fill-alerts.svg");
+          background-image: url("../images/icon/icon-20-fill-alert.svg");
         }
       }
 
@@ -1532,8 +1532,8 @@ p {
       height: 120px;
       width: 120px;
 
-      &.icon-alerts {
-        background-image: url("../images/icon/icon-120-o-alerts.svg");
+      &.icon-alert {
+        background-image: url("../images/icon/icon-120-o-alert.svg");
       }
 
       &.icon-archive {
@@ -1580,8 +1580,8 @@ p {
         background-image: url("../images/icon/icon-120-o-file-upload.svg");
       }
 
-      &.icon-geofencing {
-        background-image: url("../images/icon/icon-120-o-geofencing.svg");
+      &.icon-geofence {
+        background-image: url("../images/icon/icon-120-o-geofence.svg");
       }
 
       &.icon-group {
@@ -1596,20 +1596,20 @@ p {
         background-image: url("../images/icon/icon-120-o-location.svg");
       }
 
-      &.icon-location-no {
-        background-image: url("../images/icon/icon-120-o-location-no.svg");
+      &.icon-location-unavailable {
+        background-image: url("../images/icon/icon-120-o-location-unavailable.svg");
       }
 
-      &.icon-log-suggestion-pending {
-        background-image: url("../images/icon/icon-120-o-log-suggestion-pending.svg");
-      }
-
-      &.icon-messages {
-        background-image: url("../images/icon/icon-120-o-messages.svg");
+      &.icon-message {
+        background-image: url("../images/icon/icon-120-o-message.svg");
       }
 
       &.icon-overview {
         background-image: url("../images/icon/icon-120-o-overview.svg");
+      }
+
+      &.icon-pending {
+        background-image: url("../images/icon/icon-120-o-pending.svg");
       }
 
       &.icon-phone {
@@ -1680,11 +1680,9 @@ p {
         background-image: url("../images/icon/icon-120-o-wrench.svg");
       }
 
-      //120px map
-      &.icon-overlay-play {
+      &.icon-play {
         background-image: url("../images/icon/icon-120-fill-play.svg");
       }
-
     }
   }
 }

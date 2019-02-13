@@ -855,12 +855,12 @@ p {
   background-image: url("../images/icon/icon-20-o-add.svg");
 }
 
-.sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-alerts {
-  background-image: url("../images/icon/icon-20-o-alerts.svg");
+.sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-alert {
+  background-image: url("../images/icon/icon-20-o-alert.svg");
 }
 
-.sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-alerts.icon-fill {
-  background-image: url("../images/icon/icon-20-fill-alerts.svg");
+.sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-alert.icon-fill {
+  background-image: url("../images/icon/icon-20-fill-alert.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-app-android-fill {
@@ -1457,8 +1457,8 @@ p {
   width: 120px;
 }
 
-.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-alerts {
-  background-image: url("../images/icon/icon-120-o-alerts.svg");
+.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-alert {
+  background-image: url("../images/icon/icon-120-o-alert.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-archive {
@@ -1505,8 +1505,8 @@ p {
   background-image: url("../images/icon/icon-120-o-file-upload.svg");
 }
 
-.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-geofencing {
-  background-image: url("../images/icon/icon-120-o-geofencing.svg");
+.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-geofence {
+  background-image: url("../images/icon/icon-120-o-geofence.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-group {
@@ -1521,20 +1521,20 @@ p {
   background-image: url("../images/icon/icon-120-o-location.svg");
 }
 
-.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-location-no {
-  background-image: url("../images/icon/icon-120-o-location-no.svg");
+.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-location-unavailable {
+  background-image: url("../images/icon/icon-120-o-location-unavailable.svg");
 }
 
-.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-log-suggestion-pending {
-  background-image: url("../images/icon/icon-120-o-log-suggestion-pending.svg");
-}
-
-.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-messages {
-  background-image: url("../images/icon/icon-120-o-messages.svg");
+.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-message {
+  background-image: url("../images/icon/icon-120-o-message.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-overview {
   background-image: url("../images/icon/icon-120-o-overview.svg");
+}
+
+.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-pending {
+  background-image: url("../images/icon/icon-120-o-pending.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-phone {
@@ -1605,7 +1605,7 @@ p {
   background-image: url("../images/icon/icon-120-o-wrench.svg");
 }
 
-.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-overlay-play {
+.sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-play {
   background-image: url("../images/icon/icon-120-fill-play.svg");
 }
 
