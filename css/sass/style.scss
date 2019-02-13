@@ -2671,3 +2671,24 @@ p {
 
   }
 }
+
+// Grid
+.sg-markup-base-grid-html .sg-example {
+  .container-grid {
+    border: 1px solid $grey-20;
+    padding: 20px;
+    .row {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: 1fr;
+      height: 30px;
+      margin: 10px;
+      &.col-2 {
+        grid-template-columns: 1fr 1fr;
+      }
+      .column {
+        background: $red-20;
+      }
+    }
+  }
+}

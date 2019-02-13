@@ -2566,3 +2566,24 @@ p {
 .sg-markup-component-popover-html .sg-example .popover.popover-top-left:before {
   top: -5px;
 }
+
+.sg-markup-base-grid-html .sg-example .container-grid {
+  border: 1px solid #BEC8D1;
+  padding: 20px;
+}
+
+.sg-markup-base-grid-html .sg-example .container-grid .row {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr;
+  height: 30px;
+  margin: 10px;
+}
+
+.sg-markup-base-grid-html .sg-example .container-grid .row.col-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.sg-markup-base-grid-html .sg-example .container-grid .row .column {
+  background: #FFB2A4;
+}
