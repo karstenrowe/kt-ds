@@ -783,63 +783,51 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-16.icon-chevron-down {
-  background-image: url("../images/icon/icon-16-outline-chevron-down.svg");
+  background-image: url("../images/icon/icon-16-chevron-down.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-16.icon-chevron-up {
-  background-image: url("../images/icon/icon-16-outline-chevron-up.svg");
+  background-image: url("../images/icon/icon-16-chevron-up.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-16.icon-chevron-left {
-  background-image: url("../images/icon/icon-16-outline-chevron-left.svg");
+  background-image: url("../images/icon/icon-16-chevron-left.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-16.icon-chevron-right {
-  background-image: url("../images/icon/icon-16-outline-chevron-right.svg");
+  background-image: url("../images/icon/icon-16-chevron-right.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-16.icon-pop-up-list {
-  background-image: url("../images/icon/icon-16-outline-pop-up-list.svg");
+  background-image: url("../images/icon/icon-16-pop-up-list.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-16.icon-cross {
-  background-image: url("../images/icon/icon-16-outline-cross.svg");
+  background-image: url("../images/icon/icon-16-cross.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-16.icon-lock {
-  background-image: url("../images/icon/icon-16-outline-lock.svg");
-}
-
-.sg-markup-base-icon-html .sg-example .icon.icon-size-16.icon-chevron-tiny-right {
-  background-image: url("../images/icon/icon-16-outline-chevron-tiny-right.svg");
+  background-image: url("../images/icon/icon-16-lock.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-16.icon-spacer {
-  background-image: url("../images/icon/icon-16-outline-spacer.svg");
+  background-image: url("../images/icon/icon-16-spacer.svg");
 }
 
-.sg-markup-base-icon-html .sg-example .icon.icon-size-16.icon-i {
-  background-image: url("../images/icon/icon-16-outline-i.svg");
+.sg-markup-base-icon-html .sg-example .icon.icon-size-16.icon-info {
+  background-image: url("../images/icon/icon-16-info.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-16.icon-minimize {
-  background-image: url("../images/icon/icon-16-outline-minimize.svg");
+  background-image: url("../images/icon/icon-16-minimize.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-16.icon-maximize {
-  background-image: url("../images/icon/icon-16-outline-maximize.svg");
+  background-image: url("../images/icon/icon-16-maximize.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-16.icon-link {
-  background-image: url("../images/icon/icon-16-outline-link.svg");
-}
-
-.sg-markup-base-icon-html .sg-example .icon.icon-size-16.icon-switch-off {
-  background-image: url("../images/icon/icon-16-outline-switch-off.svg");
-}
-
-.sg-markup-base-icon-html .sg-example .icon.icon-size-16.icon-switch-on {
-  background-image: url("../images/icon/icon-16-outline-switch-on.svg");
+  background-image: url("../images/icon/icon-16-link.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20 {
@@ -852,11 +840,11 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-16-hour-exception {
-  background-image: url("../images/icon/icon-20-outline-16-hour-exception.svg");
+  background-image: url("../images/icon/icon-20-o-16-hour-exception.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-account-security {
-  background-image: url("../images/icon/icon-20-outline-account-security.svg");
+  background-image: url("../images/icon/icon-20-o-account-security.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-account-security.icon-fill {
@@ -864,11 +852,11 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-add {
-  background-image: url("../images/icon/icon-20-outline-add.svg");
+  background-image: url("../images/icon/icon-20-o-add.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-alerts {
-  background-image: url("../images/icon/icon-20-outline-alerts.svg");
+  background-image: url("../images/icon/icon-20-o-alerts.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-alerts.icon-fill {
@@ -884,7 +872,7 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-apps {
-  background-image: url("../images/icon/icon-20-outline-apps.svg");
+  background-image: url("../images/icon/icon-20-o-apps.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-apps.icon-fill {
@@ -892,23 +880,23 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-beta {
-  background-image: url("../images/icon/icon-20-outline-beta.svg");
+  background-image: url("../images/icon/icon-20-o-beta.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-broadcast {
-  background-image: url("../images/icon/icon-20-outline-broadcast.svg");
+  background-image: url("../images/icon/icon-20-o-broadcast.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-bulb {
-  background-image: url("../images/icon/icon-20-outline-bulb.svg");
+  background-image: url("../images/icon/icon-20-o-bulb.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-calculator {
-  background-image: url("../images/icon/icon-20-outline-calculator.svg");
+  background-image: url("../images/icon/icon-20-o-calculator.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-calendar {
-  background-image: url("../images/icon/icon-20-outline-calendar.svg");
+  background-image: url("../images/icon/icon-20-o-calendar.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-calendar.icon-fill {
@@ -916,15 +904,15 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-close {
-  background-image: url("../images/icon/icon-20-outline-close.svg");
+  background-image: url("../images/icon/icon-20-o-close.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-coordinates {
-  background-image: url("../images/icon/icon-20-outline-coordinates.svg");
+  background-image: url("../images/icon/icon-20-o-coordinates.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-close {
-  background-image: url("../images/icon/icon-20-outline-close.svg");
+  background-image: url("../images/icon/icon-20-o-close.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-close.icon-fill {
@@ -932,7 +920,7 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-coaching-coachable {
-  background-image: url("../images/icon/icon-20-outline-coaching-coachable.svg");
+  background-image: url("../images/icon/icon-20-o-coaching-coachable.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-coaching-coachable.icon-fill {
@@ -940,7 +928,7 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-coaching-coached {
-  background-image: url("../images/icon/icon-20-outline-coaching-coached.svg");
+  background-image: url("../images/icon/icon-20-o-coaching-coached.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-coaching-coached.icon-fill {
@@ -948,7 +936,7 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-coaching-locked {
-  background-image: url("../images/icon/icon-20-outline-coaching-locked.svg");
+  background-image: url("../images/icon/icon-20-o-coaching-locked.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-coaching-locked.icon-fill {
@@ -956,7 +944,7 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-coaching-pending {
-  background-image: url("../images/icon/icon-20-outline-coaching-pending.svg");
+  background-image: url("../images/icon/icon-20-o-coaching-pending.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-coaching-pending.icon-fill {
@@ -964,7 +952,7 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-coaching-uncoachable {
-  background-image: url("../images/icon/icon-20-outline-coaching-uncoachable.svg");
+  background-image: url("../images/icon/icon-20-o-coaching-uncoachable.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-coaching-uncoachable.icon-fill {
@@ -972,7 +960,7 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-company {
-  background-image: url("../images/icon/icon-20-outline-company.svg");
+  background-image: url("../images/icon/icon-20-o-company.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-company.icon-fill {
@@ -980,15 +968,15 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-compass {
-  background-image: url("../images/icon/icon-20-outline-compass.svg");
+  background-image: url("../images/icon/icon-20-o-compass.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-costs {
-  background-image: url("../images/icon/icon-20-outline-costs.svg");
+  background-image: url("../images/icon/icon-20-o-costs.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-cross {
-  background-image: url("../images/icon/icon-20-outline-cross.svg");
+  background-image: url("../images/icon/icon-20-o-cross.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-cross.icon-fill {
@@ -996,35 +984,35 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-cycle {
-  background-image: url("../images/icon/icon-20-outline-cycle.svg");
+  background-image: url("../images/icon/icon-20-o-cycle.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-dashcam {
-  background-image: url("../images/icon/icon-20-outline-dashcam.svg");
+  background-image: url("../images/icon/icon-20-o-dashcam.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-dashcam-disconnect {
-  background-image: url("../images/icon/icon-20-outline-dashcam-disconnect.svg");
+  background-image: url("../images/icon/icon-20-o-dashcam-disconnect.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-dashcam-eld {
-  background-image: url("../images/icon/icon-20-outline-dashcam-eld.svg");
+  background-image: url("../images/icon/icon-20-o-dashcam-eld.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-dashcam-recall {
-  background-image: url("../images/icon/icon-20-outline-dashcam-recall.svg");
+  background-image: url("../images/icon/icon-20-o-dashcam-recall.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-dashcam-video {
-  background-image: url("../images/icon/icon-20-outline-dashcam-video.svg");
+  background-image: url("../images/icon/icon-20-o-dashcam-video.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-developers {
-  background-image: url("../images/icon/icon-20-outline-developers.svg");
+  background-image: url("../images/icon/icon-20-o-developers.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-diagnostics {
-  background-image: url("../images/icon/icon-20-outline-diagnostics.svg");
+  background-image: url("../images/icon/icon-20-o-diagnostics.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-diagnostics.icon-fill {
@@ -1032,7 +1020,7 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-documents {
-  background-image: url("../images/icon/icon-20-outline-documents.svg");
+  background-image: url("../images/icon/icon-20-o-documents.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-documents.icon-fill {
@@ -1040,11 +1028,11 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-download {
-  background-image: url("../images/icon/icon-20-outline-download.svg");
+  background-image: url("../images/icon/icon-20-o-download.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-driver {
-  background-image: url("../images/icon/icon-20-outline-driver.svg");
+  background-image: url("../images/icon/icon-20-o-driver.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-driver.icon-fill {
@@ -1052,7 +1040,7 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-location {
-  background-image: url("../images/icon/icon-20-outline-location.svg");
+  background-image: url("../images/icon/icon-20-o-location.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-location.icon-fill {
@@ -1060,7 +1048,7 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-logs {
-  background-image: url("../images/icon/icon-20-outline-logs.svg");
+  background-image: url("../images/icon/icon-20-o-logs.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-logs.icon-fill {
@@ -1068,23 +1056,23 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-map {
-  background-image: url("../images/icon/icon-20-outline-map.svg");
+  background-image: url("../images/icon/icon-20-o-map.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-message {
-  background-image: url("../images/icon/icon-20-outline-message.svg");
+  background-image: url("../images/icon/icon-20-o-message.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-message-check {
-  background-image: url("../images/icon/icon-20-outline-message-check.svg");
+  background-image: url("../images/icon/icon-20-o-message-check.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-message-send {
-  background-image: url("../images/icon/icon-20-outline-message-send.svg");
+  background-image: url("../images/icon/icon-20-o-message-send.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-messages {
-  background-image: url("../images/icon/icon-20-outline-messages.svg");
+  background-image: url("../images/icon/icon-20-o-messages.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-messages.icon-fill {
@@ -1092,7 +1080,7 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-minus {
-  background-image: url("../images/icon/icon-20-outline-minus.svg");
+  background-image: url("../images/icon/icon-20-o-minus.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-minus.icon-fill {
@@ -1100,15 +1088,15 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-note {
-  background-image: url("../images/icon/icon-20-outline-note.svg");
+  background-image: url("../images/icon/icon-20-o-note.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-odometer {
-  background-image: url("../images/icon/icon-20-outline-odometer.svg");
+  background-image: url("../images/icon/icon-20-o-odometer.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-overview {
-  background-image: url("../images/icon/icon-20-outline-overview.svg");
+  background-image: url("../images/icon/icon-20-o-overview.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-overview.icon-fill {
@@ -1116,15 +1104,15 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-phone {
-  background-image: url("../images/icon/icon-20-outline-phone.svg");
+  background-image: url("../images/icon/icon-20-o-phone.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-phone-receiver {
-  background-image: url("../images/icon/icon-20-outline-phone-receiver.svg");
+  background-image: url("../images/icon/icon-20-o-phone-receiver.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-plus {
-  background-image: url("../images/icon/icon-20-outline-plus.svg");
+  background-image: url("../images/icon/icon-20-o-plus.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-plus.icon-fill {
@@ -1132,7 +1120,7 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-printer {
-  background-image: url("../images/icon/icon-20-outline-printer.svg");
+  background-image: url("../images/icon/icon-20-o-printer.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-printer.icon-fill {
@@ -1140,27 +1128,27 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-proximity {
-  background-image: url("../images/icon/icon-20-outline-proximity.svg");
+  background-image: url("../images/icon/icon-20-o-proximity.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-receipt {
-  background-image: url("../images/icon/icon-20-outline-receipt.svg");
+  background-image: url("../images/icon/icon-20-o-receipt.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-refresh {
-  background-image: url("../images/icon/icon-20-outline-refresh.svg");
+  background-image: url("../images/icon/icon-20-o-refresh.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-remark {
-  background-image: url("../images/icon/icon-20-outline-remark.svg");
+  background-image: url("../images/icon/icon-20-o-remark.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-remove {
-  background-image: url("../images/icon/icon-20-outline-remove.svg");
+  background-image: url("../images/icon/icon-20-o-remove.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-reports {
-  background-image: url("../images/icon/icon-20-outline-reports.svg");
+  background-image: url("../images/icon/icon-20-o-reports.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-reports.icon-fill {
@@ -1168,11 +1156,11 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-rotate {
-  background-image: url("../images/icon/icon-20-outline-rotate.svg");
+  background-image: url("../images/icon/icon-20-o-rotate.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-scorecard {
-  background-image: url("../images/icon/icon-20-outline-scorecard.svg");
+  background-image: url("../images/icon/icon-20-o-scorecard.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-scorecard.icon-fill {
@@ -1180,31 +1168,31 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-search {
-  background-image: url("../images/icon/icon-20-outline-search.svg");
+  background-image: url("../images/icon/icon-20-o-search.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-settings {
-  background-image: url("../images/icon/icon-20-outline-settings.svg");
+  background-image: url("../images/icon/icon-20-o-settings.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-sign {
-  background-image: url("../images/icon/icon-20-outline-sign.svg");
+  background-image: url("../images/icon/icon-20-o-sign.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-slide-in {
-  background-image: url("../images/icon/icon-20-outline-slide-in.svg");
+  background-image: url("../images/icon/icon-20-o-slide-in.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-slide-out {
-  background-image: url("../images/icon/icon-20-outline-slide-out.svg");
+  background-image: url("../images/icon/icon-20-o-slide-out.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-speed {
-  background-image: url("../images/icon/icon-20-outline-speed.svg");
+  background-image: url("../images/icon/icon-20-o-speed.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-stopwatch {
-  background-image: url("../images/icon/icon-20-outline-stopwatch.svg");
+  background-image: url("../images/icon/icon-20-o-stopwatch.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-stopwatch.icon-fill {
@@ -1212,31 +1200,31 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-tag {
-  background-image: url("../images/icon/icon-20-outline-tag.svg");
+  background-image: url("../images/icon/icon-20-o-tag.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-time {
-  background-image: url("../images/icon/icon-20-outline-time.svg");
+  background-image: url("../images/icon/icon-20-o-time.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-trash {
-  background-image: url("../images/icon/icon-20-outline-trash.svg");
+  background-image: url("../images/icon/icon-20-o-trash.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-unlock {
-  background-image: url("../images/icon/icon-20-outline-unlock.svg");
+  background-image: url("../images/icon/icon-20-o-unlock.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-upgrade {
-  background-image: url("../images/icon/icon-20-outline-upgrade.svg");
+  background-image: url("../images/icon/icon-20-o-upgrade.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-upload {
-  background-image: url("../images/icon/icon-20-outline-upload.svg");
+  background-image: url("../images/icon/icon-20-o-upload.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-vehicle {
-  background-image: url("../images/icon/icon-20-outline-vehicle.svg");
+  background-image: url("../images/icon/icon-20-o-vehicle.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-20.icon-vehicle.icon-fill {
@@ -1285,7 +1273,7 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-avatar {
-  background-image: url("../images/icon/icon-24-outline-avatar.svg");
+  background-image: url("../images/icon/icon-24-o-avatar.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-avatar.icon-fill {
@@ -1293,7 +1281,7 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-clock {
-  background-image: url("../images/icon/icon-24-outline-clock.svg");
+  background-image: url("../images/icon/icon-24-o-clock.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-clock.icon-fill {
@@ -1301,11 +1289,11 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-close {
-  background-image: url("../images/icon/icon-24-outline-close.svg");
+  background-image: url("../images/icon/icon-24-o-close.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-cross {
-  background-image: url("../images/icon/icon-24-outline-cross.svg");
+  background-image: url("../images/icon/icon-24-o-cross.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-cross.icon-fill {
@@ -1313,7 +1301,7 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-exchange {
-  background-image: url("../images/icon/icon-24-outline-exchange.svg");
+  background-image: url("../images/icon/icon-24-o-exchange.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-event-acceleration {
@@ -1349,7 +1337,7 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-minus {
-  background-image: url("../images/icon/icon-24-outline-minus.svg");
+  background-image: url("../images/icon/icon-24-o-minus.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-minus.icon-fill {
@@ -1357,7 +1345,7 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-plus {
-  background-image: url("../images/icon/icon-24-outline-plus.svg");
+  background-image: url("../images/icon/icon-24-o-plus.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-plus.icon-fill {
@@ -1365,15 +1353,15 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-redo {
-  background-image: url("../images/icon/icon-24-outline-redo.svg");
+  background-image: url("../images/icon/icon-24-o-redo.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-referral {
-  background-image: url("../images/icon/icon-24-outline-referral.svg");
+  background-image: url("../images/icon/icon-24-o-referral.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-undo {
-  background-image: url("../images/icon/icon-24-outline-undo.svg");
+  background-image: url("../images/icon/icon-24-o-undo.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-map-event-acceleration-active {
@@ -1441,27 +1429,27 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-overlay-compass-dynamic {
-  background-image: url("../images/icon/icon-24-outline-overlay-compass-dynamic.svg");
+  background-image: url("../images/icon/icon-24-o-overlay-compass-dynamic.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-overlay-cross {
-  background-image: url("../images/icon/icon-24-outline-overlay-cross.svg");
+  background-image: url("../images/icon/icon-24-o-overlay-cross.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-overlay-redo {
-  background-image: url("../images/icon/icon-24-outline-overlay-redo.svg");
+  background-image: url("../images/icon/icon-24-o-overlay-redo.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-overlay-undo {
-  background-image: url("../images/icon/icon-24-outline-overlay-undo.svg");
+  background-image: url("../images/icon/icon-24-o-overlay-undo.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-overlay-video-download {
-  background-image: url("../images/icon/icon-24-outline-overlay-video-download.svg");
+  background-image: url("../images/icon/icon-24-o-overlay-video-download.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-24.icon-overlay-video-fullscreen {
-  background-image: url("../images/icon/icon-24-outline-overlay-video-fullscreen.svg");
+  background-image: url("../images/icon/icon-24-o-overlay-video-fullscreen.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120 {
@@ -1470,155 +1458,155 @@ p {
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-alerts {
-  background-image: url("../images/icon/icon-120-outline-alerts.svg");
+  background-image: url("../images/icon/icon-120-o-alerts.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-archive {
-  background-image: url("../images/icon/icon-120-outline-archive.svg");
+  background-image: url("../images/icon/icon-120-o-archive.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-dashcam {
-  background-image: url("../images/icon/icon-120-outline-dashcam.svg");
+  background-image: url("../images/icon/icon-120-o-dashcam.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-dashcam-recall {
-  background-image: url("../images/icon/icon-120-outline-dashcam-recall.svg");
+  background-image: url("../images/icon/icon-120-o-dashcam-recall.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-developers {
-  background-image: url("../images/icon/icon-120-outline-developers.svg");
+  background-image: url("../images/icon/icon-120-o-developers.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-driver {
-  background-image: url("../images/icon/icon-120-outline-driver.svg");
+  background-image: url("../images/icon/icon-120-o-driver.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-driver-add {
-  background-image: url("../images/icon/icon-120-outline-driver-add.svg");
+  background-image: url("../images/icon/icon-120-o-driver-add.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-driver-invite {
-  background-image: url("../images/icon/icon-120-outline-driver-invite.svg");
+  background-image: url("../images/icon/icon-120-o-driver-invite.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-error {
-  background-image: url("../images/icon/icon-120-outline-error.svg");
+  background-image: url("../images/icon/icon-120-o-error.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-file {
-  background-image: url("../images/icon/icon-120-outline-file.svg");
+  background-image: url("../images/icon/icon-120-o-file.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-file-import {
-  background-image: url("../images/icon/icon-120-outline-file-import.svg");
+  background-image: url("../images/icon/icon-120-o-file-import.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-file-upload {
-  background-image: url("../images/icon/icon-120-outline-file-upload.svg");
+  background-image: url("../images/icon/icon-120-o-file-upload.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-geofencing {
-  background-image: url("../images/icon/icon-120-outline-geofencing.svg");
+  background-image: url("../images/icon/icon-120-o-geofencing.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-group {
-  background-image: url("../images/icon/icon-120-outline-group.svg");
+  background-image: url("../images/icon/icon-120-o-group.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-ifta {
-  background-image: url("../images/icon/icon-120-outline-ifta.svg");
+  background-image: url("../images/icon/icon-120-o-ifta.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-location {
-  background-image: url("../images/icon/icon-120-outline-location.svg");
+  background-image: url("../images/icon/icon-120-o-location.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-location-no {
-  background-image: url("../images/icon/icon-120-outline-location-no.svg");
+  background-image: url("../images/icon/icon-120-o-location-no.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-log-suggestion-pending {
-  background-image: url("../images/icon/icon-120-outline-log-suggestion-pending.svg");
+  background-image: url("../images/icon/icon-120-o-log-suggestion-pending.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-messages {
-  background-image: url("../images/icon/icon-120-outline-messages.svg");
+  background-image: url("../images/icon/icon-120-o-messages.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-overview {
-  background-image: url("../images/icon/icon-120-outline-overview.svg");
+  background-image: url("../images/icon/icon-120-o-overview.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-phone {
-  background-image: url("../images/icon/icon-120-outline-phone.svg");
+  background-image: url("../images/icon/icon-120-o-phone.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-record {
-  background-image: url("../images/icon/icon-120-outline-record.svg");
+  background-image: url("../images/icon/icon-120-o-record.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-reports {
-  background-image: url("../images/icon/icon-120-outline-reports.svg");
+  background-image: url("../images/icon/icon-120-o-reports.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-reports-locked {
-  background-image: url("../images/icon/icon-120-outline-reports-locked.svg");
+  background-image: url("../images/icon/icon-120-o-reports-locked.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-request-pending {
-  background-image: url("../images/icon/icon-120-outline-request-pending.svg");
+  background-image: url("../images/icon/icon-120-o-request-pending.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-scorecards {
-  background-image: url("../images/icon/icon-120-outline-scorecards.svg");
+  background-image: url("../images/icon/icon-120-o-scorecards.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-scorecards-new {
-  background-image: url("../images/icon/icon-120-outline-scorecards-new.svg");
+  background-image: url("../images/icon/icon-120-o-scorecards-new.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-search {
-  background-image: url("../images/icon/icon-120-outline-search.svg");
+  background-image: url("../images/icon/icon-120-o-search.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-signature {
-  background-image: url("../images/icon/icon-120-outline-signature.svg");
+  background-image: url("../images/icon/icon-120-o-signature.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-stopwatch {
-  background-image: url("../images/icon/icon-120-outline-stopwatch.svg");
+  background-image: url("../images/icon/icon-120-o-stopwatch.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-success {
-  background-image: url("../images/icon/icon-120-outline-success.svg");
+  background-image: url("../images/icon/icon-120-o-success.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-sucess-wait {
-  background-image: url("../images/icon/icon-120-outline-success-wait.svg");
+  background-image: url("../images/icon/icon-120-o-success-wait.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-unknown {
-  background-image: url("../images/icon/icon-120-outline-unknown.svg");
+  background-image: url("../images/icon/icon-120-o-unknown.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-vehicle {
-  background-image: url("../images/icon/icon-120-outline-vehicle.svg");
+  background-image: url("../images/icon/icon-120-o-vehicle.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-video-pending {
-  background-image: url("../images/icon/icon-120-outline-video-pending.svg");
+  background-image: url("../images/icon/icon-120-o-video-pending.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-warning {
-  background-image: url("../images/icon/icon-120-outline-warning.svg");
+  background-image: url("../images/icon/icon-120-o-warning.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-wrench {
-  background-image: url("../images/icon/icon-120-outline-wrench.svg");
+  background-image: url("../images/icon/icon-120-o-wrench.svg");
 }
 
 .sg-markup-base-icon-html .sg-example .icon.icon-size-120.icon-overlay-play {
-  background-image: url("../images/icon/icon-120-fill-overlay-play.svg");
+  background-image: url("../images/icon/icon-120-fill-play.svg");
 }
 
 .sg-markup-base-link-html .sg-example .link.link-disabled {
@@ -1739,7 +1727,7 @@ p {
 }
 
 .sg-markup-base-button-html .sg-example .button.variant-chevron .icon-chevron {
-  background-image: url("../images/icon/icon-16-outline-chevron-down-white.svg");
+  background-image: url("../images/icon/icon-16-o-chevron-down-white.svg");
   background-repeat: no-repeat;
   height: 16px;
   margin-right: 0;
@@ -2118,11 +2106,11 @@ p {
 }
 
 .sg-markup-component-filter-html .sg-example .icon.icon-size-16.icon-chevron-down {
-  background-image: url("../images/icon/icon-16-outline-chevron-down.svg");
+  background-image: url("../images/icon/icon-16-chevron-down.svg");
 }
 
 .sg-markup-component-filter-html .sg-example .icon.icon-size-16.icon-cross {
-  background-image: url("../images/icon/icon-16-outline-cross.svg");
+  background-image: url("../images/icon/icon-16-cross.svg");
 }
 
 .sg-markup-component-filter-html .sg-example input {
@@ -2326,19 +2314,19 @@ p {
 }
 
 .sg-markup-component-notification-html .sg-example .icon.icon-size-16.icon-cross-blue {
-  background-image: url("../images/icon/icon-16-outline-cross-blue.svg");
+  background-image: url("../images/icon/icon-16-cross-blue.svg");
 }
 
 .sg-markup-component-notification-html .sg-example .icon.icon-size-16.icon-cross-green {
-  background-image: url("../images/icon/icon-16-outline-cross-green.svg");
+  background-image: url("../images/icon/icon-16-cross-green.svg");
 }
 
 .sg-markup-component-notification-html .sg-example .icon.icon-size-16.icon-cross-yellow {
-  background-image: url("../images/icon/icon-16-outline-cross-yellow.svg");
+  background-image: url("../images/icon/icon-16-cross-yellow.svg");
 }
 
 .sg-markup-component-notification-html .sg-example .icon.icon-size-16.icon-cross-red {
-  background-image: url("../images/icon/icon-16-outline-cross-red.svg");
+  background-image: url("../images/icon/icon-16-cross-red.svg");
 }
 
 .sg-markup-component-table-html .sg-example .table {
@@ -2518,7 +2506,7 @@ p {
 }
 
 .sg-markup-component-popover-html .sg-example .popover .icon.icon-size-20.icon-close-grey {
-  background-image: url("../images/icon/icon-20-outline-close-grey.svg");
+  background-image: url("../images/icon/icon-20-o-close-grey.svg");
 }
 
 .sg-markup-component-popover-html .sg-example .popover p {
