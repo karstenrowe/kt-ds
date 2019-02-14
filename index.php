@@ -5,7 +5,7 @@
 <meta charset="utf-8">
   <title>KeepTruckin Design System</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="icon" type="image/x-icon" sizes="16x16 32x32 64x64" href="images/favicon.ico" />
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600|Roboto:300,400,400i,700" rel="stylesheet">
 
