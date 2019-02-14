@@ -769,6 +769,7 @@ p {
     &.white-20 {
       background: $white-20;
     }
+
     &.white-10 {
       background: $white-10;
     }
@@ -1604,6 +1605,7 @@ p {
         background-image: url("../images/icon/icon-120-o-wrench.svg");
       }
       
+
       &.icon-message {
         background-image: url("../images/icon/icon-120-o-message.svg");
       }
@@ -1772,6 +1774,7 @@ p {
 
     &.col-8 {
       grid-gap: 0;
+
       // Make first column double the width
       @media screen and (min-width: 1200px) {
         grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -1800,7 +1803,9 @@ p {
       background: {
         image: url("../images/icon/icon-20-fill-coaching-coached-white.svg");
         repeat: no-repeat;
-      };
+      }
+
+      ;
       display: inline-block;
       height: 20px;
       margin-right: 4px;
@@ -1815,7 +1820,9 @@ p {
         background: {
           image: url("../images/icon/icon-16-o-chevron-down-white.svg");
           repeat: no-repeat;
-        };
+        }
+
+        ;
         height: 16px;
         margin-right: 0;
         right: -8px;
@@ -1827,6 +1834,7 @@ p {
       // Roughly make the icon square
       padding-left: 11px !important;
       padding-right: 11px !important;
+
       .icon {
         margin: 0;
       }
@@ -2349,7 +2357,7 @@ p {
 
   .notification {
     border-radius: 4px;
-    box-shadow: 0 1px 1px 0 rgba(0,0,0, 0.1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
     padding: 8px 16px;
     margin-bottom: 12px;
 
@@ -2397,6 +2405,7 @@ p {
       p {
         color: inherit;
         margin: 2px 0 0 0;
+
         @media (min-width: 1200px) {
           margin: 4px 0 0 0;
         }
@@ -2409,6 +2418,7 @@ p {
     float: right;
     margin: 4px auto;
     opacity: 0.8;
+
     &:hover {
       opacity: 1;
     }
@@ -2416,15 +2426,19 @@ p {
     &.icon-size-16 {
       height: 16px;
       width: 16px;
+
       &.icon-cross-blue {
         background-image: url("../images/icon/icon-16-cross-blue.svg");
       }
+
       &.icon-cross-green {
         background-image: url("../images/icon/icon-16-cross-green.svg");
       }
+
       &.icon-cross-yellow {
         background-image: url("../images/icon/icon-16-cross-yellow.svg");
       }
+
       &.icon-cross-red {
         background-image: url("../images/icon/icon-16-cross-red.svg");
       }
@@ -2442,7 +2456,7 @@ p {
 
   .table-cell {
     flex-grow: 1;
-    width: 100%;  // default to full width
+    width: 100%; // default to full width
     padding: 0.8em 1.2em;
     overflow: hidden; // or flex might break
     list-style: none;
@@ -2466,7 +2480,7 @@ p {
   $breakpoint-mobile: 480px;
 
   @media all and (max-width: $breakpoint-mobile) {
-    .table-collapse  {
+    .table-collapse {
       display: block;
       > .table-cell { width: 100% !important; }
       > .table-cell-foot { margin-bottom: 1em; }
@@ -2485,6 +2499,7 @@ p {
       &.icon-chevron-up {
         background-image: url("../images/icon/icon-chevron-up-16.svg");
       }
+
       &.icon-chevron-down {
         background-image: url("../images/icon/icon-chevron-down-16.svg");
       }
@@ -2504,6 +2519,7 @@ p {
     max-width: 240px;
     position: relative;
     z-index: 1;
+
     @media (min-width: 1200px) {
       padding: 18px 24px;
     }
@@ -2534,32 +2550,41 @@ p {
       bottom: auto;
       z-index: 1;
     }
+
     &.tooltip-top:before {
       top: -4px;
     }
+
     &.tooltip-bottom:before {
       bottom: -4px;
     }
+
     &.tooltip-top-left:before {
       left: 32px;
     }
-    &.tooltip-top-center:before {
-    }
+
+    &.tooltip-top-center:before {}
+
     &.tooltip-top-right:before {
       right: 16px;
     }
+
     &.tooltip-left:before {
       left: -4px;
     }
+
     &.tooltip-right:before {
       right: 16px;
     }
+
     &.tooltip-bottom-left:before {
       margin-left: 0px;
     }
+
     &.tooltip-bottom-center:before {
       left: 16px;
     }
+
     &.tooltip-bottom-right:before {
       right: 16px;
     }
@@ -2581,6 +2606,7 @@ p {
     max-width: 240px;
     position: relative;
     z-index: 2;
+
     @media (min-width: 1200px) {
       padding: 18px 24px;
     }
@@ -2619,7 +2645,8 @@ p {
       color: $grey-80;
     }
 
-    &:before , &:after{
+    &:before,
+    &:after {
       background-color: $grey-30;
       content: "";
       width: 8px;
@@ -2631,7 +2658,7 @@ p {
       bottom: auto;
     }
 
-    &:before{
+    &:before {
       background-color: $grey-30;
       z-index: 1;
     }
@@ -2661,18 +2688,207 @@ p {
   .container-grid {
     border: 1px solid $grey-20;
     padding: 20px;
+
     .row {
       display: grid;
       grid-gap: 10px;
       grid-template-columns: 1fr;
       height: 30px;
       margin: 10px;
+
       &.col-2 {
         grid-template-columns: 1fr 1fr;
       }
+
       .column {
         background: $red-20;
       }
     }
   }
+}
+
+// Toggle
+.sg-markup-component-toggle-html .sg-example {
+
+  .toggle-compact {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+  }
+
+  .toggle-compact input {
+    display: none;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $grey-30;
+    -webkit-transition: .2s;
+    transition: .2s;
+
+    &:before {
+      position: absolute;
+      content: "";
+      height: 34px;
+      width: 34px;
+      left: 4px;
+      bottom: 3px;
+      background-color: white;
+      -webkit-transition: .2s;
+      transition: .2s;
+    }
+
+    &.round {
+      border-radius: 34px;
+
+      &:before {
+        border-radius: 50%;
+      }
+    }
+
+    .on,
+    .off {
+      color: white;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      font-weight: 600;
+      font-size: 16px;
+      -webkit-transition: .2s;
+      transition: .2s;
+    }
+
+    .on {
+      left: calc(50% - 12px);
+      display: none;
+    }
+
+    .off {
+      left: calc(50% + 12px);
+    }
+
+  }
+
+  input {
+    &:checked+.slider {
+      background-color: $blue-50;
+    }
+
+    &:focus+.slider {
+      box-shadow: 0 0 1px #2196F3;
+    }
+
+    &:checked+.slider:before {
+      -webkit-transform: translateX(49px);
+      -ms-transform: translateX(49px);
+      transform: translateX(49px);
+    }
+
+    &:checked+.slider .on {
+      display: block;
+    }
+
+    &:checked+.slider .off {
+      display: none;
+    }
+  }
+
+  .button {
+    background: $blue-50;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: $blue-10;
+    cursor: default;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    position: relative;
+    text-decoration: none;
+
+    &.button-wide {
+      min-width: 120px;
+      text-align: center;
+    }
+
+    &.button-left {
+      border-radius: 5px 0 0 5px;
+    }
+
+    &.button-center {
+      border-radius: 0;
+      margin-left: -5px;
+    }
+
+    &.button-right {
+      margin-left: -5px;
+      border-radius: 0 5px 5px 0;
+    }
+
+    .icon {
+      background: {
+        image: url("../images/icon/icon-20-fill-coaching-coached-white.svg");
+        repeat: no-repeat;
+      };
+      display: inline-block;
+      height: 20px;
+      margin-right: 4px;
+      position: relative;
+      top: -2px;
+      vertical-align: middle;
+      width: 20px;
+
+      &.icon-grey {
+        background: {
+          image: url("../images/icon/icon-20-fill-coaching-coached-grey.svg");
+          repeat: no-repeat;
+        }
+
+        ;
+      }
+    }
+
+    &.variant-icon-only {
+      padding-left: 11px !important;
+      padding-right: 11px !important;
+
+      .icon {
+        margin: 0;
+      }
+    }
+
+    &.button-subtle {
+      background: $grey-10;
+      border: 1px solid $grey-20;
+      box-shadow: none;
+      color: $grey-50;
+    }
+
+
+    &.button-size-md,
+    &.button-size-md.button-label {
+      font-size: 14px;
+      line-height: 22px;
+      padding: 4px 16px;
+
+      @media (min-width: 1200px) {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 6px 20px;
+      }
+
+      @media (min-width: 1600px) {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 8px 22px;
+      }
+    }
+  }
+
+
 }
