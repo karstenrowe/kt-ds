@@ -1604,7 +1604,7 @@ p {
       &.icon-maintenance {
         background-image: url("../images/icon/icon-120-o-wrench.svg");
       }
-      
+
 
       &.icon-message {
         background-image: url("../images/icon/icon-120-o-message.svg");
@@ -2889,6 +2889,30 @@ p {
       }
     }
   }
+}
 
+//Breadcrumb
+.sg-markup-navigation-breadcrumb-html .sg-example {
 
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: $grey-40;
+
+    &:last-child {
+      color: $grey-80;
+    }
+  }
+
+  .icon {
+    background: {
+      image: url("../images/icon/icon-16-chevron-right.svg");
+      repeat: no-repeat;
+    };
+
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+  }
 }
