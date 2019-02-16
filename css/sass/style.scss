@@ -1750,7 +1750,7 @@ p {
 }
 
 // Button
-.sg-markup-base-button-html .sg-example {
+.sg-example {
   .col {
     margin-bottom: 1.6rem;
 
@@ -2496,9 +2496,11 @@ p {
   .tooltip {
     background-color: $grey-80;
     border-radius: 4px;
-    padding: 14px 20px;
+    display: inline-block;
     font-size: 14px;
+    line-height: 22px;
     max-width: 240px;
+    padding: 14px 20px;
     position: relative;
     z-index: 1;
 
@@ -2545,88 +2547,73 @@ p {
       left: 32px;
     }
 
-    &.tooltip-top-center:before {}
+    &.tooltip-top-center:before {
+      left: calc(50% - 8px)
+    }
 
     &.tooltip-top-right:before {
-      right: 16px;
+      right: 32px;
+    }
+
+    &.tooltip-right:before {
+      right: -4px;
+      top: calc(50% - 4px)
+    }
+
+    &.tooltip-bottom-right:before {
+      right: 32px;
+    }
+
+    &.tooltip-bottom-center:before {
+      left: calc(50% - 8px)
     }
 
     &.tooltip-left:before {
       left: -4px;
-    }
-
-    &.tooltip-right:before {
-      right: 16px;
-    }
-
-    &.tooltip-bottom-left:before {
-      margin-left: 0px;
-    }
-
-    &.tooltip-bottom-center:before {
-      left: 16px;
-    }
-
-    &.tooltip-bottom-right:before {
-      right: 16px;
+      top: calc(50% - 4px)
     }
   }
 }
 
-//Popover
+// Popover
 .sg-markup-component-popover-html .sg-example {
 
   .popover {
-    background-color: $white-10;
-    border-radius: 4px;
-    margin: 20px 0 20px;
-    color: $grey-60;
+    background-color: #fff;
     border: 1px solid $grey-30;
     border-radius: 4px;
-    padding: 14px 20px;
     font-size: 14px;
+    line-height: 22px;
+    margin: 16px 0;
     max-width: 240px;
+    padding: 16px;
     position: relative;
-    z-index: 2;
 
-    @media (min-width: 1200px) {
-      padding: 18px 24px;
-    }
-
-    // Redundant code, will be linked from icon
-    .icon {
-      float: right;
+    .icon-close-grey {
       display: inline-block;
-      position: relative;
-      top: -8px;
-      right: -10px;
-
-      &.icon-size-20 {
-        height: 20px;
-        width: 20px;
-
-        &.icon-close-grey {
-          background-image: url("../images/icon/icon-20-o-close-grey.svg");
-        }
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      height: 20px;
+      width: 20px;
+      background: url("../images/icon/icon-20-o-close-grey50.svg");
+      opacity: 0.6;
+      &:hover {
+        opacity: 1;
       }
     }
 
-    p {
-      margin: 0;
-      color: $grey-60;
-    }
-
-    a {
-      color: $blue-50;
-      text-decoration: none;
-    }
-
     .popover-heading {
-      font-size: 16px;
+      color: $grey-70;
       font-weight: 600;
-      color: $grey-80;
+      margin-bottom: 8px;
     }
 
+    p {
+      margin: 0 0 6px 0;
+    }
+
+    // Nub
     &:before,
     &:after {
       background-color: $grey-30;
@@ -2647,8 +2634,7 @@ p {
 
     &:after {
       background-color: $white-10;
-      z-index: 3;
-
+      z-index: 2;
     }
 
     &.popover-top-left {
@@ -2661,7 +2647,6 @@ p {
         top: -5px;
       }
     }
-
   }
 }
 
@@ -2873,7 +2858,7 @@ p {
   }
 }
 
-//Breadcrumb
+// Breadcrumb
 .sg-markup-navigation-breadcrumb-html .sg-example {
   .list-breadcrumb {
     display: flex;

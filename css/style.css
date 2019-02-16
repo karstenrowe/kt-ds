@@ -1663,25 +1663,25 @@ p {
   margin: 0.4rem 0;
 }
 
-.sg-markup-base-button-html .sg-example .col {
+.sg-example .col {
   margin-bottom: 1.6rem;
 }
 
-.sg-markup-base-button-html .sg-example .col.col-8 {
+.sg-example .col.col-8 {
   grid-gap: 0;
 }
 
 @media screen and (min-width: 1200px) {
-  .sg-markup-base-button-html .sg-example .col.col-8 {
+  .sg-example .col.col-8 {
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
-.sg-markup-base-button-html .sg-example p.col-header {
+.sg-example p.col-header {
   font-size: 12px;
 }
 
-.sg-markup-base-button-html .sg-example .button {
+.sg-example .button {
   background: #207CBA;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -1695,7 +1695,7 @@ p {
   text-decoration: none;
 }
 
-.sg-markup-base-button-html .sg-example .button .icon {
+.sg-example .button .icon {
   background-image: url("../images/icon/icon-20-fill-coaching-coached-white.svg");
   background-repeat: no-repeat;
   display: inline-block;
@@ -1707,7 +1707,7 @@ p {
   width: 20px;
 }
 
-.sg-markup-base-button-html .sg-example .button.variant-chevron .icon-chevron {
+.sg-example .button.variant-chevron .icon-chevron {
   background-image: url("../images/icon/icon-16-o-chevron-down-white.svg");
   background-repeat: no-repeat;
   height: 16px;
@@ -1716,30 +1716,30 @@ p {
   width: 16px;
 }
 
-.sg-markup-base-button-html .sg-example .button.variant-icon-only {
+.sg-example .button.variant-icon-only {
   padding-left: 11px !important;
   padding-right: 11px !important;
 }
 
-.sg-markup-base-button-html .sg-example .button.variant-icon-only .icon {
+.sg-example .button.variant-icon-only .icon {
   margin: 0;
 }
 
-.sg-markup-base-button-html .sg-example .button:visited {
+.sg-example .button:visited {
   background: #207CBA;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-hover {
+.sg-example .button.button-hover {
   background: #389ADD;
   color: #fff;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-active, .sg-markup-base-button-html .sg-example .button.button-focus {
+.sg-example .button.button-active, .sg-example .button.button-focus {
   background: #1A6395;
   color: #fff;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-disabled {
+.sg-example .button.button-disabled {
   background: #E6F3FB;
   border: 1px solid transparent;
   box-shadow: none;
@@ -1747,106 +1747,106 @@ p {
   cursor: default;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-secondary {
+.sg-example .button.button-secondary {
   background: #607587;
   color: #EFF1F3;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-secondary.button-hover {
+.sg-example .button.button-secondary.button-hover {
   background: #7D91A2;
   color: #fff;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-secondary.button-active, .sg-markup-base-button-html .sg-example .button.button-secondary.button-focus {
+.sg-example .button.button-secondary.button-active, .sg-example .button.button-secondary.button-focus {
   background: #4D5E6C;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-secondary.button-disabled {
+.sg-example .button.button-secondary.button-disabled {
   background: #EFF1F3;
   color: #BEC8D1;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-subtle {
+.sg-example .button.button-subtle {
   background: #EFF1F3;
   border: 1px solid #BEC8D1;
   box-shadow: none;
   color: #607587;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-subtle.button-hover {
+.sg-example .button.button-subtle.button-hover {
   background: #fff;
   color: #4D5E6C;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-subtle.button-active, .sg-markup-base-button-html .sg-example .button.button-subtle.button-focus {
+.sg-example .button.button-subtle.button-active, .sg-example .button.button-subtle.button-focus {
   background: #fff;
   color: #3A4651;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-subtle.button-disabled {
+.sg-example .button.button-subtle.button-disabled {
   background: #EFF1F3;
   border: 1px solid transparent;
   color: #BEC8D1;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-save {
+.sg-example .button.button-save {
   background: #35853B;
   color: #E8F6E9;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-save.button-hover {
+.sg-example .button.button-save.button-hover {
   background: #47B350;
   color: #fff;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-save.button-active, .sg-markup-base-button-html .sg-example .button.button-save.button-focus {
+.sg-example .button.button-save.button-active, .sg-example .button.button-save.button-focus {
   background: #2A6A2F;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-save.button-disabled {
+.sg-example .button.button-save.button-disabled {
   background: #E8F6E9;
   color: #A2DAA7;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-delete {
+.sg-example .button.button-delete {
   background: #E22A2A;
   color: #FFECE8;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-delete.button-hover {
+.sg-example .button.button-delete.button-hover {
   background: #F06151;
   color: #fff;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-delete.button-active, .sg-markup-base-button-html .sg-example .button.button-delete.button-focus {
+.sg-example .button.button-delete.button-active, .sg-example .button.button-delete.button-focus {
   background: #B12723;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-delete.button-disabled {
+.sg-example .button.button-delete.button-disabled {
   background: #FFECE8;
   color: #FFB2A4;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-warning {
+.sg-example .button.button-warning {
   background: #8D7102;
   color: #F9F2D2;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-warning.button-hover {
+.sg-example .button.button-warning.button-hover {
   background: #C19F17;
   color: #fff;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-warning.button-active, .sg-markup-base-button-html .sg-example .button.button-warning.button-focus {
+.sg-example .button.button-warning.button-active, .sg-example .button.button-warning.button-focus {
   background: #715A02;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-warning.button-disabled {
+.sg-example .button.button-warning.button-disabled {
   background: #F9F2D2;
   color: #ECD166;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-label {
+.sg-example .button.button-label {
   background: none;
   box-shadow: none;
   color: #9DACB9;
@@ -1854,34 +1854,34 @@ p {
   padding-left: 0 !important;
 }
 
-.sg-markup-base-button-html .sg-example .button.button-size-xs, .sg-markup-base-button-html .sg-example .button.button-size-xs.button-label {
+.sg-example .button.button-size-xs, .sg-example .button.button-size-xs.button-label {
   font-size: 10px;
   line-height: 18px;
   padding: 4px 16px;
 }
 
 @media (min-width: 1200px) {
-  .sg-markup-base-button-html .sg-example .button.button-size-xs, .sg-markup-base-button-html .sg-example .button.button-size-xs.button-label {
+  .sg-example .button.button-size-xs, .sg-example .button.button-size-xs.button-label {
     font-size: 12px;
     line-height: 20px;
   }
 }
 
 @media (min-width: 1600px) {
-  .sg-markup-base-button-html .sg-example .button.button-size-xs, .sg-markup-base-button-html .sg-example .button.button-size-xs.button-label {
+  .sg-example .button.button-size-xs, .sg-example .button.button-size-xs.button-label {
     font-size: 14px;
     line-height: 22px;
   }
 }
 
-.sg-markup-base-button-html .sg-example .button.button-size-sm, .sg-markup-base-button-html .sg-example .button.button-size-sm.button-label {
+.sg-example .button.button-size-sm, .sg-example .button.button-size-sm.button-label {
   font-size: 12px;
   line-height: 20px;
   padding: 4px 16px;
 }
 
 @media (min-width: 1200px) {
-  .sg-markup-base-button-html .sg-example .button.button-size-sm, .sg-markup-base-button-html .sg-example .button.button-size-sm.button-label {
+  .sg-example .button.button-size-sm, .sg-example .button.button-size-sm.button-label {
     font-size: 14px;
     line-height: 22px;
     padding: 6px 18px;
@@ -1889,21 +1889,21 @@ p {
 }
 
 @media (min-width: 1600px) {
-  .sg-markup-base-button-html .sg-example .button.button-size-sm, .sg-markup-base-button-html .sg-example .button.button-size-sm.button-label {
+  .sg-example .button.button-size-sm, .sg-example .button.button-size-sm.button-label {
     font-size: 16px;
     line-height: 24px;
     padding: 8px 22px;
   }
 }
 
-.sg-markup-base-button-html .sg-example .button.button-size-md, .sg-markup-base-button-html .sg-example .button.button-size-md.button-label {
+.sg-example .button.button-size-md, .sg-example .button.button-size-md.button-label {
   font-size: 14px;
   line-height: 22px;
   padding: 4px 16px;
 }
 
 @media (min-width: 1200px) {
-  .sg-markup-base-button-html .sg-example .button.button-size-md, .sg-markup-base-button-html .sg-example .button.button-size-md.button-label {
+  .sg-example .button.button-size-md, .sg-example .button.button-size-md.button-label {
     font-size: 16px;
     line-height: 24px;
     padding: 6px 20px;
@@ -1911,21 +1911,21 @@ p {
 }
 
 @media (min-width: 1600px) {
-  .sg-markup-base-button-html .sg-example .button.button-size-md, .sg-markup-base-button-html .sg-example .button.button-size-md.button-label {
+  .sg-example .button.button-size-md, .sg-example .button.button-size-md.button-label {
     font-size: 18px;
     line-height: 26px;
     padding: 8px 22px;
   }
 }
 
-.sg-markup-base-button-html .sg-example .button.button-size-lg, .sg-markup-base-button-html .sg-example .button.button-size-lg.button-label {
+.sg-example .button.button-size-lg, .sg-example .button.button-size-lg.button-label {
   font-size: 16px;
   line-height: 24px;
   padding: 6px 20px;
 }
 
 @media (min-width: 1200px) {
-  .sg-markup-base-button-html .sg-example .button.button-size-lg, .sg-markup-base-button-html .sg-example .button.button-size-lg.button-label {
+  .sg-example .button.button-size-lg, .sg-example .button.button-size-lg.button-label {
     font-size: 18px;
     line-height: 26px;
     padding: 8px 22px;
@@ -1933,21 +1933,21 @@ p {
 }
 
 @media (min-width: 1600px) {
-  .sg-markup-base-button-html .sg-example .button.button-size-lg, .sg-markup-base-button-html .sg-example .button.button-size-lg.button-label {
+  .sg-example .button.button-size-lg, .sg-example .button.button-size-lg.button-label {
     font-size: 20px;
     line-height: 28px;
     padding: 10px 24px;
   }
 }
 
-.sg-markup-base-button-html .sg-example .button.button-size-xl, .sg-markup-base-button-html .sg-example .button.button-size-xl.button-label {
+.sg-example .button.button-size-xl, .sg-example .button.button-size-xl.button-label {
   font-size: 18px;
   line-height: 26px;
   padding: 8px 22px;
 }
 
 @media (min-width: 1200px) {
-  .sg-markup-base-button-html .sg-example .button.button-size-xl, .sg-markup-base-button-html .sg-example .button.button-size-xl.button-label {
+  .sg-example .button.button-size-xl, .sg-example .button.button-size-xl.button-label {
     font-size: 20px;
     line-height: 29px;
     padding: 10px 24px;
@@ -1955,7 +1955,7 @@ p {
 }
 
 @media (min-width: 1600px) {
-  .sg-markup-base-button-html .sg-example .button.button-size-xl, .sg-markup-base-button-html .sg-example .button.button-size-xl.button-label {
+  .sg-example .button.button-size-xl, .sg-example .button.button-size-xl.button-label {
     font-size: 22px;
     line-height: 30px;
     padding: 12px 30px;
@@ -2377,9 +2377,11 @@ p {
 .sg-markup-component-tooltip-html .sg-example .tooltip {
   background-color: #262F36;
   border-radius: 4px;
-  padding: 14px 20px;
+  display: inline-block;
   font-size: 14px;
+  line-height: 22px;
   max-width: 240px;
+  padding: 14px 20px;
   position: relative;
   z-index: 1;
 }
@@ -2429,81 +2431,67 @@ p {
   left: 32px;
 }
 
+.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-top-center:before {
+  left: calc(50% - 8px);
+}
+
 .sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-top-right:before {
-  right: 16px;
+  right: 32px;
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-right:before {
+  right: -4px;
+  top: calc(50% - 4px);
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-bottom-right:before {
+  right: 32px;
+}
+
+.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-bottom-center:before {
+  left: calc(50% - 8px);
 }
 
 .sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-left:before {
   left: -4px;
-}
-
-.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-right:before {
-  right: 16px;
-}
-
-.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-bottom-left:before {
-  margin-left: 0px;
-}
-
-.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-bottom-center:before {
-  left: 16px;
-}
-
-.sg-markup-component-tooltip-html .sg-example .tooltip.tooltip-bottom-right:before {
-  right: 16px;
+  top: calc(50% - 4px);
 }
 
 .sg-markup-component-popover-html .sg-example .popover {
-  background-color: #FCFCFD;
-  border-radius: 4px;
-  margin: 20px 0 20px;
-  color: #4D5E6C;
+  background-color: #fff;
   border: 1px solid #9DACB9;
   border-radius: 4px;
-  padding: 14px 20px;
   font-size: 14px;
+  line-height: 22px;
+  margin: 16px 0;
   max-width: 240px;
+  padding: 16px;
   position: relative;
-  z-index: 2;
 }
 
-@media (min-width: 1200px) {
-  .sg-markup-component-popover-html .sg-example .popover {
-    padding: 18px 24px;
-  }
-}
-
-.sg-markup-component-popover-html .sg-example .popover .icon {
-  float: right;
+.sg-markup-component-popover-html .sg-example .popover .icon-close-grey {
   display: inline-block;
-  position: relative;
-  top: -8px;
-  right: -10px;
-}
-
-.sg-markup-component-popover-html .sg-example .popover .icon.icon-size-20 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
   height: 20px;
   width: 20px;
+  background: url("../images/icon/icon-20-o-close-grey50.svg");
+  opacity: 0.6;
 }
 
-.sg-markup-component-popover-html .sg-example .popover .icon.icon-size-20.icon-close-grey {
-  background-image: url("../images/icon/icon-20-o-close-grey.svg");
-}
-
-.sg-markup-component-popover-html .sg-example .popover p {
-  margin: 0;
-  color: #4D5E6C;
-}
-
-.sg-markup-component-popover-html .sg-example .popover a {
-  color: #207CBA;
-  text-decoration: none;
+.sg-markup-component-popover-html .sg-example .popover .icon-close-grey:hover {
+  opacity: 1;
 }
 
 .sg-markup-component-popover-html .sg-example .popover .popover-heading {
-  font-size: 16px;
+  color: #3A4651;
   font-weight: 600;
-  color: #262F36;
+  margin-bottom: 8px;
+}
+
+.sg-markup-component-popover-html .sg-example .popover p {
+  margin: 0 0 6px 0;
 }
 
 .sg-markup-component-popover-html .sg-example .popover:before, .sg-markup-component-popover-html .sg-example .popover:after {
@@ -2525,7 +2513,7 @@ p {
 
 .sg-markup-component-popover-html .sg-example .popover:after {
   background-color: #FCFCFD;
-  z-index: 3;
+  z-index: 2;
 }
 
 .sg-markup-component-popover-html .sg-example .popover.popover-top-left:after {
