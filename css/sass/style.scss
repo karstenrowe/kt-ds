@@ -529,7 +529,7 @@ p {
 }
 
 // Hide Source Code Blocks for some sections when it's not relevant
-.sg-markup-Brand-Logo-html,
+.sg-markup-Brand-logo-html,
 .sg-markup-Brand-color-html,
 .sg-markup-Brand-font-html {
   .sg-markup-controls {
@@ -538,7 +538,7 @@ p {
 }
 
 // Logo
-.sg-markup-Brand-Logo-html .sg-example {
+.sg-markup-Brand-logo-html .sg-example {
   p {
     font-size: 14px;
     line-height: 22px;
@@ -1584,7 +1584,7 @@ p {
       }
 
       &.icon-maintenance {
-        background-image: url("../images/icon/icon-120-o-wrench.svg");
+        background-image: url("../images/icon/icon-120-o-maintenance.svg");
       }
 
 
@@ -1780,6 +1780,10 @@ p {
     letter-spacing: 0.4px;
     position: relative;
     text-decoration: none;
+
+    &:visited {
+      color: $blue-10;
+    }
 
     .icon {
       background: {
