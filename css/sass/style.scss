@@ -2494,6 +2494,41 @@ p {
 
 }
 
+.sg-markup-component-modal-html .sg-example {
+  .bg-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: $grey-80;
+  }
+
+  .modal {
+    border-radius: 4px;
+    background-color: $white-10;
+    color: $grey-60;
+    padding: 40px;
+    min-width: 480px;
+    width: 520px;
+    position: relative;
+
+    .icon-close-grey {
+      display: inline-block;
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      height: 20px;
+      width: 20px;
+      background: url("../images/icon/icon-20-o-close-grey50.svg");
+      opacity: 0.6;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+}
 // Tooltip
 .sg-markup-component-tooltip-html .sg-example {
 
