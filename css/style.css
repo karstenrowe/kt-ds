@@ -212,6 +212,10 @@ p.variant-sm {
   background: #E22A2A;
 }
 
+.component-label {
+  background: red;
+}
+
 .sg-wrapper {
   position: relative;
 }
