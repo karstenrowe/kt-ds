@@ -18,6 +18,26 @@
 @import "component/tooltip";
 
 
+.sg-btn--source{
+  background: $white-20;
+  font-weight: 600;
+  color: $grey-60;
+  border-radius: $border-radius-default;
+  border: none;
+  font-family: $font-body;
+  font-size: 14px;
+  padding: 8px 16px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    background-color: $grey-10;
+  }
+}
+
 // Layout
 .sg-wrapper {
   position: relative;
