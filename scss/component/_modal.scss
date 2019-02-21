@@ -26,6 +26,50 @@
             }
         }
 
+        &.modal-standard {
+            background-color: #fff;
+            padding: 0px;
+
+            .header {
+                border-radius: 4px 4px 0 0;
+                background: $grey-10;
+                height: 80px;
+                padding: 16px 40px;
+
+                .title {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: $grey-80;
+                    margin: 0;
+                }
+
+                .sub-title {
+                    font-size: 14px;
+                    color: $grey-50;
+                    margin: 0;
+                }
+            }
+
+            .footer {
+                border-radius: 0 0 4px 4px;
+                background: $grey-10;
+                height: 80px;
+                padding: 16px 40px;
+            }
+
+            .modal-content {
+                padding: 40px;
+            }
+
+            hr {
+                margin: 0;
+                height: 1px;
+                color: $grey-20;
+                background-color: $grey-20;
+                border: none;
+            }
+        }
+
         .icon-close-grey {
             display: inline-block;
             position: absolute;
@@ -40,5 +84,50 @@
                 opacity: 1;
             }
         }
+    }
+
+    .button {
+        background: $blue-50;
+        border: 1px solid transparent;
+        border-radius: $border-radius-default;
+        color: $blue-10;
+        cursor: default;
+        display: inline-block;
+        font-weight: 600;
+        letter-spacing: 0.4px;
+        position: relative;
+        text-decoration: none;
+
+        &.button-subtle {
+            background: $grey-10;
+            border: 1px solid $grey-20;
+            box-shadow: none;
+            color: $grey-50;
+        }
+
+        &.button-secondary {
+            background: $grey-50;
+            color: $grey-10;
+        }
+
+        &.button-size-md,
+        &.button-size-md.button-label {
+            font-size: 14px;
+            line-height: 22px;
+            padding: 4px 16px;
+
+            @media (min-width: 1200px) {
+                font-size: 16px;
+                line-height: 24px;
+                padding: 6px 20px;
+            }
+
+            @media (min-width: 1600px) {
+                font-size: 18px;
+                line-height: 26px;
+                padding: 8px 22px;
+            }
+        }
+
     }
 }
