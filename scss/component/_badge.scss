@@ -1,0 +1,32 @@
+// Badge
+.sg-markup-component-badge-html .sg-example {
+  .badge {
+    background: $grey-50;
+    border-radius: 16px;
+    color: #fff;
+    letter-spacing: 0.4px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    padding: 4px 12px;
+    text-align: center;
+    width: 48px;
+
+    &.badge-word {
+      width: 80px;
+    }
+
+    &.badge-driving {
+      background: $green-50;
+    }
+
+    &.badge-on-duty {
+      background: $blue-50;
+    }
+
+    &.badge-major {
+      background: $red-50;
+    }
+  }
+}

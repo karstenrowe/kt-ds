@@ -1,0 +1,156 @@
+// Reset
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+textarea,
+select,
+input,
+button {
+  outline: none;
+}
+
+// Typography
+body {
+  color: $grey-60;
+  font-family: $font-body;
+  font-size: 14px;
+  line-height: 22px;
+
+  @media (min-width: 1200px) {
+    font-size: 16px;
+    line-height: 24px
+  }
+
+  @media (min-width: 1600px) {
+    font-size: 18px;
+    line-height: 26px
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $grey-70;
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-top: 16px;
+  text-transform: capitalize;
+}
+
+h1 {
+  border-bottom: 2px solid $grey-10;
+  color: $grey-80;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 8px;
+  margin-top: 32px;
+
+  @media (min-width: 1200px) {
+    font-size: 38px;
+    line-height: 46px;
+  }
+
+  @media (min-width: 1600px) {
+    font-size: 46px;
+    line-height: 54px;
+  }
+}
+
+h2 {
+  font-size: 26px;
+  line-height: 34px;
+
+  @media (min-width: 1200px) {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  @media (min-width: 1600px) {
+    font-size: 38px;
+    line-height: 46px;
+  }
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 30px;
+
+  @media (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  @media (min-width: 1600px) {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 28px;
+
+  @media (min-width: 1200px) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  @media (min-width: 1600px) {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 26px;
+
+  @media (min-width: 1200px) {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  @media (min-width: 1600px) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 24px;
+
+  @media (min-width: 1200px) {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  @media (min-width: 1600px) {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+p {
+  margin-bottom: 8px;
+  margin-top: 16px;
+  &.variant-sm {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    margin-top: 16px;
+  }
+}

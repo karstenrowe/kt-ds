@@ -1,77 +1,12 @@
-//@import "variable";
+@import "variable";
+@import "mixin";
+@import "global";
+@import "sidebar";
 
-// Colors variables
-$grey-80: #262F36;
-$grey-70: #3A4651;
-$grey-60: #4D5E6C; // Primary
-$grey-50: #607587;
-$grey-40: #7D91A2;
-$grey-30: #9DACB9;
-$grey-20: #BEC8D1;
-$grey-10: #EFF1F3;
+// Component
+@import "component/badge";
+@import "component/card";
 
-$white-20: #F5F7F8;
-$white-10: #FCFCFD;
-
-$blue-80: #0D324A;
-$blue-70: #134A70;
-$blue-60: #1A6395;
-$blue-50: #207CBA; // Primary
-$blue-40: #389ADD;
-$blue-30: #6AB3E5;
-$blue-20: #9BCDEE;
-$blue-10: #E6F3FB;
-
-$green-80: #153518;
-$green-70: #205023;
-$green-60: #2A6A2F;
-$green-50: #35853B; // Primary
-$green-40: #47B350;
-$green-30: #74C87A;
-$green-20: #A2DAA7;
-$green-10: #E8F6E9;
-
-$red-80: #581C16;
-$red-70: #83231D;
-$red-60: #B12723;
-$red-50: #E22A2A; // Primary
-$red-40: #F06151;
-$red-30: #FB8B7A;
-$red-20: #FFB2A4;
-$red-10: #FFECE8;
-
-$yellow-80: #382D01;
-$yellow-70: #554401;
-$yellow-60: #715A02;
-$yellow-50: #8D7102; // Primary
-$yellow-40: #C19F17;
-$yellow-30: #E8C228;
-$yellow-20: #ECD166;
-$yellow-10: #F9F2D2;
-
-$dpe-corner-purple: #B078D9;
-$dpe-acceleration-yellow: $yellow-20;
-$dpe-brake-red: $red-40;
-
-// Reset
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
-textarea,
-select,
-input,
-button {
-  outline: none;
-}
 
 // Layout
 .sg-wrapper {
@@ -123,153 +58,6 @@ button {
   .sg-main {
     float: right;
     width: 75%;
-  }
-}
-
-// Fonts
-$font-headline: 'Open Sans', sans-serif;
-$font-body: 'Open Sans', sans-serif;
-$font-mobile: 'Roboto', sans-serif;
-
-// Typography
-body {
-  color: $grey-60;
-  font-family: $font-body;
-  font-size: 14px;
-  line-height: 22px;
-
-  @media (min-width: 1200px) {
-    font-size: 16px;
-    line-height: 24px
-  }
-
-  @media (min-width: 1600px) {
-    font-size: 18px;
-    line-height: 26px
-  }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: $grey-70;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-  text-transform: capitalize;
-}
-
-h1 {
-  border-bottom: 2px solid $grey-10;
-  color: $grey-80;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 38px;
-  margin-top: 6rem;
-  padding-bottom: 0.8rem;
-
-  @media (min-width: 1200px) {
-    font-size: 38px;
-    line-height: 46px;
-    margin-top: 8rem;
-  }
-
-  @media (min-width: 1600px) {
-    font-size: 46px;
-    line-height: 54px;
-  }
-
-  &#sg-markup-Brand {
-    margin-top: 6rem;
-  }
-}
-
-h2 {
-  font-size: 26px;
-  line-height: 34px;
-
-  @media (min-width: 1200px) {
-    font-size: 30px;
-    line-height: 38px;
-  }
-
-  @media (min-width: 1600px) {
-    font-size: 38px;
-    line-height: 46px;
-  }
-}
-
-h3 {
-  font-size: 22px;
-  line-height: 30px;
-
-  @media (min-width: 1200px) {
-    font-size: 26px;
-    line-height: 34px;
-  }
-
-  @media (min-width: 1600px) {
-    font-size: 30px;
-    line-height: 38px;
-  }
-}
-
-h4 {
-  font-size: 20px;
-  line-height: 28px;
-
-  @media (min-width: 1200px) {
-    font-size: 24px;
-    line-height: 32px;
-  }
-
-  @media (min-width: 1600px) {
-    font-size: 28px;
-    line-height: 36px;
-  }
-}
-
-h5 {
-  font-size: 18px;
-  line-height: 26px;
-
-  @media (min-width: 1200px) {
-    font-size: 20px;
-    line-height: 28px;
-  }
-
-  @media (min-width: 1600px) {
-    font-size: 24px;
-    line-height: 32px;
-  }
-}
-
-h6 {
-  font-size: 16px;
-  line-height: 24px;
-
-  @media (min-width: 1200px) {
-    font-size: 18px;
-    line-height: 26px;
-  }
-
-  @media (min-width: 1600px) {
-    font-size: 20px;
-    line-height: 28px;
-  }
-}
-
-p {
-  margin-bottom: 0.8rem;
-  margin-top: 1.6rem;
-  &.variant-sm {
-    font-size: 14px;
-    line-height: 22px;
-    margin-bottom: 0.2rem;
-    margin-top: 0.4rem;
   }
 }
 
@@ -432,9 +220,7 @@ p {
         position: 50%;
         repeat: no-repeat;
         size: contain;
-      }
-
-      ;
+      };
       min-height: 32px;
     }
 
@@ -544,7 +330,7 @@ p {
 }
 
 // Logo
-.sg-markup-Brand-logo-html .sg-example {
+.sg-markup-Brand-Logo-html .sg-example {
   p {
     font-size: 14px;
     line-height: 22px;
@@ -1756,7 +1542,7 @@ p {
 }
 
 // Button
-.sg-example {
+.sg-markup-base-button-html .sg-example {
   .col {
     margin-bottom: 1.6rem;
 
@@ -1778,7 +1564,7 @@ p {
     background: $blue-50;
     border: 1px solid transparent;
     border-radius: 4px;
-    box-shadow: inset 0 -1px 1px 0 rgba(0, 0, 0, 0.2), inset 0 1px 0 0 rgba(255, 255, 255, 0.2), 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+    //box-shadow: inset 0 -1px 1px 0 rgba(0, 0, 0, 0.2), inset 0 1px 0 0 rgba(255, 255, 255, 0.2), 0 2px 1px 0 rgba(0, 0, 0, 0.1);
     color: $blue-10;
     cursor: default;
     display: inline-block;
@@ -1791,32 +1577,31 @@ p {
       color: $blue-10;
     }
 
+    // Shared
     .icon {
-      background: {
-        image: url("../images/icon/icon-20-fill-coaching-coached-white.svg");
-        repeat: no-repeat;
-      }
-
-      ;
+      background-repeat: no-repeat;
       display: inline-block;
       height: 20px;
-      margin-right: 4px;
       position: relative;
-      top: -2px;
       vertical-align: middle;
+      top: -2px;
       width: 20px;
+    }
+
+    &.variant-icon {
+      .icon {
+        background-image: url("../images/icon/icon-20-plus-white.svg");
+        //background-image: url("../images/icon/icon-16-chevron-down-white.svg");
+
+        left: -2px;
+        margin-right: 2px;
+      }
     }
 
     &.variant-chevron {
       .icon-chevron {
-        background: {
-          image: url("../images/icon/icon-16-o-chevron-down-white.svg");
-          repeat: no-repeat;
-        }
-
-        ;
+        background-image: url("../images/icon/icon-16-chevron-down-white.svg");
         height: 16px;
-        margin-right: 0;
         right: -8px;
         width: 16px;
       }
@@ -1826,8 +1611,8 @@ p {
       // Roughly make the icon square
       padding-left: 11px !important;
       padding-right: 11px !important;
-
       .icon {
+        background-image: url("../images/icon/icon-20-fill-coaching-coached-white.svg");
         margin: 0;
       }
     }
@@ -2062,38 +1847,7 @@ p {
   }
 }
 
-// Badge
-.sg-markup-component-badge-html .sg-example {
-  .badge {
-    background: $grey-50;
-    border-radius: 16px;
-    color: #fff;
-    letter-spacing: 0.4px;
-    font-size: 12px;
-    line-height: 20px;
-    font-weight: 600;
-    margin-bottom: 4px;
-    padding: 4px 12px;
-    text-align: center;
-    width: 48px;
 
-    &.badge-word {
-      width: 80px;
-    }
-
-    &.badge-driving {
-      background: $green-50;
-    }
-
-    &.badge-on-duty {
-      background: $blue-50;
-    }
-
-    &.badge-major {
-      background: $red-50;
-    }
-  }
-}
 
 // Card
 .sg-markup-component-card-html .sg-example {
@@ -2831,25 +2585,6 @@ p {
     position: relative;
     text-decoration: none;
 
-    &.button-wide {
-      min-width: 120px;
-      text-align: center;
-    }
-
-    &.button-left {
-      border-radius: 5px 0 0 5px;
-    }
-
-    &.button-center {
-      border-radius: 0;
-      margin-left: -5px;
-    }
-
-    &.button-right {
-      margin-left: -5px;
-      border-radius: 0 5px 5px 0;
-    }
-
     .icon {
       background: {
         image: url("../images/icon/icon-20-fill-coaching-coached-white.svg");
@@ -2867,9 +2602,7 @@ p {
         background: {
           image: url("../images/icon/icon-20-fill-coaching-coached-grey.svg");
           repeat: no-repeat;
-        }
-
-        ;
+        };
       }
     }
 
@@ -2907,6 +2640,24 @@ p {
         line-height: 26px;
         padding: 8px 22px;
       }
+    }
+    &.button-wide {
+      min-width: 120px;
+      text-align: center;
+    }
+
+    &.button-left {
+      border-radius: 5px 0 0 5px;
+    }
+
+    &.button-center {
+      border-radius: 0;
+      margin-left: -5px;
+    }
+
+    &.button-right {
+      margin-left: -5px;
+      border-radius: 0 5px 5px 0;
     }
   }
 }
