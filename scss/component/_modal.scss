@@ -32,6 +32,7 @@
 
             .header {
                 border-radius: 4px 4px 0 0;
+                border-bottom: $grey-20 1px solid;
                 background: $grey-10;
                 height: 80px;
                 padding: 16px 40px;
@@ -52,6 +53,7 @@
 
             .footer {
                 border-radius: 0 0 4px 4px;
+                border-top: $grey-20 1px solid;
                 background: $grey-10;
                 height: 80px;
                 padding: 16px 40px;
@@ -61,13 +63,6 @@
                 padding: 40px;
             }
 
-            hr {
-                margin: 0;
-                height: 1px;
-                color: $grey-20;
-                background-color: $grey-20;
-                border: none;
-            }
         }
 
         .icon-close-grey {
