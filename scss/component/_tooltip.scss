@@ -1,0 +1,83 @@
+.sg-markup-component-tooltip-html .sg-example {
+
+    .tooltip {
+        background-color: $grey-80;
+        border-radius: 4px;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 22px;
+        max-width: 240px;
+        padding: 14px 20px;
+        position: relative;
+        z-index: 1;
+
+        @media (min-width: 1200px) {
+            padding: 18px 24px;
+        }
+
+        p {
+            color: $white-10;
+            margin: 0;
+        }
+
+        a {
+            color: inherit;
+        }
+
+        .tooltip-heading {
+            font-weight: 600;
+            margin: 0 0 4px 0;
+        }
+
+        &:before {
+            background-color: $grey-80;
+            content: "";
+            width: 8px;
+            height: 8px;
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+            position: absolute;
+            right: auto;
+            bottom: auto;
+            z-index: 1;
+        }
+
+        &.tooltip-top:before {
+            top: -4px;
+        }
+
+        &.tooltip-bottom:before {
+            bottom: -4px;
+        }
+
+        &.tooltip-top-left:before {
+            left: 32px;
+        }
+
+        &.tooltip-top-center:before {
+            left: calc(50% - 8px)
+        }
+
+        &.tooltip-top-right:before {
+            right: 32px;
+        }
+
+        &.tooltip-right:before {
+            right: -4px;
+            top: calc(50% - 4px)
+        }
+
+        &.tooltip-bottom-right:before {
+            right: 32px;
+        }
+
+        &.tooltip-bottom-center:before {
+            left: calc(50% - 8px)
+        }
+
+        &.tooltip-left:before {
+            left: -4px;
+            top: calc(50% - 4px)
+        }
+    }
+}

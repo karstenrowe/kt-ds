@@ -2,7 +2,7 @@
 .sg-markup-component-badge-html .sg-example {
   .badge {
     background: $grey-50;
-    border-radius: 16px;
+    border-radius: $border-radius-lg;
     color: #fff;
     letter-spacing: 0.4px;
     font-size: 12px;

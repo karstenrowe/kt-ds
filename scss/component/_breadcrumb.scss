@@ -1,0 +1,42 @@
+.sg-markup-navigation-breadcrumb-html .sg-example {
+  .list-breadcrumb {
+    display: flex;
+    font-size: 14px;
+    line-height: 22px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    .list-item {
+      background: {
+        image: url("../images/icon/icon-16-chevron-right-grey50.svg");
+        position: 100% 50%;
+        repeat: no-repeat;
+      }
+
+      ;
+      margin: 0 8px 0 0;
+      padding: 0 24px 0 0;
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: $grey-50;
+
+        &:hover {
+          color: $grey-60;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .list-item-current {
+      background: none;
+      color: $grey-70;
+      font-weight: 600;
+    }
+  }
+}

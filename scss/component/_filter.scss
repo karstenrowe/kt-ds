@@ -1,0 +1,81 @@
+.sg-markup-component-filter-html .sg-example {
+
+    .filter {
+        min-width: 200px;
+        width: 320px;
+        font-family: $font-body;
+        border-radius: 4px;
+        font-size: 14px;
+        text-align: left;
+        line-height: 22px;
+        height: 40px;
+        padding: 4px 16px;
+
+        p {
+            margin: 4px auto;
+            display: inline-block;
+        }
+
+        &.filter-idle {
+            border: 1px $grey-30 solid;
+
+            p {
+                color: $grey-30;
+                font-style: italic;
+            }
+        }
+
+        &.filter-active {
+            border: 1px $grey-50 solid;
+
+            p {
+                color: $grey-70;
+                font-style: italic;
+            }
+        }
+
+
+        &.filter-selected {
+            border: 1px $grey-30 solid;
+
+            p {
+                color: $grey-60;
+            }
+        }
+
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    //repetitive code
+    //need help to understand the structure of this repo and then change this
+    .icon {
+        background: {
+            repeat: no-repeat;
+        }
+
+        margin: 6px auto;
+        float: right;
+        display: inline-block;
+
+        &.icon-size-16 {
+            height: 16px;
+            width: 16px;
+
+            &.icon-chevron-down {
+                background-image: url("../images/icon/icon-16-chevron-down.svg");
+            }
+
+            &.icon-cross {
+                background-image: url("../images/icon/icon-16-cross.svg");
+            }
+        }
+    }
+
+    input {
+        display: none;
+    }
+}
