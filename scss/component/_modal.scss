@@ -12,7 +12,7 @@
 
     .modal {
         background-color: #fff;
-        border-radius: $border-radius-default;
+        border-radius: $border-radius-md;
         max-width: 520px;
         padding: 40px;
         width: 80%;
@@ -89,7 +89,7 @@
     .button {
         background: $blue-50;
         border: 1px solid transparent;
-        border-radius: $border-radius-default;
+        border-radius: $border-radius-md;
         color: $blue-10;
         cursor: default;
         display: inline-block;
