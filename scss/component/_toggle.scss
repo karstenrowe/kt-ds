@@ -35,10 +35,10 @@
         }
 
         &.round {
-            border-radius: $border-radius-xl;
+            border-radius: 34px;
 
             &:before {
-                border-radius: $border-radius-full;
+                border-radius: 50%;
             }
         }
 
@@ -92,7 +92,7 @@
     .button {
         background: $blue-50;
         border: 1px solid transparent;
-        border-radius: $border-radius-md;
+        border-radius: 4px;
         color: $blue-10;
         cursor: default;
         display: inline-block;
@@ -172,7 +172,7 @@
         }
 
         &.button-center {
-            border-radius: $border-radius-none;
+            border-radius: 0px;
             margin-left: -5px;
         }
 
