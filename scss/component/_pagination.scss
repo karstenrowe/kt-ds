@@ -1,0 +1,100 @@
+.sg-markup-component-pagination-html .sg-example {
+
+    .container {
+        margin-bottom: 40px;
+    }
+
+    .pagination {
+
+        .pagination-label {
+            margin-right: 12px;
+            color: $grey-50;
+        }
+
+    }
+
+    .icon {
+        display: inline-block;
+        height: 16px;
+        margin-right: 4px;
+        position: relative;
+        top: -2px;
+        vertical-align: middle;
+        width: 16px;
+
+        &.icon-left {
+            background-image: url("../images/icon/icon-16-chevron-left.svg");
+        }
+
+        &.icon-right {
+            background-image: url("../images/icon/icon-16-chevron-right.svg");
+        }
+    }
+
+    .button {
+        border: 1px solid transparent;
+        border-radius: 4px;
+        cursor: default;
+        display: inline-block;
+        font-weight: 600;
+        letter-spacing: 0.4px;
+        position: relative;
+        text-decoration: none;
+
+        &.button-subtle {
+            background: $white-10;
+            border: 1px solid $grey-30;
+            box-shadow: none;
+        }
+
+        &.button-round {
+            height: 36px;
+            width: 36px;
+
+            .icon {
+                top: -5px;
+                left: -2px;
+            }
+
+            background: $white-10;
+            border: none;
+            box-shadow: none;
+
+            &:hover {
+                background-color: $grey-10;
+                border-radius: 50%;
+            }
+
+        }
+
+
+        &.button-size-md {
+            font-size: 14px;
+            line-height: 22px;
+            padding: 4px 14px;
+
+            @media (min-width: 1200px) {
+                font-size: 16px;
+                line-height: 24px;
+                padding: 6px 14px;
+            }
+
+            @media (min-width: 1600px) {
+                font-size: 18px;
+                line-height: 26px;
+                padding: 8px 14px;
+            }
+        }
+
+
+        &.button-left {
+            border-radius: 5px 0 0 5px;
+        }
+
+        &.button-right {
+            margin-left: -6px;
+            border-radius: 0 5px 5px 0;
+        }
+    }
+
+}
