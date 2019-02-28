@@ -2,6 +2,10 @@
 
     .container {
         margin-bottom: 40px;
+
+        .variant-sm {
+            margin-bottom: 40px;
+        }
     }
 
     .pagination {
@@ -16,7 +20,6 @@
     .icon {
         display: inline-block;
         height: 16px;
-        margin-right: 4px;
         position: relative;
         top: -2px;
         vertical-align: middle;
@@ -48,17 +51,23 @@
         }
 
         &.button-round {
+            background: $white-10;
             height: 36px;
             width: 36px;
+            padding: 6px;
 
             .icon {
-                top: -5px;
-                left: -2px;
-            }
+                top: 0px;
+                left: -4px;
 
-            background: $white-10;
-            border: none;
-            box-shadow: none;
+                @media (min-width: 1200px) {
+                    top: -3px;
+                }
+
+                @media (min-width: 1600px) {
+                    top: -5px;
+                }
+            }
 
             &:hover {
                 background-color: $grey-10;
