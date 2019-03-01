@@ -19,6 +19,7 @@
 @import "component/map";
 @import "component/modal";
 @import "component/notification";
+@import "component/pagination";
 @import "component/progress";
 @import "component/popover";
 @import "component/table";
@@ -143,7 +144,7 @@
     background: $white-20;
     font-weight: 600;
     color: $grey-60;
-    border-radius: $border-radius-md;
+    border-radius: 4px;
     border: none;
     font-family: $font-body;
     font-size: 14px;

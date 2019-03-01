@@ -5,64 +5,64 @@
         display: inline-block;
         width: 90px;
         height: 40px;
-    }
 
-    .toggle-compact input {
-        display: none;
-    }
-
-    .slider {
-        position: absolute;
-        cursor: pointer;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: $grey-30;
-        -webkit-transition: .2s;
-        transition: .2s;
-
-        &:before {
-            position: absolute;
-            content: "";
-            height: 34px;
-            width: 34px;
-            left: 4px;
-            bottom: 3px;
-            background-color: white;
-            -webkit-transition: .2s;
-            transition: .2s;
-        }
-
-        &.round {
-            border-radius: $border-radius-xl;
-
-            &:before {
-                border-radius: $border-radius-full;
-            }
-        }
-
-        .on,
-        .off {
-            color: white;
-            position: absolute;
-            transform: translate(-50%, -50%);
-            top: 50%;
-            font-weight: 600;
-            font-size: 16px;
-            -webkit-transition: .2s;
-            transition: .2s;
-        }
-
-        .on {
-            left: calc(50% - 12px);
+        input {
             display: none;
         }
 
-        .off {
-            left: calc(50% + 12px);
-        }
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: $grey-30;
+            -webkit-transition: .2s;
+            transition: .2s;
 
+            &:before {
+                position: absolute;
+                content: "";
+                height: 34px;
+                width: 34px;
+                left: 4px;
+                bottom: 3px;
+                background-color: white;
+                -webkit-transition: .2s;
+                transition: .2s;
+            }
+
+            &.round {
+                border-radius: 34px;
+
+                &:before {
+                    border-radius: 50%;
+                }
+            }
+
+            .on,
+            .off {
+                color: white;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                top: 50%;
+                font-weight: 600;
+                font-size: 16px;
+                -webkit-transition: .2s;
+                transition: .2s;
+            }
+
+            .on {
+                left: calc(50% - 12px);
+                display: none;
+            }
+
+            .off {
+                left: calc(50% + 12px);
+            }
+
+        }
     }
 
     input {
@@ -89,10 +89,10 @@
         }
     }
 
-    .button {
+    .toggle-button {
         background: $blue-50;
         border: 1px solid transparent;
-        border-radius: $border-radius-md;
+        border-radius: 4px;
         color: $blue-10;
         cursor: default;
         display: inline-block;
@@ -135,7 +135,7 @@
             }
         }
 
-        &.button-subtle {
+        &.toggle-button-subtle {
             background: $grey-10;
             border: 1px solid $grey-20;
             box-shadow: none;
@@ -143,8 +143,8 @@
         }
 
 
-        &.button-size-md,
-        &.button-size-md.button-label {
+        &.toggle-button-size-md,
+        &.toggle-button-size-md.toggle-button-label {
             font-size: 14px;
             line-height: 22px;
             padding: 4px 16px;
@@ -162,21 +162,21 @@
             }
         }
 
-        &.button-wide {
+        &.toggle-button-wide {
             min-width: 120px;
             text-align: center;
         }
 
-        &.button-left {
+        &.toggle-button-left {
             border-radius: 5px 0 0 5px;
         }
 
-        &.button-center {
-            border-radius: $border-radius-none;
+        &.toggle-button-center {
+            border-radius: 0px;
             margin-left: -5px;
         }
 
-        &.button-right {
+        &.toggle-button-right {
             margin-left: -5px;
             border-radius: 0 5px 5px 0;
         }

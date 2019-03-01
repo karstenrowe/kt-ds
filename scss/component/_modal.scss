@@ -11,11 +11,7 @@
     }
 
     .modal {
-        background-color: #fff;
-        border-radius: $border-radius-md;
         max-width: 520px;
-        padding: 40px;
-        width: 80%;
         position: relative;
 
         p {
@@ -26,32 +22,38 @@
             }
         }
 
-        &.modal-standard {
+        &.modal-primary {
             background-color: #fff;
+            border-radius: 4px;
+            padding: 40px;
+            width: 80%;
+        }
+
+        &.modal-standard {
             padding: 0px;
 
-            .header {
+            &.modal-header {
                 border-radius: 4px 4px 0 0;
                 border-bottom: $grey-20 1px solid;
                 background: $grey-10;
                 height: 80px;
                 padding: 16px 40px;
-
-                .title {
-                    font-size: 18px;
-                    font-weight: 600;
-                    color: $grey-80;
-                    margin: 0;
-                }
-
-                .sub-title {
-                    font-size: 14px;
-                    color: $grey-50;
-                    margin: 0;
-                }
             }
 
-            .footer {
+            &.modal-title {
+                font-size: 18px;
+                font-weight: 600;
+                color: $grey-80;
+                margin: 0;
+            }
+
+            &.modal-subtitle {
+                font-size: 14px;
+                color: $grey-50;
+                margin: 0;
+            }
+
+            &.modal-footer {
                 border-radius: 0 0 4px 4px;
                 border-top: $grey-20 1px solid;
                 background: $grey-10;
@@ -59,8 +61,9 @@
                 padding: 16px 40px;
             }
 
-            .modal-content {
+            &.modal-content {
                 padding: 40px;
+                background-color: #fff;
             }
 
         }
@@ -84,7 +87,7 @@
     .button {
         background: $blue-50;
         border: 1px solid transparent;
-        border-radius: $border-radius-md;
+        border-radius: 4px;
         color: $blue-10;
         cursor: default;
         display: inline-block;
