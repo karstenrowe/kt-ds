@@ -302,4 +302,16 @@
             }
         }
     }
+
+    .button-row {
+        width: 100%;
+        background: $grey-10;
+
+        &.two-button {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
 }
