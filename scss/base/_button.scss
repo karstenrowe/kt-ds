@@ -81,11 +81,14 @@
           background: $blue-50;
       }
 
+      &:hover,
       &.button-hover {
           background: $blue-40;
           color: #fff;
       }
 
+      &:active,
+      &:focus,
       &.button-active,
       &.button-focus {
           background: $blue-60;
@@ -104,11 +107,14 @@
           background: $grey-50;
           color: $grey-10;
 
+          &:hover,
           &.button-hover {
               background: $grey-40;
               color: #fff;
           }
 
+          &:active,
+          &:focus,
           &.button-active,
           &.button-focus {
               background: $grey-60;
@@ -126,11 +132,14 @@
           box-shadow: none;
           color: $grey-50;
 
+          &:hover,
           &.button-hover {
               background: #fff;
               color: $grey-60;
           }
 
+          &:active,
+          &:focus,
           &.button-active,
           &.button-focus {
               background: #fff;
@@ -148,11 +157,14 @@
           background: $green-50;
           color: $green-10;
 
+          &:hover,
           &.button-hover {
               background: $green-40;
               color: #fff;
           }
 
+          &:active,
+          &:focus,
           &.button-active,
           &.button-focus {
               background: $green-60;
@@ -168,11 +180,14 @@
           background: $red-50;
           color: $red-10;
 
+          &:hover,
           &.button-hover {
               background: $red-40;
               color: #fff;
           }
 
+          &:active,
+          &:focus,
           &.button-active,
           &.button-focus {
               background: $red-60;
@@ -188,11 +203,14 @@
           background: $yellow-50;
           color: $yellow-10;
 
+          &:hover,
           &.button-hover {
               background: $yellow-40;
               color: #fff;
           }
-
+          
+          &:active,
+          &:focus,
           &.button-active,
           &.button-focus {
               background: $yellow-60;
