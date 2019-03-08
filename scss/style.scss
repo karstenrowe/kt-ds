@@ -55,8 +55,13 @@
 }
 
 .js.nav-is-active .sg-sidebar {
+  height: 100%;
   opacity: 1;
-  position: static;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0%;
+  width: 200px;
+  z-index: 2;
 }
 
 @media screen and (min-width: 1200px) {
@@ -81,9 +86,8 @@
 
 // Nav
 .sg-header {
-  background: $white-10;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
 }
 
 .sg-nav-toggle {
@@ -180,6 +184,7 @@
 // Columns
 .sg-main {
   .sg-sub-section {
+    margin-top: 40px;
     .col {
       display: grid;
       grid-gap: 1rem;
