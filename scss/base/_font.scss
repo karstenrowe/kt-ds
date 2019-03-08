@@ -1,0 +1,11 @@
+.sg-markup-Brand-font-html .sg-example {
+  p {
+    &.font-open-sans {
+      font-family: $font-body;
+    }
+
+    &.font-roboto {
+      font-family: $font-mobile;
+    }
+  }
+}
