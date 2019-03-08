@@ -1,0 +1,122 @@
+.js .sg-sidebar {
+  opacity: 0;
+  position: absolute;
+  top: -100%;
+  -webkit-transition: opacity 0.6s ease-out;
+  -moz-transition: opacity 0.6s ease-out;
+  -ms-transition: opacity 0.6s ease-out;
+  -o-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+
+.js.nav-is-active .sg-sidebar {
+  height: 100%;
+  opacity: 1;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0%;
+  width: 200px;
+  z-index: 2;
+}
+
+@media screen and (min-width: 1200px) {
+
+  .sg-sidebar,
+  .js .sg-sidebar,
+  .js.nav-is-active .sg-sidebar {
+    bottom: 0;
+    float: left;
+    font-size: 100%;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    //width: 20%;
+  }
+
+  .sg-main {
+    //float: right;
+    //width: 75%;
+  }
+}
+
+// Nav
+.sg-header {
+  position: fixed;
+  z-index: 3;
+}
+
+.sg-nav-toggle {
+  background-color: #000;
+  border-radius: 5px;
+  border: 1px solid #7C7C7C;
+  color: #fff;
+  float: right;
+  font-size: 16px;
+  font-size: 1rem;
+  padding: 5px 8px;
+  /* For older browsers */
+  padding: 0.3125rem 0.5rem;
+  text-decoration: none;
+  -webkit-transition: all .15s ease-in;
+  -moz-transition: all .15s ease-in;
+  -ms-transition: all .15s ease-in;
+  -o-transition: all .15s ease-in;
+  transition: all .15s ease-in;
+
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+}
+
+// Sidebar
+.sg-wrapper {
+  .sg-sidebar {
+    background: $white-20;
+    color: $grey-60;
+    font-size: 14px;
+    line-height: 22px;
+    overflow-y: auto;
+    padding: 2rem;
+    position: fixed;
+
+    .logo-kt-logotype {
+      background: {
+        image: url("../images/logo-type-kt.svg");
+        position: 50%;
+        repeat: no-repeat;
+        size: contain;
+      }
+
+      ;
+      min-height: 32px;
+    }
+
+    .sg-h2 {
+      font-size: 14px;
+      line-height: 22px;
+      border-bottom: 2px solid $grey-10;
+      margin-bottom: 0.2rem;
+      padding-bottom: 0.2rem;
+    }
+
+    .sg-nav-group {
+      list-style: none;
+      padding: 0;
+      text-transform: capitalize;
+
+      li {
+        margin-bottom: 0;
+      }
+
+      a {
+        display: block;
+        padding: 4px 0;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

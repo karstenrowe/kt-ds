@@ -105,11 +105,11 @@
     if ($content != '') {
       echo '<div class="sg-sub-section">';
       echo '<div class="sg-markup-controls">';
-      echo '<button type="button" class="button button-subtle sg-btn sg-btn--source">View Source</button>';
+      echo '<button type="button" class="button button-size-xs button-subtle sg-btn sg-btn--source">View Source</button>';
       // echo '<a class="sg-btn--top" href="#top">Back to Top</a>';
       echo '</div>';
       echo '<div class="sg-source">';
-      echo '<button type="button" class="sg-btn sg-btn--select">Copy Source</button>';
+      echo '<button type="button" class="button button-size-xs button-subtle sg-btn sg-btn--select">Copy Source</button>';
       echo '<pre class="line-numbers"><code class="language-markup">';
       echo htmlspecialchars($content);
       echo '</code></pre>';
