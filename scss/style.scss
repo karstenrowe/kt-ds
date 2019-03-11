@@ -4,14 +4,16 @@
 @import "layout";
 @import "sidebar";
 
+// Brand
+@import "brand/color";
+@import "brand/font";
+@import "brand/logo";
+
 // Base
 @import "base/button";
-@import "base/color";
-@import "base/font";
 @import "base/grid";
 @import "base/icon";
 @import "base/link";
-@import "base/logo";
 @import "base/type";
 
 // Component
