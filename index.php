@@ -32,6 +32,10 @@
         <div class="logo logo-kt-logotype"></div>
         <div class="logo logo-kt-symbol"></div>
       </div>
+      <div class="sg-search-bar">
+        <label for="sg-search-label"></label>
+        <input id="sg-search" class="sg-search" type="search" placeholder="Search coming soon…">
+      </div>
       <?php listFilesInFolder('markup'); ?>
     </div><!--/.sg-sidebar-->
 
