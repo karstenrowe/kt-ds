@@ -19,7 +19,6 @@
   <link rel="stylesheet" href="vendor/prism/prism.css">
 </head>
 <body>
-
   <div id="top" class="sg-header" role="banner">
     <div class="sg-container">
       <button type="button" class="sg-nav-toggle">Menu</button>
@@ -31,6 +30,10 @@
       <div class="logo">
         <div class="logo logo-kt-logotype"></div>
         <div class="logo logo-kt-symbol"></div>
+      </div>
+      <div class="sg-searchbar">
+        <label for="sg-search-label"></label> 
+        <input id="sg-search" class="sg-search" type="search" placeholder="Search">
       </div>
       <?php listFilesInFolder('markup'); ?>
     </div><!--/.sg-sidebar-->
