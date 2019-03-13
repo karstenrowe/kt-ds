@@ -22,7 +22,7 @@
 
   <div id="top" class="sg-header" role="banner">
     <div class="sg-container">
-      <button type="button" class="sg-nav-toggle">Menu</button>
+      <img class="sg-nav-toggle" width="36" height="36" src="images/icon/icon-20-o-hamburger.svg" alt="hamburger menu"/>
     </div>
   </div><!--/.sg-header-->
 
