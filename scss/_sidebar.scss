@@ -11,11 +11,11 @@
 
 .js.nav-is-active .sg-sidebar {
   height: 100%;
+  width: 100%;
   opacity: 1;
   overflow-y: scroll;
   position: fixed;
   top: 0%;
-  width: 200px;
   z-index: 2;
 }
 
@@ -46,17 +46,13 @@
 }
 
 .sg-nav-toggle {
-  background-color: #000;
+  border: 2px $grey-50 solid;
   border-radius: 5px;
-  border: 1px solid #7C7C7C;
-  color: #fff;
+  background-color: white;
+  cursor: pointer;
   float: right;
-  font-size: 16px;
-  font-size: 1rem;
-  padding: 5px 8px;
+  padding: 8px;
   /* For older browsers */
-  padding: 0.3125rem 0.5rem;
-  text-decoration: none;
   -webkit-transition: all .15s ease-in;
   -moz-transition: all .15s ease-in;
   -ms-transition: all .15s ease-in;
