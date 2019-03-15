@@ -1,0 +1,25 @@
+// Intro
+.sg-main {
+  .section-intro {
+    font-size: 14px;
+    line-height: 22px;
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    place-items: center center;
+
+    h2 {
+      border-bottom: 2px solid $grey-10;
+      font-size: 14px;
+      line-height: 22px;
+      margin-bottom: 0.4rem;
+      margin-top: 0;
+      padding-bottom: 0.2rem;
+
+      @media screen and (min-width: 1200px) {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+}
