@@ -1,131 +1,85 @@
 // Modal
 .sg-markup-component-modal-html .sg-example {
 
-    .bg-overlay {
-        align-items: center;
-        background-color: $grey-80;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 400px;
+  .bg-overlay {
+    align-items: center;
+    background-color: $grey-80;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+  }
+
+  .modal {
+    max-width: 520px;
+    position: relative;
+
+    p {
+      margin-top: 0;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
 
-    .modal {
-        max-width: 520px;
-        position: relative;
-
-        p {
-            margin-top: 0;
-
-            &:last-child {
-                margin-bottom: 0;
-            }
-        }
-
-        &.modal-primary {
-            background-color: #fff;
-            border-radius: 4px;
-            padding: 40px;
-            width: 80%;
-        }
-
-        &.modal-standard {
-            padding: 0px;
-
-            &.modal-header {
-                border-radius: 4px 4px 0 0;
-                border-bottom: $grey-20 1px solid;
-                background: $grey-10;
-                height: 80px;
-                padding: 16px 40px;
-            }
-
-            &.modal-title {
-                font-size: 18px;
-                font-weight: 600;
-                color: $grey-80;
-                margin: 0;
-            }
-
-            &.modal-subtitle {
-                font-size: 14px;
-                color: $grey-50;
-                margin: 0;
-            }
-
-            &.modal-footer {
-                border-radius: 0 0 4px 4px;
-                border-top: $grey-20 1px solid;
-                background: $grey-10;
-                height: 80px;
-                padding: 16px 40px;
-            }
-
-            &.modal-content {
-                padding: 40px;
-                background-color: #fff;
-            }
-
-        }
-
-        .icon-close-grey {
-            display: inline-block;
-            position: absolute;
-            top: 16px;
-            right: 16px;
-            height: 20px;
-            width: 20px;
-            background: url("../images/icon/icon-20-o-close-grey50.svg");
-            opacity: 0.6;
-
-            &:hover {
-                opacity: 1;
-            }
-        }
+    &.modal-primary {
+      background-color: #fff;
+      border-radius: 4px;
+      padding: 40px;
+      width: 80%;
     }
 
-    .button {
-        background: $blue-50;
-        border: 1px solid transparent;
-        border-radius: 4px;
-        color: $blue-10;
-        cursor: default;
-        display: inline-block;
+    &.modal-standard {
+      padding: 0px;
+
+      &.modal-header {
+        border-radius: 4px 4px 0 0;
+        border-bottom: $grey-20 1px solid;
+        background: $grey-10;
+        height: 80px;
+        padding: 16px 40px;
+      }
+
+      &.modal-title {
+        font-size: 18px;
         font-weight: 600;
-        letter-spacing: 0.4px;
-        position: relative;
-        text-decoration: none;
+        color: $grey-80;
+        margin: 0;
+      }
 
-        &.button-subtle {
-            background: $grey-10;
-            border: 1px solid $grey-20;
-            box-shadow: none;
-            color: $grey-50;
-        }
+      &.modal-subtitle {
+        font-size: 14px;
+        color: $grey-50;
+        margin: 0;
+      }
 
-        &.button-secondary {
-            background: $grey-50;
-            color: $grey-10;
-        }
+      &.modal-footer {
+        border-radius: 0 0 4px 4px;
+        border-top: $grey-20 1px solid;
+        background: $grey-10;
+        height: 80px;
+      }
 
-        &.button-size-md,
-        &.button-size-md.button-label {
-            font-size: 14px;
-            line-height: 22px;
-            padding: 4px 16px;
-
-            @media (min-width: 1200px) {
-                font-size: 16px;
-                line-height: 24px;
-                padding: 6px 20px;
-            }
-
-            @media (min-width: 1600px) {
-                font-size: 18px;
-                line-height: 26px;
-                padding: 8px 22px;
-            }
-        }
+      &.modal-content {
+        padding: 40px;
+        background-color: #fff;
+      }
 
     }
+
+    .icon-close-grey {
+      display: inline-block;
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      height: 20px;
+      width: 20px;
+      background: url("../images/icon/icon-20-o-close-grey50.svg");
+      opacity: 0.6;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
 }
