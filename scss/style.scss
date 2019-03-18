@@ -4,6 +4,9 @@
 @import "layout";
 @import "sidebar";
 
+// Index/Intro page
+@import "index";
+
 // Brand
 @import "brand/color";
 @import "brand/font";
@@ -23,12 +26,14 @@
 @import "component/card";
 @import "component/filter";
 @import "component/form";
+@import "component/input";
 @import "component/map";
 @import "component/modal";
 @import "component/notification";
 @import "component/pagination";
 @import "component/progress";
 @import "component/popover";
+@import "component/search";
 @import "component/table";
 @import "component/toggle";
 @import "component/tooltip";

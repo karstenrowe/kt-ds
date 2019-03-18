@@ -1,0 +1,28 @@
+input {
+  border: 1px $grey-20 solid;
+  border-radius: 4px;
+  color: $grey-30;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 8px 16px;
+  &::placeholder {
+    color: $grey-30;
+    font-style: italic;
+  }
+  &:hover,
+  &:focus {
+    border: 1px $grey-30 solid;
+    color: $grey-70;
+  }
+  &:focus {
+    &::placeholder {
+      color: $grey-20;
+    }
+  }
+}
+
+input {
+  &.input-icon {
+    padding-left: 32px;
+  }
+}
