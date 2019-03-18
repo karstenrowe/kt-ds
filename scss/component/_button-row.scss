@@ -1,12 +1,16 @@
 .button-row {
-  background: $grey-10;
   display: flex;
   flex-direction: row;
   padding: 16px;
 
+  &.button-row-container {
+    background: $grey-10;
+  }
+
   &.button-row-split {
     justify-content: space-between;
   }
+
   .button {
     margin-left: 8px;
     &:first-child {

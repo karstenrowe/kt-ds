@@ -8,7 +8,7 @@
         line-height: 22px;
         margin: 16px 0;
         max-width: 240px;
-        padding: 16px;
+        // padding: 16px;
         position: relative;
 
         .icon-close-grey {
@@ -30,6 +30,9 @@
             color: $grey-70;
             font-weight: 600;
             margin-bottom: 8px;
+        }
+        .popover-content {
+            padding: 16px;
         }
 
         p {
@@ -64,10 +67,12 @@
 
             &:after {
                 top: -3px;
+                left: 15px;
             }
 
             &:before {
                 top: -5px;
+                left: 15px;
             }
         }
     }

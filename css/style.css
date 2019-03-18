@@ -856,7 +856,9 @@ p.variant-sm { font-size: 14px; line-height: 22px; margin-bottom: 8px; margin-to
 
 .sg-markup-navigation-breadcrumb-html .sg-example .list-breadcrumb .list-item-current { background: none; color: #3A4651; font-weight: 600; }
 
-.button-row { background: #EFF1F3; display: flex; flex-direction: row; padding: 16px; }
+.button-row { display: flex; flex-direction: row; padding: 16px; }
+
+.button-row.button-row-container { background: #EFF1F3; }
 
 .button-row.button-row-split { justify-content: space-between; }
 
@@ -1064,13 +1066,15 @@ input:focus::placeholder { color: #BEC8D1; }
 
 .sg-markup-component-pagination-html .sg-example .button.button-right { margin-left: -6px; border-radius: 0 5px 5px 0; }
 
-.sg-markup-component-popover-html .sg-example .popover { background-color: #fff; border: 1px solid #9DACB9; border-radius: 4px; font-size: 14px; line-height: 22px; margin: 16px 0; max-width: 240px; padding: 16px; position: relative; }
+.sg-markup-component-popover-html .sg-example .popover { background-color: #fff; border: 1px solid #9DACB9; border-radius: 4px; font-size: 14px; line-height: 22px; margin: 16px 0; max-width: 240px; position: relative; }
 
 .sg-markup-component-popover-html .sg-example .popover .icon-close-grey { display: inline-block; position: absolute; top: 8px; right: 8px; height: 20px; width: 20px; background: url("../images/icon/icon-20-o-close-grey50.svg"); opacity: 0.6; }
 
 .sg-markup-component-popover-html .sg-example .popover .icon-close-grey:hover { opacity: 1; }
 
 .sg-markup-component-popover-html .sg-example .popover .popover-heading { color: #3A4651; font-weight: 600; margin-bottom: 8px; }
+
+.sg-markup-component-popover-html .sg-example .popover .popover-content { padding: 16px; }
 
 .sg-markup-component-popover-html .sg-example .popover p { margin: 0 0 6px 0; }
 
@@ -1080,9 +1084,9 @@ input:focus::placeholder { color: #BEC8D1; }
 
 .sg-markup-component-popover-html .sg-example .popover:after { background-color: #FCFCFD; z-index: 2; }
 
-.sg-markup-component-popover-html .sg-example .popover.popover-top-left:after { top: -3px; }
+.sg-markup-component-popover-html .sg-example .popover.popover-top-left:after { top: -3px; left: 15px; }
 
-.sg-markup-component-popover-html .sg-example .popover.popover-top-left:before { top: -5px; }
+.sg-markup-component-popover-html .sg-example .popover.popover-top-left:before { top: -5px; left: 15px; }
 
 .sg-markup-component-table-html .sg-example .table { display: flex; flex-wrap: wrap; margin: 0 0 20px 0; }
 
