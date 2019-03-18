@@ -1,79 +1,79 @@
 .sg-markup-component-popover-html .sg-example {
 
-    .popover {
-        background-color: #fff;
-        border: 1px solid $grey-30;
-        border-radius: 4px;
-        font-size: 14px;
-        line-height: 22px;
-        margin: 16px 0;
-        max-width: 240px;
-        // padding: 16px;
-        position: relative;
+  .popover {
+    background-color: #fff;
+    border: 1px solid $grey-30;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 16px 0;
+    max-width: 240px;
+    position: relative;
 
-        .icon-close-grey {
-            display: inline-block;
-            position: absolute;
-            top: 8px;
-            right: 8px;
-            height: 20px;
-            width: 20px;
-            background: url("../images/icon/icon-20-o-close-grey50.svg");
-            opacity: 0.6;
+    .icon-close-grey {
+      display: inline-block;
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      height: 20px;
+      width: 20px;
+      background: url("../images/icon/icon-20-o-close-grey50.svg");
+      opacity: 0.6;
 
-            &:hover {
-                opacity: 1;
-            }
-        }
-
-        .popover-heading {
-            color: $grey-70;
-            font-weight: 600;
-            margin-bottom: 8px;
-        }
-        .popover-content {
-            padding: 16px;
-        }
-
-        p {
-            margin: 0 0 6px 0;
-        }
-
-        // Nub
-        &:before,
-        &:after {
-            background-color: $grey-30;
-            content: "";
-            width: 8px;
-            height: 8px;
-            -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-            position: absolute;
-            right: auto;
-            bottom: auto;
-        }
-
-        &:before {
-            background-color: $grey-30;
-            z-index: 1;
-        }
-
-        &:after {
-            background-color: $white-10;
-            z-index: 2;
-        }
-
-        &.popover-top-left {
-
-            &:after {
-                top: -3px;
-                left: 15px;
-            }
-
-            &:before {
-                top: -5px;
-                left: 15px;
-            }
-        }
+      &:hover {
+        opacity: 1;
+      }
     }
+
+    .popover-heading {
+      color: $grey-70;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .popover-content {
+      padding: 16px;
+    }
+
+    p {
+      margin: 0 0 6px 0;
+    }
+
+    // Nub
+    &:before,
+    &:after {
+      background-color: $grey-30;
+      content: "";
+      width: 8px;
+      height: 8px;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+      position: absolute;
+      right: auto;
+      bottom: auto;
+    }
+
+    &:before {
+      background-color: $grey-30;
+      z-index: 1;
+    }
+
+    &:after {
+      background-color: $white-10;
+      z-index: 2;
+    }
+
+    &.popover-top-left {
+
+      &:after {
+        top: -3px;
+        left: 15px;
+      }
+
+      &:before {
+        top: -5px;
+        left: 15px;
+      }
+    }
+  }
 }
