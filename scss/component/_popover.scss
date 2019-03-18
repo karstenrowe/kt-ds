@@ -32,11 +32,16 @@
     }
 
     .popover-content {
-      padding: 16px;
+      padding: 16px 16px 10px 16px;
     }
 
     p {
       margin: 0 0 6px 0;
+    }
+
+    .button-row {
+      background: none;
+      padding-top: 0;
     }
 
     // Nub

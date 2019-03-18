@@ -11,7 +11,9 @@
   }
 
   .modal {
+    border-radius: 4px;
     max-width: 520px;
+    overflow: hidden;
     position: relative;
 
     p {
@@ -24,47 +26,36 @@
 
     &.modal-primary {
       background-color: #fff;
-      border-radius: 4px;
-      padding: 40px;
+      padding: 32px;
       width: 80%;
     }
 
     &.modal-standard {
-      padding: 0px;
-
-      &.modal-header {
-        border-radius: 4px 4px 0 0;
+      .modal-header {
         border-bottom: $grey-20 1px solid;
         background: $grey-10;
-        height: 80px;
-        padding: 16px 40px;
+        padding: 16px 32px;
+        .modal-title {
+          font-size: 18px;
+          font-weight: 600;
+          color: $grey-80;
+          margin: 0;
+        }
+        .modal-subtitle {
+          font-size: 14px;
+          color: $grey-50;
+          margin: 0;
+        }
       }
 
-      &.modal-title {
-        font-size: 18px;
-        font-weight: 600;
-        color: $grey-80;
-        margin: 0;
-      }
-
-      &.modal-subtitle {
-        font-size: 14px;
-        color: $grey-50;
-        margin: 0;
-      }
-
-      &.modal-footer {
-        border-radius: 0 0 4px 4px;
-        border-top: $grey-20 1px solid;
-        background: $grey-10;
-        height: 80px;
-      }
-
-      &.modal-content {
-        padding: 40px;
+      .modal-content {
+        padding: 32px;
         background-color: #fff;
       }
 
+      .modal-footer {
+        border-top: $grey-20 1px solid;
+      }
     }
 
     .icon-close-grey {
