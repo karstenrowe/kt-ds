@@ -1,0 +1,35 @@
+.radial-progress {
+  svg {
+    // By default, svg does an overflow: hidden;
+    overflow: inherit;
+  }
+  .primary-fill,
+  .secondary-fill {
+    fill: $blue-40;
+  }
+  .primary-fill {
+    opacity: 0.30;
+  }
+  text {
+    fill: $grey-70;
+  }
+}
+
+.radial-gauges {
+  margin-top:32px;
+  .radial-break {
+    fill: $grey-60;
+  }
+  .radial-drive {
+    fill: $green-30;
+  }
+  .radial-shift {
+    fill: $blue-50;
+  }
+  .radial-cycle {
+    fill: $yellow-40;
+  }
+  text {
+    fill: $grey-70;
+  }
+}
