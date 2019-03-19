@@ -10,6 +10,9 @@
   .primary-fill {
     opacity: 0.30;
   }
+  text {
+    fill: $grey-70;
+  }
 }
 
 .radial-gauges {
@@ -25,5 +28,8 @@
   }
   .radial-cycle {
     fill: $yellow-40;
+  }
+  text {
+    fill: $grey-70;
   }
 }
