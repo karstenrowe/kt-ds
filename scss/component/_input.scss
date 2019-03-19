@@ -1,7 +1,6 @@
 input {
   border: 1px $grey-20 solid;
   border-radius: 4px;
-  color: $grey-30;
   font-size: 14px;
   line-height: 22px;
   padding: 8px 16px;
@@ -31,12 +30,16 @@ input {
   grid-row-gap: 16px;
   max-width: 600px;
 
+  .input-label,  {
+    text-align: right;
+    margin-right: 12px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
   .disabled-input {
     border: 1px $grey-30 dashed;
     background-color: $grey-10;
-    &:focus {
-      color: none;
-    }
   }
 
   .error-input {
@@ -45,9 +48,6 @@ input {
 
   .success-input {
     border: 1px $green-40 solid;
-    &::focus {
-      color: $grey-80;
-    }
   }
 }
 
