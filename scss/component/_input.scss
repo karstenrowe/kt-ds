@@ -26,3 +26,31 @@ input {
     padding-left: 32px;
   }
 }
+
+.input-components {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 2fr;
+  grid-row-gap: 16px;
+  max-width: 600px;
+
+  .disabled-input {
+    border: 1px $grey-30 dashed;
+    background-color: $grey-10;
+    &:focus {
+      color: none;
+    }
+  }
+
+  .error-input {
+    border: 1px $red-40 solid;
+  }
+
+  .success-input {
+    border: 1px $green-40 solid;
+    &::focus {
+      color: $grey-80;
+    }
+  }
+}
+
