@@ -1,6 +1,34 @@
 .sg-markup-component-tab-html .sg-example {
 
+  .tab {
+    overflow: hidden;
+    border-bottom: 1px solid $grey-10;
 
+    button {
+      font-size: 14px;
+      color: $grey-60;
+      border-bottom: 2px solid transparent;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
 
+      &:hover {
+        color: $blue-40;
+      }
+
+      &.active {
+        border-bottom: 2px solid $blue-50;
+        color: $blue-50;
+      }
+    }
+  }
+
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+  }
 
 }
