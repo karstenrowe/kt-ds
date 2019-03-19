@@ -1094,7 +1094,7 @@ input.input-icon { padding-left: 32px; }
 
 .sg-markup-component-tab-html .sg-example .tab { overflow: hidden; border-bottom: 1px solid #BEC8D1; }
 
-.sg-markup-component-tab-html .sg-example .tab button { font-size: 14px; color: #4D5E6C; border-bottom: 2px solid transparent; float: left; border: none; outline: none; cursor: pointer; padding: 14px 16px; transition: 0.3s; }
+.sg-markup-component-tab-html .sg-example .tab button { font-size: 16px; font-family: "Open Sans", sans-serif; color: #4D5E6C; border-bottom: 2px solid transparent; float: left; border: none; outline: none; cursor: pointer; padding: 14px 16px; transition: 0.3s; }
 
 .sg-markup-component-tab-html .sg-example .tab button:hover { color: #389ADD; }
 
