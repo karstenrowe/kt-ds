@@ -1,7 +1,6 @@
 input {
   border: 1px $grey-20 solid;
   border-radius: 4px;
-  color: $grey-30;
   font-size: 14px;
   line-height: 22px;
   padding: 8px 16px;
@@ -19,10 +18,36 @@ input {
       color: $grey-20;
     }
   }
-}
-
-input {
   &.input-icon {
     padding-left: 32px;
   }
 }
+
+.input-components {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 2fr;
+  grid-row-gap: 16px;
+  max-width: 600px;
+
+  .input-label,  {
+    text-align: right;
+    margin-right: 12px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .disabled-input {
+    border: 1px $grey-30 dashed;
+    background-color: $grey-10;
+  }
+
+  .error-input {
+    border: 1px $red-40 solid;
+  }
+
+  .success-input {
+    border: 1px $green-40 solid;
+  }
+}
+

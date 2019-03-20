@@ -119,11 +119,6 @@
     margin-top: 32px;
   }
   .sg-search {
-    width: 150px;
-    -webkit-transition: all .15s ease-in-out;
-    transition: all .15s ease-in-out;
-    &:focus {
-      width: 100%;
-    }
+    width: 100%;
   }
 }
