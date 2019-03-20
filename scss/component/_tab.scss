@@ -4,32 +4,30 @@
     overflow: hidden;
     border-bottom: 1px solid $grey-20;
 
-    button {
+    .tab-link {
+      background: transparent;
+      border-width: 0 0 2px;
+      border-style: solid;
+      border-color: transparent;
+      color: $grey-60;
+      cursor: pointer;
       font-size: 16px;
       font-family: $font-body;
-      color: $grey-60;
-      border-bottom: 2px solid transparent;
-      float: left;
-      border: none;
       outline: none;
-      cursor: pointer;
-      padding: 14px 16px;
-      transition: 0.3s;
+      margin-right: 8px;
+      padding: 16px;
 
-      &:hover {
-        color: $blue-40;
-      }
-
+      &:hover,
       &.active {
-        border-bottom: 2px solid $blue-50;
         color: $blue-50;
+        border-bottom: 2px solid $blue-50;
       }
     }
   }
 
-  .tabcontent {
+  .tab-content {
     display: none;
-    padding: 6px 12px;
+    padding: 12px;
   }
 
 }
