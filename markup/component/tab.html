@@ -1,0 +1,39 @@
+<div class="col">
+  <div class="container">
+    <div class="tabs">
+      <button class="tab-link active" onclick="openTab(event, 'item1')">Item 1</button>
+      <button class="tab-link" onclick="openTab(event, 'item2')">Item 2</button>
+      <button class="tab-link" onclick="openTab(event, 'item3')">Item 3</button>
+    </div>
+    <div id="item1" class="tab-content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis in urna id iaculis. Suspendisse non dictum tellus.</p>
+    </div>
+    <div id="item2" class="tab-content">
+      <p>Nunc interdum augue et ante laoreet, quis pulvinar lorem suscipit. Nunc efficitur vestibulum eros. Nulla ultrices orci sed risus accumsan pharetra a ut massa. Etiam eget nisl odio. Quisque ac felis at lorem condimentum posuere dignissim sed purus.</p>
+    </div>
+    <div id="item3" class="tab-content">
+      <p>Duis viverra euismod enim, eget lobortis lacus iaculis id. Cras sit amet tellus odio.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  function openTab(evt, itemNo) {
+
+    var i, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tab-content");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByClassName("tab-link");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(itemNo).style.display = "block";
+    evt.currentTarget.className += " active";
+
+  }
+</script>
