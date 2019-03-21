@@ -1134,6 +1134,22 @@ input.input-icon { padding-left: 32px; }
 
 .container-search .input-search { background: url(../images/icon/icon-20-o-search.svg) no-repeat 8px 8px; background-position: 8px 50%; }
 
+.sg-markup-component-tab-html .sg-example .tabs { border-bottom: 1px solid #BEC8D1; font-size: 0; }
+
+.sg-markup-component-tab-html .sg-example .tab-link { background: transparent; border: none; border-bottom: 4px solid transparent; color: #207CBA; cursor: pointer; font-size: 14px; line-height: 22px; margin-bottom: -1px; padding: 12px 24px; }
+
+.sg-markup-component-tab-html .sg-example .tab-link:hover { color: #1A6395; border-color: #207CBA; }
+
+.sg-markup-component-tab-html .sg-example .tab-link.active { color: #3A4651; border-color: #207CBA; }
+
+@media (min-width: 1200px) { .sg-markup-component-tab-html .sg-example .tab-link { font-size: 16px; line-height: 24px; padding: 16px 32px; } }
+
+.sg-markup-component-tab-html .sg-example .tab-content { display: none; min-height: 200px; padding: 16px 24px; }
+
+@media (min-width: 1200px) { .sg-markup-component-tab-html .sg-example .tab-content { padding: 20px 32px; } }
+
+.sg-markup-component-tab-html .sg-example .tab-content#item1 { display: block; }
+
 .sg-markup-component-table-html .sg-example .table { display: flex; flex-wrap: wrap; margin: 0 0 20px 0; }
 
 .sg-markup-component-table-html .sg-example .table-cell { flex-grow: 1; width: 100%; padding: 0.8em 1.2em; overflow: hidden; list-style: none; border: solid 1px #BEC8D1; margin: -1px 0 0 -1px; }
