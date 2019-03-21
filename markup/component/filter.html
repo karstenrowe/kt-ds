@@ -1,29 +1,48 @@
 <div class="col col-8">
-
     <div class="container">
-      <p>Default</p>
+      <p>Single Select</p>
       <div class="component filter filter-idle">
-        <input placeholder="Filter by..." type="text" />
-        <p>Filter by...</p>
-        <div class="icon icon-size-16 icon-chevron-down"></div>
+        <input class="filter-input active-item single-select" placeholder="Filter by..." type="text" value="List Item 2"/>
+        <!-- <span class="icon icon-size-16 icon-chevron-down"></span> -->
+        <ul class="filter-dropdown">
+          <li>List item 1</li>
+          <li class="active-item">List item 2</li>
+          <li>List item 3</li>
+        </ul>
       </div>
     </div>
 
     <div class="container">
-      <p>Active</p>
+      <p>Multi Select</p>
       <div class="component filter filter-active">
-        <input placeholder="Filter by..." type="text" />
-        <p>Filter by...</p>
-        <div class="icon icon-size-16 icon-chevron-down"></div>
+        <input class="multi-input" value="Selected Item" type="text" disabled="" />
+        <ul class="filter-dropdown radio-list">
+          <li>
+            <input type="checkbox" name="item1" checked>
+            Selected Item
+          </li>
+          <p class="filter-title">Groups</p>
+          <li>
+            <input type="checkbox" name="item1">
+            Item
+          </li>
+          <li>
+            <input type="checkbox" name="item1">
+            Item
+          </li>
+        </ul>
       </div>
     </div>
 
     <div class="container">
-      <p>Selected</p>
+      <p>Multiselect Typeable</p>
       <div class="component filter filter-selected">
-        <input placeholder="Filter by..." type="text" />
-        <p>List Item</p>
-        <div class="icon icon-size-16 icon-clear"></div>
+        <input placeholder="Type here..." type="text" />
+        <ul class="filter-dropdown typeable-select">
+          <li>Typeable item 1</li>
+          <li class="active-item">Typeable item 2</li>
+          <li>Typeable item 3</li>
+        </ul>
       </div>
     </div>
 
