@@ -1,8 +1,5 @@
 // Card
 .sg-markup-component-card-html .sg-example {
-  .col {
-    margin-bottom: 4rem;
-  }
 
   .col-header {
     font-size: 14px;
@@ -28,7 +25,7 @@
       text-transform: uppercase;
     }
 
-    .card-container {
+    .card-content {
       background: #fff;
       border: 1px solid $grey-20;
       border-radius: 4px;
@@ -36,44 +33,39 @@
       overflow: hidden;
     }
 
-    .card-content {
-      border-radius: 0 0 4px 4px;
-      padding: 0.6rem 0.8rem;
-
+    .card-main-content {
+      padding: 16px 32px;
       p {
         margin-top: 0;
       }
     }
   }
 
-  .table {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 0 -1px;
-  }
-
-  .table-cell {
-    border-bottom: 1px solid $grey-20;
-    flex-grow: 1;
-    list-style: none;
-    width: 100%; // default to full width
-    padding: 0.8em 1.2em;
-    overflow: hidden; // or flex might break
-
-    &.table-cell-head {
-      background-color: $grey-10;
-      color: $grey-50;
-      font-weight: 600;
-      text-transform: uppercase;
+  .card-table-row {
+    border-top: 1px solid $grey-20;
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: 1fr 2fr;
+    @media (min-width: 1200px) {
+      font-size: 14px;
+      line-height: 22px;
+    }
+    &:first-child {
+      border-top: none;
     }
   }
 
-  .table-col-2>.table-cell {
-    width: 70%;
+  .table-cell {
+    padding: 8px 16px;
+    @media (min-width: 1200px) {
+      padding: 16px 32px;
+    }
   }
 
-  .table-col-2>.table-cell-head {
-    width: 30%;
+  .table-cell-head {
+    background-color: $grey-10;
+    color: $grey-40;
+    font-weight: 600;
+    text-transform: uppercase;
   }
-
 }
