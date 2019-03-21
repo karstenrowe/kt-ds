@@ -1,0 +1,44 @@
+.sg-markup-component-tab-html .sg-example {
+
+  .tabs {
+    border-bottom: 1px solid $grey-20;
+    font-size: 0; // Hack to remove space between .tab-link
+  }
+
+  .tab-link {
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid transparent;
+    color: $blue-50;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: -1px;
+    padding: 12px 24px;
+    &:hover {
+      color: $blue-60;
+      border-color: $blue-50;
+    }
+    &.active {
+      color: $grey-70;
+      border-color: $blue-50;
+    }
+    @media (min-width: 1200px) {
+      font-size: 16px;
+      line-height: 24px;
+      padding: 16px 32px;
+    }
+  }
+
+  .tab-content {
+    display: none;
+    min-height: 200px; // Stop the content below from jumping
+    padding: 16px 24px;
+    @media (min-width: 1200px) {
+      padding: 20px 32px;
+    }
+    &#item1 {
+      display: block;
+    }
+  }
+}
