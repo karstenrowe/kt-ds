@@ -1,5 +1,14 @@
 // Card
 .sg-markup-component-card-html .sg-example {
+  .col {
+    margin-bottom: 4rem;
+  }
+
+  .col-header {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
   .card {
     .card-header {
       color: $grey-80;
@@ -24,6 +33,7 @@
       border: 1px solid $grey-20;
       border-radius: 4px;
       box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+      overflow: hidden;
     }
 
     .card-content {
@@ -35,4 +45,35 @@
       }
     }
   }
+
+  .table {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 -1px;
+  }
+
+  .table-cell {
+    border-bottom: 1px solid $grey-20;
+    flex-grow: 1;
+    list-style: none;
+    width: 100%; // default to full width
+    padding: 0.8em 1.2em;
+    overflow: hidden; // or flex might break
+
+    &.table-cell-head {
+      background-color: $grey-10;
+      color: $grey-50;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+
+  .table-col-2>.table-cell {
+    width: 70%;
+  }
+
+  .table-col-2>.table-cell-head {
+    width: 30%;
+  }
+
 }

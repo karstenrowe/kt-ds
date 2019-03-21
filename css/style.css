@@ -862,15 +862,29 @@ p.variant-sm { font-size: 14px; line-height: 22px; margin-bottom: 8px; margin-to
 
 .button-row .button:first-child { margin-left: 0; }
 
+.sg-markup-component-card-html .sg-example .col { margin-bottom: 4rem; }
+
+.sg-markup-component-card-html .sg-example .col-header { font-size: 14px; line-height: 22px; }
+
 .sg-markup-component-card-html .sg-example .card .card-header { color: #262F36; font-weight: 600; margin-bottom: 0.8rem; }
 
 .sg-markup-component-card-html .sg-example .card .card-sub-header { border-bottom: 1px solid #BEC8D1; color: #7D91A2; font-size: 14px; font-weight: 600; letter-spacing: 0.4px; line-height: 22px; padding: 0.6rem 0.8rem; text-align: center; text-transform: uppercase; }
 
-.sg-markup-component-card-html .sg-example .card .card-container { background: #fff; border: 1px solid #BEC8D1; border-radius: 4px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1); }
+.sg-markup-component-card-html .sg-example .card .card-container { background: #fff; border: 1px solid #BEC8D1; border-radius: 4px; box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1); overflow: hidden; }
 
 .sg-markup-component-card-html .sg-example .card .card-content { border-radius: 0 0 4px 4px; padding: 0.6rem 0.8rem; }
 
 .sg-markup-component-card-html .sg-example .card .card-content p { margin-top: 0; }
+
+.sg-markup-component-card-html .sg-example .table { display: flex; flex-wrap: wrap; margin: 0 0 -1px; }
+
+.sg-markup-component-card-html .sg-example .table-cell { border-bottom: 1px solid #BEC8D1; flex-grow: 1; list-style: none; width: 100%; padding: 0.8em 1.2em; overflow: hidden; }
+
+.sg-markup-component-card-html .sg-example .table-cell.table-cell-head { background-color: #EFF1F3; color: #607587; font-weight: 600; text-transform: uppercase; }
+
+.sg-markup-component-card-html .sg-example .table-col-2 > .table-cell { width: 70%; }
+
+.sg-markup-component-card-html .sg-example .table-col-2 > .table-cell-head { width: 30%; }
 
 .sg-markup-component-filter-html .sg-example .filter { min-width: 200px; width: 320px; font-family: "Open Sans", sans-serif; border-radius: 4px; font-size: 14px; text-align: left; line-height: 22px; height: 40px; padding: 4px 16px; }
 
