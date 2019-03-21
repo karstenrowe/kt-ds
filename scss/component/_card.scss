@@ -1,38 +1,38 @@
 // Card
 .sg-markup-component-card-html .sg-example {
-    .component-card {
-        .container-card-header {
-            color: $grey-80;
-            font-weight: 600;
-            margin-bottom: 0.8rem;
-        }
-
-        .container-card-body {
-            background: #fff;
-            border: 1px solid $grey-20;
-            border-radius: 4px;
-            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-
-            .container-card-sub-header {
-                border-bottom: 1px solid $grey-20;
-                color: $grey-40;
-                font-size: 14px;
-                font-weight: 600;
-                letter-spacing: 0.4px;
-                line-height: 22px;
-                padding: 0.6rem 0.8rem;
-                text-align: center;
-                text-transform: uppercase;
-            }
-
-            .container-card-main-content {
-                border-radius: 0 0 4px 4px;
-                padding: 0.6rem 0.8rem;
-
-                p {
-                    margin-top: 0;
-                }
-            }
-        }
+  .card {
+    .card-header {
+      color: $grey-80;
+      font-weight: 600;
+      margin-bottom: 0.8rem;
     }
+
+    .card-sub-header {
+      border-bottom: 1px solid $grey-20;
+      color: $grey-40;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.4px;
+      line-height: 22px;
+      padding: 0.6rem 0.8rem;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .card-container {
+      background: #fff;
+      border: 1px solid $grey-20;
+      border-radius: 4px;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .card-content {
+      border-radius: 0 0 4px 4px;
+      padding: 0.6rem 0.8rem;
+
+      p {
+        margin-top: 0;
+      }
+    }
+  }
 }
