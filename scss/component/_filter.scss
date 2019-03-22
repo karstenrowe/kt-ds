@@ -8,6 +8,24 @@
   }
 }
 
+.input-container {
+  display: flex;
+  position: relative;
+
+  .icon-chevron-down {
+    background: url("../images/icon/icon-16-chevron-down.svg") no-repeat;
+    width: 14px;
+    height:14px;
+    position: absolute;
+    right: 0;
+    margin: 12px 16px 0 0;
+  }
+}
+
+.single-select-closed {
+  margin-bottom: 8px;
+}
+
 .filter-dropdown {
   padding: 0;
   margin: 0;
@@ -33,6 +51,11 @@
       background-color: $grey-10;
     }
   }
+}
+
+.sub-text {
+   font-size: 12px;
+   line-height: 20px;
 }
 
 .multi-input {
@@ -67,7 +90,7 @@
     background-color: $grey-10;
     border-radius: 4px;
     padding: 0 8px;
-    margin: 0 8px;
+    margin-left: 8px;
   }
 
   .pill-text {

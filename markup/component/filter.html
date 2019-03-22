@@ -1,9 +1,16 @@
 <div class="col col-8">
     <div class="container">
-      <p>Single Select</p>
+      <p>Single Select <span class="sub-text ">(Closed & Open)</span></p>
       <div class="filter">
-        <input class="active-item single-select" placeholder="Filter by..." type="text" value="List Item 2"/>
-        <span class="icon icon-size-16 icon-chevron-down"></span>
+        <div class="input-container">
+          <input class="active-item single-select-closed" placeholder="Filter by..." type="text" value="List Item 2" disabled/>
+         <span class="icon icon-size-16 icon-chevron-down"></span>
+        </div>
+
+        <div class="input-container">
+          <input class="active-item single-select" placeholder="Filter by..." type="text" value="List Item 2"/>
+          <span class="icon icon-size-16 icon-chevron-down"></span>
+        </div>
         <ul class="filter-dropdown">
           <li>List item 1</li>
           <li class="active-item">List item 2</li>
@@ -49,7 +56,6 @@
           <input type="text" disabled/>
         </div>
         <ul class="filter-dropdown typeable-select-list">
-          <li>foo</li>
           <li class="active-item">bar</li>
           <li>biz</li>
         </ul>
