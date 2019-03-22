@@ -28,7 +28,7 @@
     text-align: left;
     list-style: none;
     padding: 8px 16px;
-    &:hover, 
+    &:hover,
     &.active-item {
       background-color: $grey-10;
     }
@@ -45,12 +45,41 @@
 }
 
 .radio-list,
-.typeable-select {
+.typeable-select-list {
   border-top: 1px $grey-20 solid;
   border-radius: 4px;
 }
 
+.typeable-select-list {
+  margin-top: 8px;
+}
+
 .active-item {
   font-weight: 600;
+}
+
+.pill-container {
+  position: absolute;
+  display: flex;
+  margin-top: 8px;
+
+  .pill {
+    background-color: $grey-10;
+    border-radius: 4px;
+    padding: 0 8px;
+    margin: 0 8px;
+  }
+
+  .pill-text {
+    border-right: 1px $grey-20 solid;
+    padding-right: 4px;
+  }
+
+  .pill-close {
+    width: 14px;
+    height:14px;
+    display: inline-block;
+    background: url("../images/icon/icon-16-cross.svg") no-repeat;
+  }
 }
 

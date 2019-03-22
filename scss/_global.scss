@@ -22,17 +22,17 @@ button {
 body {
   color: $grey-60;
   font-family: $font-body;
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 12px;
+  line-height: 20px;
 
   @media (min-width: 1200px) {
-    font-size: 16px;
-    line-height: 24px
+    font-size: 14px;
+    line-height: 22px;
   }
 
   @media (min-width: 1600px) {
-    font-size: 18px;
-    line-height: 26px
+    font-size: 16px;
+    line-height: 24px
   }
 }
 
