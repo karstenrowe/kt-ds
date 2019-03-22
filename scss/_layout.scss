@@ -15,22 +15,6 @@
   }
 }
 
-// Grid
-.sg-wrapper {
-  .sg-sidebar {
-    @media screen and (min-width: 1200px) {
-      width: 20%;
-    }
-  }
-
-  .sg-main {
-    @media screen and (min-width: 1200px) {
-      float: right;
-      width: 80%;
-    }
-  }
-}
-
 // Columns
 .sg-main {
   .sg-sub-section {

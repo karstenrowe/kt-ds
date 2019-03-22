@@ -1,12 +1,22 @@
+// Grid
+.sg-wrapper {
+  .sg-sidebar {
+    @media screen and (min-width: 1200px) {
+      width: 20%;
+    }
+  }
+
+  .sg-main {
+    @media screen and (min-width: 1200px) {
+      float: right;
+      width: 80%;
+    }
+  }
+}
+
 .js .sg-sidebar {
-  opacity: 0;
   position: absolute;
-  top: -100%;
-  -webkit-transition: opacity 0.6s ease-out;
-  -moz-transition: opacity 0.6s ease-out;
-  -ms-transition: opacity 0.6s ease-out;
-  -o-transition: opacity 0.6s ease-out;
-  transition: opacity 0.6s ease-out;
+  opacity: 0;
 }
 
 .js.nav-is-active .sg-sidebar {
@@ -24,25 +34,23 @@
   .sg-sidebar,
   .js .sg-sidebar,
   .js.nav-is-active .sg-sidebar {
-    bottom: 0;
-    float: left;
-    font-size: 100%;
-    opacity: 1;
     position: absolute;
     top: 0;
-    //width: 20%;
-  }
-
-  .sg-main {
-    //float: right;
-    //width: 75%;
+    opacity: 1;
   }
 }
 
 // Nav
 .sg-header {
+  background: $white-20;
+  background: rgba(245,247,248, .8);
+  box-shadow: 0 1px 3px rgba(0,0,0, .16);
   position: fixed;
+  width: 100%;
   z-index: 3;
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
 }
 
 .sg-nav-toggle {
@@ -50,14 +58,7 @@
   border-radius: 5px;
   background-color: white;
   cursor: pointer;
-  float: right;
   padding: 8px;
-  /* For older browsers */
-  -webkit-transition: all .15s ease-in;
-  -moz-transition: all .15s ease-in;
-  -ms-transition: all .15s ease-in;
-  -o-transition: all .15s ease-in;
-  transition: all .15s ease-in;
 
   @media screen and (min-width: 1200px) {
     display: none;
