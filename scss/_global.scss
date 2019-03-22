@@ -22,17 +22,17 @@ button {
 body {
   color: $grey-60;
   font-family: $font-body;
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 12px;
+  line-height: 20px;
 
   @media (min-width: 1200px) {
-    font-size: 16px;
-    line-height: 24px
+    font-size: 14px;
+    line-height: 22px;
   }
 
   @media (min-width: 1600px) {
-    font-size: 18px;
-    line-height: 26px
+    font-size: 16px;
+    line-height: 24px
   }
 }
 
@@ -171,6 +171,15 @@ p {
     color: $grey-50;
   }
 
+  .sg-markup-controls {
+    .button {
+      margin-right: 12px;
+    }
+    .icon {
+      opacity: 0.4;
+    }
+  }
+
   // Source Code Blocks
   .sg-source {
     // Hide/Show Source Code Blocks
@@ -196,14 +205,5 @@ p {
       top: 8px;
       z-index: 1;
     }
-  }
-}
-
-// Hide Source Code Blocks for some sections when it's not relevant
-.sg-markup-Brand-logo-html,
-.sg-markup-Brand-color-html,
-.sg-markup-Brand-font-html {
-  .sg-markup-controls {
-    display: none;
   }
 }

@@ -1,81 +1,107 @@
-.sg-markup-component-filter-html .sg-example {
-
-  .filter {
-    min-width: 200px;
-    width: 320px;
-    font-family: $font-body;
-    border-radius: 4px;
-    font-size: 14px;
-    text-align: left;
-    line-height: 22px;
-    height: 40px;
-    padding: 4px 16px;
-
-    p {
-      margin: 4px auto;
-      display: inline-block;
-    }
-
-    &.filter-idle {
-      border: 1px $grey-30 solid;
-
-      p {
-        color: $grey-30;
-        font-style: italic;
-      }
-    }
-
-    &.filter-active {
-      border: 1px $grey-50 solid;
-
-      p {
-        color: $grey-70;
-        font-style: italic;
-      }
-    }
-
-
-    &.filter-selected {
-      border: 1px $grey-30 solid;
-
-      p {
-        color: $grey-60;
-      }
-    }
-
-  }
-
+.sg-markup-component-filter-html {
   p {
     font-size: 14px;
+    line-height: 22px
+  }
+}
+
+.single-select {
+  border-radius: 4px;
+  background-color: $white-10;
+}
+
+.input-container {
+  display: flex;
+  position: relative;
+
+  input {
+    cursor: pointer;
+  }
+
+  .icon-chevron-down {
+    background: url("../images/icon/icon-16-chevron-down.svg") no-repeat;
+    width: 14px;
+    height:14px;
+    position: absolute;
+    right: 0;
+    margin: 12px 16px 0 0;
+  }
+}
+
+.filter-dropdown {
+  padding: 0;
+  margin-top: 8px;
+  border: 1px $grey-20 solid;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 22px;
+  max-height: 160px;
+  overflow-y: auto;
+
+  .filter-title {
+    color: $grey-40;
+    cursor: default;
+    font-size: 14px;
+    margin-top: 12px;
+    &:hover {
+      background: none;
+    }
+  }
+
+  li {
+    cursor: pointer;
+    list-style: none;
+    padding: 8px 16px;
+    &:hover,
+    &.active-item {
+      background-color: $grey-10;
+    }
+  }
+}
+
+.sub-text {
+   font-size: 12px;
+   line-height: 20px;
+}
+
+.radio-list li.selected {
+  color: $grey-70;
+}
+
+.active-item {
+  font-weight: 600;
+}
+
+.pill-container {
+  position: absolute;
+  display: flex;
+  margin-top: 8px;
+
+  .pill {
+    background-color: $grey-10;
+    border-radius: 4px;
+    padding: 0 8px;
+    margin-left: 8px;
+  }
+
+  .pill-text {
+    border-right: 1px $grey-20 solid;
+    padding-right: 4px;
+    font-size: 14px;
     line-height: 22px;
   }
 
-  //repetitive code
-  //need help to understand the structure of this repo and then change this
-  .icon {
-    background: {
-      repeat: no-repeat;
-    }
-
-    margin: 6px auto;
-    float: right;
+  .icon-cross {
+    cursor: pointer;
     display: inline-block;
-
-    &.icon-size-16 {
-      height: 16px;
-      width: 16px;
-
-      &.icon-chevron-down {
-        background-image: url("../images/icon/icon-16-chevron-down.svg");
-      }
-
-      &.icon-cross {
-        background-image: url("../images/icon/icon-16-cross.svg");
-      }
+    background: url("../images/icon/icon-16-cross.svg") no-repeat 50% 50%;
+    background-size: 12px;
+    opacity: .6;
+    position: relative;
+    top: 2px;
+    right: -2px;
+    &:hover {
+      opacity: .8;
     }
-  }
-
-  input {
-    display: none;
   }
 }
