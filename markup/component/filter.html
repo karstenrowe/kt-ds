@@ -1,64 +1,91 @@
 <div class="col col-8">
-    <div class="container">
-      <p>Single Select <span class="sub-text ">(Closed & Open)</span></p>
-      <div class="filter">
-        <div class="input-container">
-          <input class="active-item single-select-closed" placeholder="Filter by..." type="text" value="List Item 2" disabled/>
-         <span class="icon icon-size-16 icon-chevron-down"></span>
-        </div>
-
-        <div class="input-container">
-          <input class="active-item single-select" placeholder="Filter by..." type="text" value="List Item 2"/>
-          <span class="icon icon-size-16 icon-chevron-down"></span>
-        </div>
-        <ul class="filter-dropdown">
-          <li>List item 1</li>
-          <li class="active-item">List item 2</li>
-          <li>List item 3</li>
-        </ul>
+  <div class="container">
+    <p>Single Select <span class="sub-text ">(Closed)</span></p>
+    <div class="filter">
+      <div class="input-container">
+        <input class="active-item single-select-closed" placeholder="Filter by..." type="text" value="List Item 2" disabled/>
+       <span class="icon icon-size-16 icon-chevron-down"></span>
       </div>
     </div>
-    <div class="container">
-      <p>Multi Select</p>
-      <div class="filter">
-        <input class="multi-input" value="Selected Item" type="text" disabled="" />
-        <ul class="filter-dropdown radio-list">
-          <li>
-            <input type="checkbox" name="item1" checked>
-            Selected Item
-          </li>
-          <p class="filter-title">Groups</p>
-          <li>
-            <input type="checkbox" name="item1">
-            Item
-          </li>
-          <li>
-            <input type="checkbox" name="item1">
-            Item
-          </li>
-        </ul>
+  </div>
+  <div class="container">
+    <p>Single Select <span class="sub-text">(Open)</span></p>
+    <div class="filter">
+      <div class="input-container">
+        <input class="active-item single-select" placeholder="Filter by..." type="text" value="List Item 2"/>
+        <span class="icon icon-size-16 icon-chevron-down"></span>
       </div>
+      <ul class="filter-dropdown">
+        <li>List item 1</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+        <li>List item 5</li>
+        <li>List item 6</li>
+      </ul>
     </div>
-    <div class="container">
-      <p>Typeable Multiselect</p>
-      <div class="filter">
-        <div class="typeable-select">
-          <div class="pill-container">
-            <div class="pill">
-              <span class="pill-text">foo</span>
-              <span class="pill-close"></span>
-            </div>
-            <div class="pill">
-              <span class="pill-text">bar</span>
-              <span class="pill-close"></span>
-            </div>
+  </div>
+  <div class="container">
+    <p>Multi-Select <span class="sub-text">(Open)</span></p>
+    <div class="filter">
+      <input class="multi-input" value="2 Selected" type="text" disabled="" />
+      <ul class="filter-dropdown radio-list">
+        <li class="selected">
+          <input type="checkbox" name="item1" checked>
+          Selected Item 1
+        </li>
+        <li class="selected">
+          <input type="checkbox" name="item1" checked>
+          Selected Item 2
+        </li>
+        <li class="filter-title">Groups</li>
+        <li>
+          <input type="checkbox" name="item1">
+          Item
+        </li>
+        <li>
+          <input type="checkbox" name="item1">
+          Item
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <p>Typeable Multi-Select</p>
+    <div class="filter">
+      <div class="typeable-select">
+        <div class="pill-container">
+        </div>
+        <input type="text" value="Ite"/>
+      </div>
+      <ul class="filter-dropdown typeable-select-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <p>Typeable Multi-Select <span class="sub-text">(Value)</span></p>
+    <div class="filter">
+      <div class="typeable-select">
+        <div class="pill-container">
+          <div class="pill">
+            <span class="pill-text">Item 1</span>
+            <span class="icon icon-size-16 icon-cross"></span>
           </div>
-          <input type="text" disabled/>
         </div>
-        <ul class="filter-dropdown typeable-select-list">
-          <li class="active-item">bar</li>
-          <li>biz</li>
-        </ul>
+        <input type="text" disabled/>
       </div>
+      <ul class="filter-dropdown typeable-select-list">
+        <li class="active-item">Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+      </ul>
     </div>
+  </div>
 </div>

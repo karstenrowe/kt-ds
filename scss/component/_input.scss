@@ -1,6 +1,7 @@
 input {
   border: 1px $grey-20 solid;
   border-radius: 4px;
+  color: $grey-60;
   font-size: 14px;
   line-height: 22px;
   padding: 8px 16px;
@@ -50,4 +51,3 @@ input {
     border: 1px $green-40 solid;
   }
 }
-

@@ -1,16 +1,22 @@
-.single-select {
-  border-radius: 4px 4px 0px 0px;
-  border-bottom: none;
-  background-color: $white-10;
-  &:focus,
-  &:hover {
-    border-bottom: none;
+.sg-markup-component-filter-html {
+  p {
+    font-size: 14px;
+    line-height: 22px
   }
+}
+
+.single-select {
+  border-radius: 4px;
+  background-color: $white-10;
 }
 
 .input-container {
   display: flex;
   position: relative;
+
+  input {
+    cursor: pointer;
+  }
 
   .icon-chevron-down {
     background: url("../images/icon/icon-16-chevron-down.svg") no-repeat;
@@ -22,28 +28,28 @@
   }
 }
 
-.single-select-closed {
-  margin-bottom: 8px;
-}
-
 .filter-dropdown {
   padding: 0;
-  margin: 0;
+  margin-top: 8px;
   border: 1px $grey-20 solid;
-  border-top: none;
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 4px;
   font-size: 14px;
   line-height: 22px;
+  max-height: 160px;
+  overflow-y: auto;
 
   .filter-title {
     color: $grey-40;
+    cursor: default;
     font-size: 14px;
-    margin-left: 16px;
+    margin-top: 12px;
+    &:hover {
+      background: none;
+    }
   }
 
   li {
     cursor: pointer;
-    text-align: left;
     list-style: none;
     padding: 8px 16px;
     &:hover,
@@ -58,23 +64,8 @@
    line-height: 20px;
 }
 
-.multi-input {
-  background-color: $grey-50;
-  border-color: $grey-40;
-  color: $grey-20;
-  &:hover {
-    color: $grey-20;
-  }
-}
-
-.radio-list,
-.typeable-select-list {
-  border-top: 1px $grey-20 solid;
-  border-radius: 4px;
-}
-
-.typeable-select-list {
-  margin-top: 8px;
+.radio-list li.selected {
+  color: $grey-70;
 }
 
 .active-item {
@@ -100,10 +91,17 @@
     line-height: 22px;
   }
 
-  .pill-close {
-    width: 14px;
-    height:14px;
+  .icon-cross {
+    cursor: pointer;
     display: inline-block;
-    background: url("../images/icon/icon-16-cross.svg") no-repeat;
+    background: url("../images/icon/icon-16-cross.svg") no-repeat 50% 50%;
+    background-size: 12px;
+    opacity: .6;
+    position: relative;
+    top: 2px;
+    right: -2px;
+    &:hover {
+      opacity: .8;
+    }
   }
 }
