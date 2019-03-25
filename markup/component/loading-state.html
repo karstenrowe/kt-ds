@@ -1,0 +1,30 @@
+<svg class="loading-state-logo" viewBox="0 0 626 602" style="backface-visibility: hidden;-webkit-backface-visibility: hidden;">
+  <g id="KT-Logo-Animation" fill="none" fill-rule="evenodd">
+    <path style="stroke-width: 20;" stroke-linecap="round" d="M353.130236,589 L610,589 L610,354.697796 L610,15 L353.067665,15 C336.89618,15 323.462177,27.1564563 322.279585,42.8802701 C316.748305,116.389175 304.471867,326.073564 322.335899,561.122779 C323.531005,576.840495 336.961879,589 353.130236,589" id="right" stroke="#BEC8D1" stroke-width="33" transform="translate(461.500000, 302.000000) scale(-1, 1) translate(-461.500000, -302.000000) "></path>
+    <polygon id="Fill-8" fill="#BEC8D1" points="379 146 523 146 523 188.162162 472.165767 188.162162 472.165767 458 428.480383 458 428.480383 188.162162 379 188.357052"></polygon>
+    <path style="stroke-width: 20;" stroke-linecap="round" d="M56.1302361,589 L313,589 L313,354.697796 L313,15 L56.0676651,15 C39.8961797,15 26.4621773,27.1564563 25.2795846,42.8802701 C19.7483047,116.389175 7.47186652,326.073564 25.3358986,561.122779 C26.5310054,576.840495 39.9618793,589 56.1302361,589" id="left" stroke="#BEC8D1" stroke-width="13"></path>
+    <polygon id="K" fill="#BEC8D1" points="155.176893 333.644576 141.911554 362.170991 141.911554 458 99 458 99 146 141.911554 146 141.911554 281.944079 198.088446 146 241 146 181.315385 285.060626 241 458 196.91816 458"></polygon>
+  </g>
+</svg>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+<script type="text/javascript">
+
+var pathEls = document.querySelectorAll('path');
+for (var i = 0; i < pathEls.length; i++) {
+  var pathEl = pathEls[i];
+  var offset = anime.setDashoffset(pathEl);
+  pathEl.setAttribute('stroke-dashoffset', offset);
+    
+    anime({
+      targets: pathEl,
+      strokeDashoffset: [offset, 0],
+      duration: 2000,
+      delay: 500,
+      loop: true,
+      direction: 'alternate',
+      easing: 'easeInOutSine',
+      autoplay: true
+    });
+}
+</script>
