@@ -1,0 +1,51 @@
+.section-hero {
+  align-items: end;
+  background: $blue-50 url("../images/hero.svg") no-repeat 100% 0;
+  background-size: 100%;
+  display: grid;
+  margin-top: 72px;
+  height: 80vh;
+  @media (min-width: 1000px) {
+    background-size: cover;
+    height: 50vh;
+  }
+  @media (min-width: 1200px) {
+    background-size: contain;
+    height: 100vh;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1800px;
+  }
+  .content-wrapper {
+    @media (min-width: 1000px) {
+      width: 80%;
+    }
+    @media (min-width: 1200px) {
+      padding-bottom: 15%;
+      width: 60%;
+    }
+  }
+  h1 {
+    border: none;
+    color: $blue-80;
+    margin: 0;
+    text-transform: none;
+  }
+  p {
+    color: $blue-20;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .button-row {
+    background: none;
+    padding: 16px 0 0 0;
+  }
+  .button {
+    background: $blue-60;
+    &:hover {
+      background: $blue-40;
+    }
+  }
+}

@@ -1,67 +1,64 @@
-// Link
-.sg-wrapper {
-  a,
-  .link {
-    color: $blue-50;
+a,
+.link {
+  color: $blue-50;
 
-    &:visited {
-      color: $blue-50;
-    }
+  &:visited {
+    color: $blue-50;
+  }
+
+  &:hover,
+  &.link-hover {
+    color: $blue-60;
+  }
+
+  &:active,
+  &.link-active,
+  &:focus,
+  &.link-focus {
+    color: $blue-70;
+  }
+
+  &.link-disabled {
+    color: $blue-20;
+  }
+
+  &.link-subtle {
+    color: $grey-50;
 
     &:hover,
     &.link-hover {
-      color: $blue-60;
+      color: $grey-60;
     }
 
     &:active,
     &.link-active,
     &:focus,
     &.link-focus {
-      color: $blue-70;
+      color: $grey-70;
     }
 
     &.link-disabled {
-      color: $blue-20;
+      color: $grey-20;
+    }
+  }
+
+  &.link-delete {
+    color: $red-50;
+
+    &:hover,
+    &.link-hover {
+      color: $red-60;
     }
 
-    &.link-subtle {
-      color: $grey-50;
-
-      &:hover,
-      &.link-hover {
-        color: $grey-60;
-      }
-
-      &:active,
-      &.link-active,
-      &:focus,
-      &.link-focus {
-        color: $grey-70;
-      }
-
-      &.link-disabled {
-        color: $grey-20;
-      }
+    &:active,
+    &.link-active,
+    &:focus,
+    &.link-focus {
+      color: $red-70;
     }
 
-    &.link-delete {
-      color: $red-50;
-
-      &:hover,
-      &.link-hover {
-        color: $red-60;
-      }
-
-      &:active,
-      &.link-active,
-      &:focus,
-      &.link-focus {
-        color: $red-70;
-      }
-
-      &.link-disabled {
-        color: $red-20;
-      }
+    &.link-disabled {
+      color: $red-20;
     }
   }
 }

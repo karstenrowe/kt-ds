@@ -17,74 +17,97 @@
   }
 }
 
-.sg-example,
-.sg-sub-section {
+.button,
+button {
+  background-color: $blue-50;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: $blue-10;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  position: relative;
+  text-decoration: none;
 
-  .button {
-    background: $blue-50;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    //box-shadow: inset 0 -1px 1px 0 rgba(0, 0, 0, 0.2), inset 0 1px 0 0 rgba(255, 255, 255, 0.2), 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+  &:visited {
     color: $blue-10;
-    cursor: pointer;
+  }
+
+  // Shared
+  .icon {
+    background-repeat: no-repeat;
     display: inline-block;
-    font-weight: 600;
-    letter-spacing: 0.4px;
+    height: 20px;
     position: relative;
-    text-decoration: none;
+    vertical-align: middle;
+    top: -2px;
+    width: 20px;
+  }
 
-    &:visited {
-      color: $blue-10;
-    }
-
-    // Shared
+  &.variant-icon {
     .icon {
-      background-repeat: no-repeat;
-      display: inline-block;
-      height: 20px;
-      position: relative;
-      vertical-align: middle;
-      top: -2px;
-      width: 20px;
+      background-image: url("../images/icon/icon-20-plus-white.svg");
+      //background-image: url("../images/icon/icon-16-chevron-down-white.svg");
+
+      left: -2px;
+      margin-right: 2px;
     }
+  }
 
-    &.variant-icon {
-      .icon {
-        background-image: url("../images/icon/icon-20-plus-white.svg");
-        //background-image: url("../images/icon/icon-16-chevron-down-white.svg");
-
-        left: -2px;
-        margin-right: 2px;
-      }
+  &.variant-chevron {
+    .icon-chevron {
+      background-image: url("../images/icon/icon-16-chevron-down-white.svg");
+      height: 16px;
+      right: -8px;
+      width: 16px;
     }
+  }
 
-    &.variant-chevron {
-      .icon-chevron {
-        background-image: url("../images/icon/icon-16-chevron-down-white.svg");
-        height: 16px;
-        right: -8px;
-        width: 16px;
-      }
+  &.variant-icon-only {
+    // Roughly make the icon square
+    padding-left: 11px !important;
+    padding-right: 11px !important;
+
+    .icon {
+      background-image: url("../images/icon/icon-20-fill-coaching-coached-white.svg");
+      margin: 0;
     }
+  }
 
-    &.variant-icon-only {
-      // Roughly make the icon square
-      padding-left: 11px !important;
-      padding-right: 11px !important;
+  &:visited {
+    background-color: $blue-50;
+  }
 
-      .icon {
-        background-image: url("../images/icon/icon-20-fill-coaching-coached-white.svg");
-        margin: 0;
-      }
-    }
+  &:hover,
+  &.button-hover {
+    background-color: $blue-40;
+    color: #fff;
+  }
 
-    &:visited {
-      background: $blue-50;
-    }
+  &:active,
+  &:focus,
+  &.button-active,
+  &.button-focus {
+    background-color: $blue-60;
+    color: #fff;
+  }
+
+  &.button-disabled {
+    background-color: $blue-10;
+    border: 1px solid transparent;
+    box-shadow: none;
+    color: $blue-20;
+    cursor: default;
+  }
+
+  &.button-secondary {
+    background-color: $grey-50;
+    color: $grey-10;
 
     &:hover,
     &.button-hover {
-      background: $blue-40;
+      background-color: $grey-40;
       color: #fff;
     }
 
@@ -92,236 +115,173 @@
     &:focus,
     &.button-active,
     &.button-focus {
-      background: $blue-60;
-      color: #fff;
+      background-color: $grey-60;
     }
 
     &.button-disabled {
-      background: $blue-10;
+      background-color: $grey-10;
+      color: $grey-20;
+    }
+  }
+
+  &.button-subtle {
+    background-color: $grey-10;
+    border: 1px solid $grey-20;
+    box-shadow: none;
+    color: $grey-50;
+
+    &:hover,
+    &.button-hover {
+      background-color: #fff;
+      color: $grey-60;
+    }
+
+    &:active,
+    &:focus,
+    &.button-active,
+    &.button-focus {
+      background-color: #fff;
+      color: $grey-70;
+    }
+
+    &.button-disabled {
+      background-color: $grey-10;
       border: 1px solid transparent;
-      box-shadow: none;
-      color: $blue-20;
-      cursor: default;
+      color: $grey-20;
+    }
+  }
+
+  &.button-save {
+    background-color: $green-50;
+    color: $green-10;
+
+    &:hover,
+    &.button-hover {
+      background-color: $green-40;
+      color: #fff;
     }
 
-    &.button-secondary {
-      background: $grey-50;
-      color: $grey-10;
-
-      &:hover,
-      &.button-hover {
-        background: $grey-40;
-        color: #fff;
-      }
-
-      &:active,
-      &:focus,
-      &.button-active,
-      &.button-focus {
-        background: $grey-60;
-      }
-
-      &.button-disabled {
-        background: $grey-10;
-        color: $grey-20;
-      }
+    &:active,
+    &:focus,
+    &.button-active,
+    &.button-focus {
+      background-color: $green-60;
     }
 
-    &.button-subtle {
-      background: $grey-10;
-      border: 1px solid $grey-20;
-      box-shadow: none;
-      color: $grey-50;
+    &.button-disabled {
+      background-color: $green-10;
+      color: $green-20;
+    }
+  }
 
-      &:hover,
-      &.button-hover {
-        background: #fff;
-        color: $grey-60;
-      }
+  &.button-delete {
+    background-color: $red-50;
+    color: $red-10;
 
-      &:active,
-      &:focus,
-      &.button-active,
-      &.button-focus {
-        background: #fff;
-        color: $grey-70;
-      }
-
-      &.button-disabled {
-        background: $grey-10;
-        border: 1px solid transparent;
-        color: $grey-20;
-      }
+    &:hover,
+    &.button-hover {
+      background-color: $red-40;
+      color: #fff;
     }
 
-    &.button-save {
-      background: $green-50;
-      color: $green-10;
-
-      &:hover,
-      &.button-hover {
-        background: $green-40;
-        color: #fff;
-      }
-
-      &:active,
-      &:focus,
-      &.button-active,
-      &.button-focus {
-        background: $green-60;
-      }
-
-      &.button-disabled {
-        background: $green-10;
-        color: $green-20;
-      }
+    &:active,
+    &:focus,
+    &.button-active,
+    &.button-focus {
+      background-color: $red-60;
     }
 
-    &.button-delete {
-      background: $red-50;
-      color: $red-10;
+    &.button-disabled {
+      background-color: $red-10;
+      color: $red-20;
+    }
+  }
 
-      &:hover,
-      &.button-hover {
-        background: $red-40;
-        color: #fff;
-      }
+  &.button-warning {
+    background-color: $yellow-50;
+    color: $yellow-10;
 
-      &:active,
-      &:focus,
-      &.button-active,
-      &.button-focus {
-        background: $red-60;
-      }
-
-      &.button-disabled {
-        background: $red-10;
-        color: $red-20;
-      }
+    &:hover,
+    &.button-hover {
+      background-color: $yellow-40;
+      color: #fff;
     }
 
-    &.button-warning {
-      background: $yellow-50;
-      color: $yellow-10;
-
-      &:hover,
-      &.button-hover {
-        background: $yellow-40;
-        color: #fff;
-      }
-
-      &:active,
-      &:focus,
-      &.button-active,
-      &.button-focus {
-        background: $yellow-60;
-      }
-
-      &.button-disabled {
-        background: $yellow-10;
-        color: $yellow-20;
-      }
+    &:active,
+    &:focus,
+    &.button-active,
+    &.button-focus {
+      background-color: $yellow-60;
     }
 
-    &.button-label {
-      background: none;
-      box-shadow: none;
-      color: $grey-30;
-      font-weight: 400;
-      padding-left: 0 !important;
+    &.button-disabled {
+      background-color: $yellow-10;
+      color: $yellow-20;
     }
+  }
 
-    &.button-size-xs,
-    &.button-size-xs.button-label {
-      font-size: 10px;
-      line-height: 18px;
-      padding: 4px 16px;
+  &.button-label {
+    background: none;
+    box-shadow: none;
+    color: $grey-30;
+    font-weight: 400;
+    padding-left: 0 !important;
+  }
 
-      @media (min-width: 1200px) {
-        font-size: 12px;
-        line-height: 20px;
-      }
+  &.button-size-sm,
+  &.button-size-sm.button-label {
+    font-size: 10px;
+    line-height: 18px;
+    padding: 4px 16px;
 
-      @media (min-width: 1600px) {
-        font-size: 14px;
-        line-height: 22px;
-      }
-    }
-
-    &.button-size-sm,
-    &.button-size-sm.button-label {
+    @media (min-width: 1200px) {
       font-size: 12px;
       line-height: 20px;
-      padding: 4px 16px;
-
-      @media (min-width: 1200px) {
-        font-size: 14px;
-        line-height: 22px;
-        padding: 6px 18px;
-      }
-
-      @media (min-width: 1600px) {
-        font-size: 16px;
-        line-height: 24px;
-        padding: 8px 22px;
-      }
+      padding: 6px 18px;
     }
 
-    &.button-size-md,
-    &.button-size-md.button-label {
+    @media (min-width: 1600px) {
       font-size: 14px;
       line-height: 22px;
-      padding: 4px 16px;
+      padding: 8px 22px;
+    }
+  }
 
-      @media (min-width: 1200px) {
-        font-size: 16px;
-        line-height: 24px;
-        padding: 6px 20px;
-      }
+  &.button-size-md,
+  &.button-size-md.button-label {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 6px 18px;
 
-      @media (min-width: 1600px) {
-        font-size: 18px;
-        line-height: 26px;
-        padding: 8px 22px;
-      }
+    @media (min-width: 1200px) {
+      font-size: 14px;
+      line-height: 22px;
+      padding: 8px 22px;
     }
 
-    &.button-size-lg,
-    &.button-size-lg.button-label {
+    @media (min-width: 1600px) {
       font-size: 16px;
       line-height: 24px;
-      padding: 6px 20px;
+      padding: 8px 22px;
+    }
+  }
 
-      @media (min-width: 1200px) {
-        font-size: 18px;
-        line-height: 26px;
-        padding: 8px 22px;
-      }
+  &.button-size-lg,
+  &.button-size-lg.button-label {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 8px 22px;
 
-      @media (min-width: 1600px) {
-        font-size: 20px;
-        line-height: 28px;
-        padding: 10px 24px;
-      }
+    @media (min-width: 1200px) {
+      font-size: 16px;
+      line-height: 24px;
+      padding: 8px 22px;
     }
 
-    &.button-size-xl,
-    &.button-size-xl.button-label {
+    @media (min-width: 1600px) {
       font-size: 18px;
       line-height: 26px;
-      padding: 8px 22px;
-
-      @media (min-width: 1200px) {
-        font-size: 20px;
-        line-height: 29px;
-        padding: 10px 24px;
-      }
-
-      @media (min-width: 1600px) {
-        font-size: 22px;
-        line-height: 30px;
-        padding: 12px 30px;
-      }
+      padding: 10px 24px;
     }
   }
 }

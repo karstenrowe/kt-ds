@@ -1,0 +1,47 @@
+// Nav
+.sg-header {
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0, .16);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  .sg-container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 16px 32px;
+  }
+  .sg-nav-toggle {
+    background: url("../images/icon/icon-20-o-hamburger.svg") no-repeat 50% 50%;
+    height: 40px;
+    width: 40px;
+  }
+  .logo-kt {
+    background: url("../images/logo-symbol-kt.svg") no-repeat 50% 50%;
+    background-size: contain;
+    height: 40px;
+    justify-self: center;
+    width: 80px;
+    @media (min-width: 1200px) {
+      background: url("../images/logo-type-kt.svg") no-repeat 50% 50%;
+      background-size: contain;
+      height: 40px;
+      justify-self: center;
+      width: 210px;
+    }
+  }
+  .container-search {
+    justify-self: end;
+    @media (min-width: 1200px) {
+      width: 240px;
+    }
+  }
+}
+
+.nav-is-active {
+  .sg-header .button.sg-nav-toggle {
+    background-color: #fff;
+    color: $grey-60;
+  }
+}

@@ -18,31 +18,38 @@
   <!-- prism Syntax Highlighting Styles -->
   <link rel="stylesheet" href="vendor/prism/prism.css">
 </head>
-<body>
+<body id="top">
 
-  <div id="top" class="sg-header" role="banner">
+  <div class="sg-header" role="banner">
     <div class="sg-container">
-      <img class="sg-nav-toggle" width="36" height="36" src="images/icon/icon-20-o-hamburger.svg" alt="hamburger menu"/>
+      <div class="sg-nav-toggle button button-size-md button-subtle"></div>
+      <a class="logo logo-kt" href="#top"></a>
+      <div class="container-search">
+        <input id="sg-search" class="input input-icon input-search" type="search" placeholder="Search coming soon…">
+      </div>
     </div>
+    <div id="nav" class="sg-sidebar" role="navigation">
+      <?php listFilesInFolder('markup'); ?>
+    </div><!--/.sg-sidebar-->
   </div><!--/.sg-header-->
 
   <div class="sg-wrapper sg-clearfix">
-    <div id="nav" class="sg-sidebar" role="navigation">
-      <div class="logo">
-        <div class="logo logo-kt-logotype"></div>
-        <div class="logo logo-kt-symbol"></div>
+    <div class="section-hero">
+      <div class="container">
+        <div class="content-wrapper">
+          <h1>Welcome to Spray Shop</h1>
+          <p>What is Spray Shop? A source of truth and reference—a modular, systematic approach to designing and building software. In short a design system.</p>
+          <div class="button-row">
+            <button type="button" name="button" class="button button-size-lg">Watch Video</button>
+            <button type="button" name="button" class="button button-size-lg">Get Started</button>
+          </div>
+          <a href="#">Provide Feedback</a>
+        </div>
       </div>
-      <div class="sg-search-bar">
-        <label for="sg-search-label"></label>
-        <input id="sg-search" class="sg-search" type="search" placeholder="Search coming soon…">
-      </div>
-      <?php listFilesInFolder('markup'); ?>
-    </div><!--/.sg-sidebar-->
-
+    </div>
     <div id="main" class="sg-main" role="main">
       <div class="sg-container">
-        <a class="sg-btn--top" href="#top">Back to Top</a>
-        <div class="sg-sub-section section-intro">
+        <!-- <div class="sg-sub-section section-intro">
           <div class="col col-4">
             <div class="container">
               <h2>What is a Design System?</h2>
@@ -61,7 +68,7 @@
             The Design System is a company-wide initiative and we'd love you to be involved. Want to learn more? <a href = "mailto:karsten.rowe@keeptruckin.com?Subject=Design%20System" target="_top">Email Karsten</a>.
             </div>
           </div>
-        </div>
+        </div> -->
         <?php renderFilesInFolder('markup'); ?>
       </div><!--/.sg-container-->
     </div><!--/.sg-main-->

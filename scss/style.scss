@@ -2,10 +2,9 @@
 @import "mixin";
 @import "global";
 @import "layout";
+@import "topbar";
 @import "sidebar";
-
-// Index/Intro page
-@import "index";
+@import "hero";
 
 // Brand
 @import "brand/color";
