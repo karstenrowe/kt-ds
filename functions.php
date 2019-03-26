@@ -105,8 +105,8 @@
     if ($content != '') {
       echo '<div class="sg-sub-section">';
       echo '<div class="sg-markup-controls">';
-      echo '<button type="button" class="button button-size-xs button-subtle sg-btn sg-btn--source">View Source</button>';
-      echo '<button type="button" class="button button-size-xs button-subtle button-disabled"><span class="icon icon-size-20 icon-download"></span> .sketch</button>';
+      echo '<button type="button" class="button button-size-sm button-subtle sg-btn sg-btn--source">View Source</button>';
+      echo '<button type="button" class="button button-size-sm button-subtle button-disabled"><span class="icon icon-size-20 icon-download"></span> .sketch</button>';
       echo '</div>';
       echo '<div class="sg-source">';
       echo '<button type="button" class="button button-size-xs button-subtle sg-btn sg-btn--select">Copy Source</button>';

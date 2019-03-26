@@ -33,9 +33,10 @@
     margin: 0;
     text-transform: none;
   }
-  p {
+  p.lead {
     color: $blue-20;
     font-size: 18px;
+    font-style: normal;
     line-height: 28px;
   }
   .button-row {
@@ -46,6 +47,19 @@
     background: $blue-60;
     &:hover {
       background: $blue-40;
+    }
+  }
+  p {
+    color: $blue-20;
+    font-style: italic;
+  }
+  a,
+  a:visited {
+    color: $blue-30;
+    font-style: normal;
+    margin-top: 16px;
+    &:hover {
+      color: $blue-20;
     }
   }
 }

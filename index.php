@@ -38,12 +38,12 @@
       <div class="container">
         <div class="content-wrapper">
           <h1>Welcome to Spray Shop</h1>
-          <p>What is Spray Shop? A source of truth and reference—a modular, systematic approach to designing and building software. In short a design system.</p>
+          <p class="lead">What is Spray Shop? In short it's our design system. <a href="#">What's a design system?</a>. A source of truth and reference for our UI—a modular, systematic approach to designing and building software.</p>
           <div class="button-row">
             <button type="button" name="button" class="button button-size-lg">Watch Video</button>
             <button type="button" name="button" class="button button-size-lg">Get Started</button>
           </div>
-          <a href="#">Provide Feedback</a>
+          <p>We want to hear from you! <a href="#">Send us feedback</a></p>
         </div>
       </div>
     </div>
