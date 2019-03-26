@@ -37,41 +37,33 @@
     <div class="section-hero">
       <div class="container">
         <div class="content-wrapper">
-          <h1>Welcome to Spray Shop</h1>
-          <p class="lead">What is Spray Shop? In short it's our design system. <a href="#">What's a design system?</a>. A source of truth and reference for our UI—a modular, systematic approach to designing and building software.</p>
+          <h1>Welcome to SprayShop</h1>
+          <p class="lead">What's SprayShop? A source of truth and reference for our product design language. It's a modular, systematic approach to designing and building software for KeepTruckin.</p>
           <div class="button-row">
-            <button type="button" name="button" class="button button-size-lg">Watch Video</button>
-            <button type="button" name="button" class="button button-size-lg">Get Started</button>
+            <a class="button button-size-lg">Watch Video</a>
+            <a class="button button-size-lg" href="#main">Get Started</a>
           </div>
-          <p>We want to hear from you! <a href="#">Send us feedback</a></p>
+          <p>We want to hear from you! <a href="https://docs.google.com/forms/d/1bD5uwocahKFfZ-LfptNAe5TpVsmT6_JgGxjvdAE0zSU/edit?usp=sharing" target="_blank">Send us feedback</a></p>
         </div>
       </div>
     </div>
     <div id="main" class="sg-main" role="main">
       <div class="sg-container">
-        <!-- <div class="sg-sub-section section-intro">
-          <div class="col col-4">
-            <div class="container">
-              <h2>What is a Design System?</h2>
-              A source of truth and reference—a modular, systematic approach to designing and building software.
-            </div>
-            <div class="container">
-              <h2>Why do we need one?</h2>
-              A tool to promote visual consistency across our products, unify designers and front-end engineers, as well as speed up workflow.
-            </div>
-            <div class="container">
-              <h2>How do I use it?</h2>
-              Before you start you should know the house rules. We created a simple <a href="https://docs.google.com/document/d/1u8VTsBls06bXzYfSzGh7mYYBWnz906uxGTy-3UUb_Nw/edit?usp=sharing" target="_blank">how to use document</a> to help you get up and running.
-            </div>
-            <div class="container">
-              <h2>How do I contribute?</h2>
-            The Design System is a company-wide initiative and we'd love you to be involved. Want to learn more? <a href = "mailto:karsten.rowe@keeptruckin.com?Subject=Design%20System" target="_top">Email Karsten</a>.
-            </div>
-          </div>
-        </div> -->
         <?php renderFilesInFolder('markup'); ?>
       </div><!--/.sg-container-->
     </div><!--/.sg-main-->
+    <div class="section-hero footer-cta">
+      <div class="container">
+        <div class="content-wrapper">
+          <h1>Thanks for reading</h1>
+          <p class="lead">A company-wide initiative that we'd love you to be involved in.</p>
+          <div class="button-row">
+            <a class="button button-size-lg" href="https://k2labs.atlassian.net/wiki/spaces/UXD/pages/734167675/Design+System+SprayShop" target="_blank">Learn More</a>
+            <a class="button button-size-lg" href="https://docs.google.com/forms/d/1bD5uwocahKFfZ-LfptNAe5TpVsmT6_JgGxjvdAE0zSU/edit?usp=sharing" target="_blank">Send Us Feedback</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div><!--/.sg-wrapper-->
 
   <!--[if gt IE 8]><!--><script src="vendor/prism/prism.js"></script><!--<![endif]-->

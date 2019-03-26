@@ -2,13 +2,8 @@
   .col {
     margin-bottom: 1.6rem;
 
-    &.col-8 {
+    &.col-6 {
       grid-gap: 0;
-
-      // Make first column double the width
-      @media screen and (min-width: 1200px) {
-        grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      }
     }
   }
 
@@ -237,13 +232,13 @@ button {
     @media (min-width: 1200px) {
       font-size: 12px;
       line-height: 20px;
-      padding: 6px 18px;
+      padding: 6px 16px;
     }
 
     @media (min-width: 1600px) {
       font-size: 14px;
       line-height: 22px;
-      padding: 8px 22px;
+      padding: 6px 20px;
     }
   }
 
@@ -251,7 +246,7 @@ button {
   &.button-size-md.button-label {
     font-size: 12px;
     line-height: 20px;
-    padding: 6px 18px;
+    padding: 6px 16px;
 
     @media (min-width: 1200px) {
       font-size: 14px;

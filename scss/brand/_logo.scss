@@ -1,4 +1,12 @@
+.sg-main .sg-markup-Brand-Logo-html .sg-sub-section .col.col-4 {
+  grid-template-columns: 1fr;
+  @media (min-width: 1200px) {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
+}
+
 .sg-markup-Brand-Logo-html .sg-example {
+
   p {
     font-size: 14px;
     line-height: 22px;

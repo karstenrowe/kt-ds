@@ -2,9 +2,12 @@
   background: $white-10;
 }
 .sg-main {
-  width: 72%;
+  padding: 0 16px;
   margin: 0 auto;
   max-width: 1800px;
+  @media (min-width: 1000px) {
+    width: 72%;
+  }
 }
 
 .sg-container {

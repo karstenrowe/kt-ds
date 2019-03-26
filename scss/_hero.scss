@@ -1,29 +1,30 @@
 .section-hero {
   align-items: end;
   background: $blue-50 url("../images/hero.svg") no-repeat 100% 0;
-  background-size: 100%;
+  background-size: 150%;
   display: grid;
   margin-top: 72px;
   height: 80vh;
-  @media (min-width: 1000px) {
-    background-size: cover;
-    height: 50vh;
+  @media (min-width: 800px) {
+    background-size: contain;
+    height: calc(100vh - 72px);
   }
   @media (min-width: 1200px) {
-    background-size: contain;
-    height: 100vh;
   }
   .container {
-    width: 72%;
+    padding: 0 16px;
     margin: 0 auto;
     max-width: 1800px;
+    @media (min-width: 1000px) {
+      width: 72%;
+    }
   }
   .content-wrapper {
+    padding-bottom: 15%;
     @media (min-width: 1000px) {
       width: 80%;
     }
     @media (min-width: 1200px) {
-      padding-bottom: 15%;
       width: 60%;
     }
   }
@@ -43,18 +44,20 @@
     background: none;
     padding: 16px 0 0 0;
   }
-  .button {
+  .button,
+  .button:visited {
     background: $blue-60;
+    margin-right: 12px;
     &:hover {
       background: $blue-40;
     }
   }
   p {
-    color: $blue-20;
+    color: $blue-30;
     font-style: italic;
   }
-  a,
-  a:visited {
+  a:not(.button),
+  a:not(.button):visited {
     color: $blue-30;
     font-style: normal;
     margin-top: 16px;
@@ -62,4 +65,8 @@
       color: $blue-20;
     }
   }
+}
+
+.footer-cta {
+  height: 50vh;
 }

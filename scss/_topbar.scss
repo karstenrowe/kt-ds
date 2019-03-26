@@ -10,7 +10,10 @@
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: 1fr 2fr 1fr;
-    padding: 16px 32px;
+    padding: 16px;
+    @media (min-width: 1000px) {
+      padding: 16px 32px;
+    }
   }
   .sg-nav-toggle {
     background: url("../images/icon/icon-20-o-hamburger.svg") no-repeat 50% 50%;
