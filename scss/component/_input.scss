@@ -1,4 +1,5 @@
 input {
+  background-color: #fff;
   border: 1px $grey-20 solid;
   border-radius: 4px;
   color: $grey-60;
@@ -23,6 +24,12 @@ input {
   &.input-icon {
     padding-left: 32px;
   }
+}
+
+input[type="checkbox"] {
+  margin: 0;
+  padding: 0;
+  width: auto;
 }
 
 .input-components {
