@@ -4,6 +4,25 @@
     line-height: 22px;
   }
 
+  .card-map {
+    .card-title {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 600;
+    }
+
+    .card-map-driver {
+      height: auto;
+      max-width: 636px;
+      width: 100%;
+
+      @media screen and (min-width: 1200px) {
+        width: 636px;
+      }
+    }
+
+  }
+
   .icon {
     background: {
       repeat: no-repeat;
