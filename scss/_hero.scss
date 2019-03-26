@@ -9,12 +9,11 @@
     background-size: contain;
     height: calc(100vh - 72px);
   }
-  @media (min-width: 1200px) {
-  }
   .container {
     padding: 0 16px;
     margin: 0 auto;
     max-width: 1800px;
+    width: 100%;
     @media (min-width: 1000px) {
       width: 72%;
     }
