@@ -40,10 +40,10 @@
           <h1>Welcome to SprayShop</h1>
           <p class="lead">What's SprayShop? A source of truth and reference for our product design language. It's a modular, systematic approach to designing and building software for KeepTruckin.</p>
           <div class="button-row">
-            <a class="button button-size-lg">Watch Video</a>
+            <a class="button button-size-lg" href="https://www.useloom.com/share/ad8fd6553e2c46dbb7a3f63a2a674de6" target="_blank">Watch Video</a>
             <a class="button button-size-lg" href="#main">Get Started</a>
           </div>
-          <p>We want to hear from you! <a href="https://docs.google.com/forms/d/1bD5uwocahKFfZ-LfptNAe5TpVsmT6_JgGxjvdAE0zSU/edit?usp=sharing" target="_blank">Send us feedback</a></p>
+          <p>We want to hear from you! <a href="https://goo.gl/forms/6YjWZOspfgfXz90r2" target="_blank">Send us feedback</a></p>
         </div>
       </div>
     </div>
@@ -59,7 +59,7 @@
           <p class="lead">A company-wide initiative that we'd love you to be involved in.</p>
           <div class="button-row">
             <a class="button button-size-lg" href="https://k2labs.atlassian.net/wiki/spaces/UXD/pages/734167675/Design+System+SprayShop" target="_blank">Learn More</a>
-            <a class="button button-size-lg" href="https://docs.google.com/forms/d/1bD5uwocahKFfZ-LfptNAe5TpVsmT6_JgGxjvdAE0zSU/edit?usp=sharing" target="_blank">Send Us Feedback</a>
+            <a class="button button-size-lg" href="https://goo.gl/forms/6YjWZOspfgfXz90r2" target="_blank">Send Us Feedback</a>
           </div>
         </div>
       </div>
