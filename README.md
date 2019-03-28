@@ -25,3 +25,31 @@ $ php -S localhost:8000
 ```
 
 Your app should now be running and enter https://localhost:8000 on your browser of choice.
+
+
+### Start Developing! 
+
+> Basic file structure to get your started! 
+1. Adding a file in `/markup` will automatically create a section within our design system for you to start developing.
+2. When adding a `.scss` file, please don't forget to @import it in `style.scss`. 
+
+
+Structure
+```
+kt-ds
+│   README.md
+│   index.html  
+│
+└───markup
+│   │
+│   └───component
+│       │   {add your html file here}
+│       │   ...
+│   
+└───scss
+│   └───component
+│       │   {add your scss file here}
+│       │   ...
+│      
+│     style.scss
+```
