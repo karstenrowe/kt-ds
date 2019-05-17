@@ -753,12 +753,24 @@
                 background-image: url("../images/icon/icon-120-o-alert.svg");
             }
 
+            &.icon-app {
+                background-image: url("../images/icon/icon-120-o-app.svg");
+            }
+
             &.icon-archive {
                 background-image: url("../images/icon/icon-120-o-archive.svg");
             }
 
+            &.icon-assets {
+                background-image: url("../images/icon/icon-120-o-assets.svg");
+            }
+
             &.icon-dashcam {
                 background-image: url("../images/icon/icon-120-o-dashcam.svg");
+            }
+
+            &.icon-dashcam-error {
+                background-image: url("../images/icon/icon-120-o-dashcam-error.svg");
             }
 
             &.icon-dashcam-recall {
@@ -779,6 +791,10 @@
 
             &.icon-driver-invite {
                 background-image: url("../images/icon/icon-120-o-driver-invite.svg");
+            }
+
+            &.icon-eld {
+                background-image: url("../images/icon/icon-120-o-eld.svg");
             }
 
             &.icon-error {
@@ -820,7 +836,6 @@
             &.icon-maintenance {
                 background-image: url("../images/icon/icon-120-o-maintenance.svg");
             }
-
 
             &.icon-message {
                 background-image: url("../images/icon/icon-120-o-message.svg");
@@ -872,6 +887,14 @@
 
             &.icon-success {
                 background-image: url("../images/icon/icon-120-o-success.svg");
+            }
+
+            &.icon-tag {
+                background-image: url("../images/icon/icon-120-o-tag.svg");
+            }
+
+            &.icon-trailer {
+                background-image: url("../images/icon/icon-120-o-trailer.svg");
             }
 
             &.icon-sucess-wait {

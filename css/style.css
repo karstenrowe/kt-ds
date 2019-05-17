@@ -768,9 +768,15 @@ p.variant-sm { font-size: 14px; line-height: 22px; margin-bottom: 8px; margin-to
 
 .sg-main .icon.icon-size-120.icon-alert { background-image: url("../images/icon/icon-120-o-alert.svg"); }
 
+.sg-main .icon.icon-size-120.icon-app { background-image: url("../images/icon/icon-120-o-app.svg"); }
+
 .sg-main .icon.icon-size-120.icon-archive { background-image: url("../images/icon/icon-120-o-archive.svg"); }
 
+.sg-main .icon.icon-size-120.icon-assets { background-image: url("../images/icon/icon-120-o-assets.svg"); }
+
 .sg-main .icon.icon-size-120.icon-dashcam { background-image: url("../images/icon/icon-120-o-dashcam.svg"); }
+
+.sg-main .icon.icon-size-120.icon-dashcam-error { background-image: url("../images/icon/icon-120-o-dashcam-error.svg"); }
 
 .sg-main .icon.icon-size-120.icon-dashcam-recall { background-image: url("../images/icon/icon-120-o-dashcam-recall.svg"); }
 
@@ -781,6 +787,8 @@ p.variant-sm { font-size: 14px; line-height: 22px; margin-bottom: 8px; margin-to
 .sg-main .icon.icon-size-120.icon-driver-add { background-image: url("../images/icon/icon-120-o-driver-add.svg"); }
 
 .sg-main .icon.icon-size-120.icon-driver-invite { background-image: url("../images/icon/icon-120-o-driver-invite.svg"); }
+
+.sg-main .icon.icon-size-120.icon-eld { background-image: url("../images/icon/icon-120-o-eld.svg"); }
 
 .sg-main .icon.icon-size-120.icon-error { background-image: url("../images/icon/icon-120-o-error.svg"); }
 
@@ -827,6 +835,10 @@ p.variant-sm { font-size: 14px; line-height: 22px; margin-bottom: 8px; margin-to
 .sg-main .icon.icon-size-120.icon-stopwatch { background-image: url("../images/icon/icon-120-o-stopwatch.svg"); }
 
 .sg-main .icon.icon-size-120.icon-success { background-image: url("../images/icon/icon-120-o-success.svg"); }
+
+.sg-main .icon.icon-size-120.icon-tag { background-image: url("../images/icon/icon-120-o-tag.svg"); }
+
+.sg-main .icon.icon-size-120.icon-trailer { background-image: url("../images/icon/icon-120-o-trailer.svg"); }
 
 .sg-main .icon.icon-size-120.icon-sucess-wait { background-image: url("../images/icon/icon-120-o-success-wait.svg"); }
 
