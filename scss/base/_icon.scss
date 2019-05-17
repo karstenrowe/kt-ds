@@ -120,6 +120,18 @@
                 }
             }
 
+            &.icon-assets {
+                background-image: url("../images/icon/icon-20-o-assets.svg");
+            }
+
+            &.icon-battery {
+                background-image: url("../images/icon/icon-20-o-battery.svg");
+            }
+
+            &.icon-battery-low {
+                background-image: url("../images/icon/icon-20-o-battery-low.svg");
+            }
+
             &.icon-beta {
                 background-image: url("../images/icon/icon-20-o-beta.svg");
             }
@@ -144,12 +156,8 @@
                 }
             }
 
-            &.icon-close {
-                background-image: url("../images/icon/icon-20-o-close.svg");
-            }
-
-            &.icon-coordinates {
-                background-image: url("../images/icon/icon-20-o-coordinates.svg");
+            &.icon-co-ordinates {
+                background-image: url("../images/icon/icon-20-o-co-ordinates.svg");
             }
 
             &.icon-close {
@@ -232,6 +240,10 @@
                 background-image: url("../images/icon/icon-20-o-dashcam.svg");
             }
 
+            &.icon-devices {
+                background-image: url("../images/icon/icon-20-o-devices.svg");
+            }
+
             &.icon-dashcam-disconnect {
                 background-image: url("../images/icon/icon-20-o-dashcam-disconnect.svg");
             }
@@ -280,12 +292,32 @@
                 }
             }
 
+            &.icon-driver-id {
+                background-image: url("../images/icon/icon-20-o-driver-id.svg");
+            }
+
+            &.icon-edit {
+                background-image: url("../images/icon/icon-20-o-edit.svg");
+            }
+
+            &.icon-edit-duty-status {
+                background-image: url("../images/icon/icon-20-o-edit-duty-status.svg");
+            }
+
+            &.icon-facility {
+                background-image: url("../images/icon/icon-20-o-facility.svg");
+            }
+
             &.icon-location {
                 background-image: url("../images/icon/icon-20-o-location.svg");
 
                 &.icon-fill {
                     background-image: url("../images/icon/icon-20-fill-location.svg");
                 }
+            }
+
+            &.icon-lock {
+                background-image: url("../images/icon/icon-20-o-lock.svg");
             }
 
             &.icon-logs {
@@ -432,6 +464,10 @@
                 background-image: url("../images/icon/icon-20-o-speed.svg");
             }
 
+            &.icon-star {
+                background-image: url("../images/icon/icon-20-o-star.svg");
+            }
+
             &.icon-stopwatch {
                 background-image: url("../images/icon/icon-20-o-stopwatch.svg");
 
@@ -452,6 +488,10 @@
                 background-image: url("../images/icon/icon-20-o-trash.svg");
             }
 
+            &.icon-trailer {
+                background-image: url("../images/icon/icon-20-o-trailer.svg");
+            }
+
             &.icon-unlock {
                 background-image: url("../images/icon/icon-20-o-unlock.svg");
             }
@@ -470,6 +510,10 @@
                 &.icon-fill {
                     background-image: url("../images/icon/icon-20-fill-vehicle.svg");
                 }
+            }
+
+            &.icon-visibile-to-self {
+                background-image: url("../images/icon/icon-20-o-visibile-to-self.svg");
             }
 
             // 20px map icons
