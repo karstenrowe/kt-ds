@@ -408,6 +408,8 @@ p.variant-sm { font-size: 14px; line-height: 22px; margin-bottom: 8px; margin-to
 
 .sg-main .icon.icon-size-16.blank-placeholder { background-color: #EFF1F3; }
 
+.sg-main .icon.icon-size-16.icon-asterik { background-image: url("../images/icon/icon-16-asterik.svg"); }
+
 .sg-main .icon.icon-size-16.icon-chevron-down { background-image: url("../images/icon/icon-16-chevron-down.svg"); }
 
 .sg-main .icon.icon-size-16.icon-chevron-up { background-image: url("../images/icon/icon-16-chevron-up.svg"); }
@@ -415,6 +417,8 @@ p.variant-sm { font-size: 14px; line-height: 22px; margin-bottom: 8px; margin-to
 .sg-main .icon.icon-size-16.icon-chevron-left { background-image: url("../images/icon/icon-16-chevron-left.svg"); }
 
 .sg-main .icon.icon-size-16.icon-chevron-right { background-image: url("../images/icon/icon-16-chevron-right.svg"); }
+
+.sg-main .icon.icon-size-16.icon-chevron-tiny-right { background-image: url("../images/icon/icon-16-chevron-tiny-right.svg"); }
 
 .sg-main .icon.icon-size-16.icon-pop-up-list { background-image: url("../images/icon/icon-16-pop-up-list.svg"); }
 

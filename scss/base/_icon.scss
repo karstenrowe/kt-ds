@@ -22,6 +22,10 @@
                 background-color: $grey-10;
             }
 
+            &.icon-asterik {
+                background-image: url("../images/icon/icon-16-asterik.svg");
+            }
+
             &.icon-chevron-down {
                 background-image: url("../images/icon/icon-16-chevron-down.svg");
             }
@@ -36,6 +40,10 @@
 
             &.icon-chevron-right {
                 background-image: url("../images/icon/icon-16-chevron-right.svg");
+            }
+
+            &.icon-chevron-tiny-right {
+                background-image: url("../images/icon/icon-16-chevron-tiny-right.svg");
             }
 
             &.icon-pop-up-list {
