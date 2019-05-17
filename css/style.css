@@ -408,7 +408,7 @@ p.variant-sm { font-size: 14px; line-height: 22px; margin-bottom: 8px; margin-to
 
 .sg-main .icon.icon-size-16.blank-placeholder { background-color: #EFF1F3; }
 
-.sg-main .icon.icon-size-16.icon-asterik { background-image: url("../images/icon/icon-16-asterik.svg"); }
+.sg-main .icon.icon-size-16.icon-asterisk { background-image: url("../images/icon/icon-16-asterisk.svg"); }
 
 .sg-main .icon.icon-size-16.icon-chevron-down { background-image: url("../images/icon/icon-16-chevron-down.svg"); }
 
@@ -461,6 +461,8 @@ p.variant-sm { font-size: 14px; line-height: 22px; margin-bottom: 8px; margin-to
 .sg-main .icon.icon-size-20.icon-apps.icon-fill { background-image: url("../images/icon/icon-20-fill-apps.svg"); }
 
 .sg-main .icon.icon-size-20.icon-assets { background-image: url("../images/icon/icon-20-o-assets.svg"); }
+
+.sg-main .icon.icon-size-20.icon-assets.icon-fill { background-image: url("../images/icon/icon-20-fill-assets.svg"); }
 
 .sg-main .icon.icon-size-20.icon-battery { background-image: url("../images/icon/icon-20-o-battery.svg"); }
 
@@ -522,6 +524,8 @@ p.variant-sm { font-size: 14px; line-height: 22px; margin-bottom: 8px; margin-to
 
 .sg-main .icon.icon-size-20.icon-devices { background-image: url("../images/icon/icon-20-o-devices.svg"); }
 
+.sg-main .icon.icon-size-20.icon-devices.icon-fill { background-image: url("../images/icon/icon-20-fill-devices.svg"); }
+
 .sg-main .icon.icon-size-20.icon-dashcam-disconnect { background-image: url("../images/icon/icon-20-o-dashcam-disconnect.svg"); }
 
 .sg-main .icon.icon-size-20.icon-dashcam-eld { background-image: url("../images/icon/icon-20-o-dashcam-eld.svg"); }
@@ -553,6 +557,8 @@ p.variant-sm { font-size: 14px; line-height: 22px; margin-bottom: 8px; margin-to
 .sg-main .icon.icon-size-20.icon-edit-duty-status { background-image: url("../images/icon/icon-20-o-edit-duty-status.svg"); }
 
 .sg-main .icon.icon-size-20.icon-facility { background-image: url("../images/icon/icon-20-o-facility.svg"); }
+
+.sg-main .icon.icon-size-20.icon-facility.icon-fill { background-image: url("../images/icon/icon-20-fill-facility.svg"); }
 
 .sg-main .icon.icon-size-20.icon-location { background-image: url("../images/icon/icon-20-o-location.svg"); }
 
@@ -645,6 +651,8 @@ p.variant-sm { font-size: 14px; line-height: 22px; margin-bottom: 8px; margin-to
 .sg-main .icon.icon-size-20.icon-trash { background-image: url("../images/icon/icon-20-o-trash.svg"); }
 
 .sg-main .icon.icon-size-20.icon-trailer { background-image: url("../images/icon/icon-20-o-trailer.svg"); }
+
+.sg-main .icon.icon-size-20.icon-trailer.icon-fill { background-image: url("../images/icon/icon-20-fill-trailer.svg"); }
 
 .sg-main .icon.icon-size-20.icon-unlock { background-image: url("../images/icon/icon-20-o-unlock.svg"); }
 

@@ -22,8 +22,8 @@
                 background-color: $grey-10;
             }
 
-            &.icon-asterik {
-                background-image: url("../images/icon/icon-16-asterik.svg");
+            &.icon-asterisk {
+                background-image: url("../images/icon/icon-16-asterisk.svg");
             }
 
             &.icon-chevron-down {
@@ -130,6 +130,10 @@
 
             &.icon-assets {
                 background-image: url("../images/icon/icon-20-o-assets.svg");
+
+                &.icon-fill {
+                    background-image: url("../images/icon/icon-20-fill-assets.svg");
+                }
             }
 
             &.icon-battery {
@@ -250,6 +254,10 @@
 
             &.icon-devices {
                 background-image: url("../images/icon/icon-20-o-devices.svg");
+
+                &.icon-fill {
+                    background-image: url("../images/icon/icon-20-fill-devices.svg");
+                }
             }
 
             &.icon-dashcam-disconnect {
@@ -314,6 +322,10 @@
 
             &.icon-facility {
                 background-image: url("../images/icon/icon-20-o-facility.svg");
+
+                &.icon-fill {
+                    background-image: url("../images/icon/icon-20-fill-facility.svg");
+                }
             }
 
             &.icon-location {
@@ -498,6 +510,10 @@
 
             &.icon-trailer {
                 background-image: url("../images/icon/icon-20-o-trailer.svg");
+
+                &.icon-fill {
+                    background-image: url("../images/icon/icon-20-fill-trailer.svg");
+                }
             }
 
             &.icon-unlock {
