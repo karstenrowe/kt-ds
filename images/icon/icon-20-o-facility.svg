@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>icon-20-o-facility</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-960.000000, -414.000000)" fill="#262F36">
+            <g id="icon/20/facility" transform="translate(960.000000, 414.000000)">
+                <path d="M14,11 L14,16 L16,16 L16,5.67703296 L9.5,3.07703296 L3,5.67703296 L3,16 L5,16 L5,11 C5,10.4477153 5.44771525,10 6,10 L13,10 C13.5522847,10 14,10.4477153 14,11 Z M6,14 L13,14 L13,13 L6,13 L6,14 Z M6,15 L6,16 L13,16 L13,15 L6,15 L6,15 Z M6,12 L13,12 L13,11 L6,11 L6,12 Z M2,16 L2,5.67703296 C2,5.26812837 2.24895094,4.90041962 2.62860932,4.74855627 L9.12860932,2.14855627 C9.36702035,2.05319186 9.63297965,2.05319186 9.87139068,2.14855627 L16.3713907,4.74855627 C16.7510491,4.90041962 17,5.26812837 17,5.67703296 L17,16 L18,16 L18,17 L1,17 L1,16 L2,16 Z M5,7 L8,7 L8,8 L5,8 L5,7 Z M11,7 L14,7 L14,8 L11,8 L11,7 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -22,6 +22,10 @@
                 background-color: $grey-10;
             }
 
+            &.icon-asterisk {
+                background-image: url("../images/icon/icon-16-asterisk.svg");
+            }
+
             &.icon-chevron-down {
                 background-image: url("../images/icon/icon-16-chevron-down.svg");
             }
@@ -36,6 +40,10 @@
 
             &.icon-chevron-right {
                 background-image: url("../images/icon/icon-16-chevron-right.svg");
+            }
+
+            &.icon-chevron-tiny-right {
+                background-image: url("../images/icon/icon-16-chevron-tiny-right.svg");
             }
 
             &.icon-pop-up-list {
@@ -120,6 +128,22 @@
                 }
             }
 
+            &.icon-assets {
+                background-image: url("../images/icon/icon-20-o-assets.svg");
+
+                &.icon-fill {
+                    background-image: url("../images/icon/icon-20-fill-assets.svg");
+                }
+            }
+
+            &.icon-battery {
+                background-image: url("../images/icon/icon-20-o-battery.svg");
+            }
+
+            &.icon-battery-low {
+                background-image: url("../images/icon/icon-20-o-battery-low.svg");
+            }
+
             &.icon-beta {
                 background-image: url("../images/icon/icon-20-o-beta.svg");
             }
@@ -144,12 +168,8 @@
                 }
             }
 
-            &.icon-close {
-                background-image: url("../images/icon/icon-20-o-close.svg");
-            }
-
-            &.icon-coordinates {
-                background-image: url("../images/icon/icon-20-o-coordinates.svg");
+            &.icon-co-ordinates {
+                background-image: url("../images/icon/icon-20-o-co-ordinates.svg");
             }
 
             &.icon-close {
@@ -232,6 +252,14 @@
                 background-image: url("../images/icon/icon-20-o-dashcam.svg");
             }
 
+            &.icon-devices {
+                background-image: url("../images/icon/icon-20-o-devices.svg");
+
+                &.icon-fill {
+                    background-image: url("../images/icon/icon-20-fill-devices.svg");
+                }
+            }
+
             &.icon-dashcam-disconnect {
                 background-image: url("../images/icon/icon-20-o-dashcam-disconnect.svg");
             }
@@ -280,12 +308,36 @@
                 }
             }
 
+            &.icon-driver-id {
+                background-image: url("../images/icon/icon-20-o-driver-id.svg");
+            }
+
+            &.icon-edit {
+                background-image: url("../images/icon/icon-20-o-edit.svg");
+            }
+
+            &.icon-edit-duty-status {
+                background-image: url("../images/icon/icon-20-o-edit-duty-status.svg");
+            }
+
+            &.icon-facility {
+                background-image: url("../images/icon/icon-20-o-facility.svg");
+
+                &.icon-fill {
+                    background-image: url("../images/icon/icon-20-fill-facility.svg");
+                }
+            }
+
             &.icon-location {
                 background-image: url("../images/icon/icon-20-o-location.svg");
 
                 &.icon-fill {
                     background-image: url("../images/icon/icon-20-fill-location.svg");
                 }
+            }
+
+            &.icon-lock {
+                background-image: url("../images/icon/icon-20-o-lock.svg");
             }
 
             &.icon-logs {
@@ -432,6 +484,10 @@
                 background-image: url("../images/icon/icon-20-o-speed.svg");
             }
 
+            &.icon-star {
+                background-image: url("../images/icon/icon-20-o-star.svg");
+            }
+
             &.icon-stopwatch {
                 background-image: url("../images/icon/icon-20-o-stopwatch.svg");
 
@@ -452,6 +508,14 @@
                 background-image: url("../images/icon/icon-20-o-trash.svg");
             }
 
+            &.icon-trailer {
+                background-image: url("../images/icon/icon-20-o-trailer.svg");
+
+                &.icon-fill {
+                    background-image: url("../images/icon/icon-20-fill-trailer.svg");
+                }
+            }
+
             &.icon-unlock {
                 background-image: url("../images/icon/icon-20-o-unlock.svg");
             }
@@ -470,6 +534,14 @@
                 &.icon-fill {
                     background-image: url("../images/icon/icon-20-fill-vehicle.svg");
                 }
+            }
+
+            &.icon-visible-to-self {
+                background-image: url("../images/icon/icon-20-o-visible-to-self.svg");
+            }
+
+            &.icon-wifi {
+                background-image: url("../images/icon/icon-20-o-wifi.svg");
             }
 
             // 20px map icons
@@ -709,12 +781,24 @@
                 background-image: url("../images/icon/icon-120-o-alert.svg");
             }
 
+            &.icon-app {
+                background-image: url("../images/icon/icon-120-o-app.svg");
+            }
+
             &.icon-archive {
                 background-image: url("../images/icon/icon-120-o-archive.svg");
             }
 
+            &.icon-assets {
+                background-image: url("../images/icon/icon-120-o-assets.svg");
+            }
+
             &.icon-dashcam {
                 background-image: url("../images/icon/icon-120-o-dashcam.svg");
+            }
+
+            &.icon-dashcam-error {
+                background-image: url("../images/icon/icon-120-o-dashcam-error.svg");
             }
 
             &.icon-dashcam-recall {
@@ -735,6 +819,10 @@
 
             &.icon-driver-invite {
                 background-image: url("../images/icon/icon-120-o-driver-invite.svg");
+            }
+
+            &.icon-eld {
+                background-image: url("../images/icon/icon-120-o-eld.svg");
             }
 
             &.icon-error {
@@ -776,7 +864,6 @@
             &.icon-maintenance {
                 background-image: url("../images/icon/icon-120-o-maintenance.svg");
             }
-
 
             &.icon-message {
                 background-image: url("../images/icon/icon-120-o-message.svg");
@@ -828,6 +915,14 @@
 
             &.icon-success {
                 background-image: url("../images/icon/icon-120-o-success.svg");
+            }
+
+            &.icon-tag {
+                background-image: url("../images/icon/icon-120-o-tag.svg");
+            }
+
+            &.icon-trailer {
+                background-image: url("../images/icon/icon-120-o-trailer.svg");
             }
 
             &.icon-sucess-wait {
