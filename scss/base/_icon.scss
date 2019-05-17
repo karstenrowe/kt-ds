@@ -536,8 +536,12 @@
                 }
             }
 
-            &.icon-visibile-to-self {
-                background-image: url("../images/icon/icon-20-o-visibile-to-self.svg");
+            &.icon-visible-to-self {
+                background-image: url("../images/icon/icon-20-o-visible-to-self.svg");
+            }
+
+            &.icon-wifi {
+                background-image: url("../images/icon/icon-20-o-wifi.svg");
             }
 
             // 20px map icons

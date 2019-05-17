@@ -664,7 +664,9 @@ p.variant-sm { font-size: 14px; line-height: 22px; margin-bottom: 8px; margin-to
 
 .sg-main .icon.icon-size-20.icon-vehicle.icon-fill { background-image: url("../images/icon/icon-20-fill-vehicle.svg"); }
 
-.sg-main .icon.icon-size-20.icon-visibile-to-self { background-image: url("../images/icon/icon-20-o-visibile-to-self.svg"); }
+.sg-main .icon.icon-size-20.icon-visible-to-self { background-image: url("../images/icon/icon-20-o-visible-to-self.svg"); }
+
+.sg-main .icon.icon-size-20.icon-wifi { background-image: url("../images/icon/icon-20-o-wifi.svg"); }
 
 .sg-main .icon.icon-size-20.icon-map-event-acceleration-timeline { background-image: url("../images/icon/icon-20-map-event-acceleration-timeline.svg"); }
 
