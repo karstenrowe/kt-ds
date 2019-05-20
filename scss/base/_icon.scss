@@ -1,9 +1,10 @@
 // Icon
 .sg-markup-base-icon-html {
-  p {
-    margin: 40px 0 16px 0;
-  }
+    p {
+        margin: 40px 0 16px 0;
+    }
 }
+
 .sg-main {
 
     .icon {
@@ -316,6 +317,10 @@
                 background-image: url("../images/icon/icon-20-o-edit.svg");
             }
 
+            &.icon-eld {
+                background-image: url("../images/icon/icon-20-o-eld.svg");
+            }
+
             &.icon-edit-duty-status {
                 background-image: url("../images/icon/icon-20-o-edit-duty-status.svg");
             }
@@ -326,6 +331,18 @@
                 &.icon-fill {
                     background-image: url("../images/icon/icon-20-fill-facility.svg");
                 }
+            }
+
+            &.icon-geofences {
+                background-image: url("../images/icon/icon-20-o-geofences.svg");
+            }
+
+            &.icon-ifta {
+                background-image: url("../images/icon/icon-20-o-ifta.svg");
+            }
+
+            &.icon-inspection-reports {
+                background-image: url("../images/icon/icon-20-o-inspection-reports.svg");
             }
 
             &.icon-location {
