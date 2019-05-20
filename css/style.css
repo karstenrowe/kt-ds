@@ -554,11 +554,19 @@ p.variant-sm { font-size: 14px; line-height: 22px; margin-bottom: 8px; margin-to
 
 .sg-main .icon.icon-size-20.icon-edit { background-image: url("../images/icon/icon-20-o-edit.svg"); }
 
+.sg-main .icon.icon-size-20.icon-eld { background-image: url("../images/icon/icon-20-o-eld.svg"); }
+
 .sg-main .icon.icon-size-20.icon-edit-duty-status { background-image: url("../images/icon/icon-20-o-edit-duty-status.svg"); }
 
 .sg-main .icon.icon-size-20.icon-facility { background-image: url("../images/icon/icon-20-o-facility.svg"); }
 
 .sg-main .icon.icon-size-20.icon-facility.icon-fill { background-image: url("../images/icon/icon-20-fill-facility.svg"); }
+
+.sg-main .icon.icon-size-20.icon-geofences { background-image: url("../images/icon/icon-20-o-geofences.svg"); }
+
+.sg-main .icon.icon-size-20.icon-ifta { background-image: url("../images/icon/icon-20-o-ifta.svg"); }
+
+.sg-main .icon.icon-size-20.icon-inspection-reports { background-image: url("../images/icon/icon-20-o-inspection-reports.svg"); }
 
 .sg-main .icon.icon-size-20.icon-location { background-image: url("../images/icon/icon-20-o-location.svg"); }
 
